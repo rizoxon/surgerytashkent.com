@@ -1,8 +1,22 @@
 {
+    "database": {
+        "enabled": true,
+        "MySQL": {
+            "enabled": true,
+            "name": "",
+            "user": "",
+            "password": "",
+            "host": "127.0.0.1",
+            "port": "33060",
+            "charset": "utf8mb4",
+            "collate": "utf8mb4_0900_ai_ci"
+        }
+    },
+
     "default": {
         "title": "Surgery Tashkent",
         "language": "uz",
-        "debug": true  
+        "debug": true
     },
     "pages": {
         "home": {
@@ -28,7 +42,18 @@
         "results": {
             "enabled": true,
             "endpoints": ["/results"]
+        },
+
+
+        "logIn": {
+          "enabled": true,
+          "endpoints": ["/logIn"]
+        },
+        "photoManagement": {
+          "enabled": true,
+          "endpoints": ["/photoManagement"]
         }
+
     },
     "menu": {
         "enabled": true,
