@@ -13,7 +13,7 @@ def photoManagement():
         ############################## FORM
         if "multipart/form-data" in request.content_type.split(';'):
             if request.form["for"] == "uploadPhoto":
-                if "file_name" not in request.form: return response(type="error", field="file_name" message="fieldEmpty")
+                if "file_name" not in request.form: return response(type="error", field="file_name", message="fieldEmpty")
 
                 # Success
                 return response(type="success",message="saved")
