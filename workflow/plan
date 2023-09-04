@@ -1,0 +1,27 @@
+1.Pages:
+    1.Landing Page 
+        Med Center picture ✅
+        About ✅
+        bartiartic ✅
+        BGM ✅
+        social media links ✅
+    2.About us ✅ 
+        1.Center info ✅
+        2.Doctors info ✅
+            picture ✅
+            info text 
+            certificates 
+    3.Services <-
+    4.Gallery
+        1.Center
+        2.Doctor
+        3.Surgery
+    5.Contact us
+        1.full name, weight-height, comment, phone num
+        2.Social media
+        3.Map <-
+    6.Results photos 
+
+
+Step 2
+Optimize CSS, now it is bullshit

@@ -1,0 +1,44 @@
+{
+    "default": {
+        "title": "Surgery Tashkent",
+        "language": "uz",
+        "debug": true  
+    },
+    "pages": {
+        "home": {
+          "enabled": true,
+          "endpoints": ["/home", "/"]
+        },
+        "about": {
+            "enabled": true,
+            "endpoints": ["/about"]
+        },
+        "services": {
+            "enabled": true,
+            "endpoints": ["/services"]
+        },
+        "gallery": {
+            "enabled": true,
+            "endpoints": ["/gallery"]
+        },
+        "contact": {
+            "enabled": true,
+            "endpoints": ["/contact"]
+        },
+        "results": {
+            "enabled": true,
+            "endpoints": ["/results"]
+        }
+    },
+    "menu": {
+        "enabled": true,
+        "menus": [
+          {"name":"home"},
+          {"name":"about", "icon": "home_icon"},
+          {"name":"services", "icon": "home_icon"},
+          {"name":"gallery", "icon": "home_icon"},
+          {"name":"results", "icon": "home_icon"},
+          {"name":"contact", "icon": "home_icon"}
+        ]
+    }
+}
