@@ -2,9 +2,9 @@
 \! echo "--------------- X ---------------";
 \W
 
-DROP DATABASE IF EXISTS x;
-CREATE DATABASE IF NOT EXISTS x CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci;
-USE x;
+DROP DATABASE IF EXISTS surgery_tashkent;
+CREATE DATABASE IF NOT EXISTS surgery_tashkent CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci;
+USE surgery_tashkent;
 
 SET NAMES utf8mb4;
 
@@ -226,3 +226,26 @@ CREATE TABLE IF NOT EXISTS `results` (
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CREATE TABLE IF NOT EXISTS `comments` (
+  `id` INT NOT NULL UNIQUE auto_increment,
+  `fullName` VARCHAR(100),
+  `phoneNumber` VARCHAR(100),
+  `comment` TEXT,
+
+
+  PRIMARY KEY (`id`)
+);

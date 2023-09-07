@@ -3,9 +3,9 @@
         "enabled": true,
         "MySQL": {
             "enabled": true,
-            "name": "",
-            "user": "",
-            "password": "",
+            "name": "surgery_tashkent",
+            "user": "surgerytashkent",
+            "password": "surgerytashkent_pass",
             "host": "127.0.0.1",
             "port": "33060",
             "charset": "utf8mb4",
@@ -59,6 +59,10 @@
           "enabled": true,
           "endpoints": ["/logIn"]
         },
+        "logOut": {
+            "enabled": true,
+            "endpoints": ["/logOut"]
+        },
         "photoManagement": {
           "enabled": true,
           "endpoints": ["/photoManagement"]
@@ -68,12 +72,12 @@
     "menu": {
         "enabled": true,
         "menus": [
-          {"link":"home"},
-          {"link":"about", "icon": "home_icon"},
-          {"link":"services", "icon": "home_icon"},
-          {"link":"gallery", "icon": "home_icon"},
-          {"link":"results", "icon": "home_icon"},
-          {"link":"contact", "icon": "home_icon"}
+          {"page":"home"},
+          {"page":"about", "icon": "home_icon"},
+          {"page":"services", "icon": "home_icon"},
+          {"page":"gallery", "icon": "home_icon"},
+          {"page":"results", "icon": "home_icon"},
+          {"page":"contact", "icon": "home_icon"}
         ]
     }
 }
