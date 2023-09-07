@@ -8,12 +8,12 @@ export default function content(){
 
       <row>
         <column class="flex-x-center flex-y-start w-60 gap-0-8">
-          <p class="radius-default sm-text">Doctors</p>
-          <p class="text-size-3 text-lh-2-5">Muhammad Rizo Madaminov</p>
-          <p class="text-size-0-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium fugiat aspernatur impedit nemo hic vero.</p>
-          <a href="#"><button class="text-size-1">Batafsil</button></a>
+          <p class="radius-default sm-text bg-shadow">Shifokor</p>
+          <p class="text-size-3 text-lh-2-5">Xusnuddinov Nizomuddin Zuxruddinovich</p>
+          <p class="text-size-1.5">ROSSIYA, KOREYA, GRUJIYA, AZARBAYJON VA TURKIYADA onkologiya va radiologiya yo'nalishida rsnpmc doktoranturasi ta'limini o'tagan. Shoshilinch jarrohlik, videolaparoskopiya, pankreatobiliar jarrohlik va onkologiyaga oid 10 dan ortiq nashrlar muallifi va hammuallifi. U 2021 yilda TMA tomonidan chiqarilgan endoskopik jarrohlik bo'yicha mutaxassislikka ega.Bariatrik jarrohlar xalqaro assotsiatsiyasi (IFSO) aʼzosi, Oʻzbekiston bariatrik jarrohlari.</p>
+          <a href="/about"><button class="text-size-1">Batafsil</button></a>
         </column>
-        <img src="./images/png_doctor.png" alt="Doctor">
+        <img src="./images/doctor.png" alt="Doctor">
       </row>
 
       <row>

@@ -2,7 +2,14 @@
     "default": {
         "title": "Surgery Tashkent",
         "language": "uz",
-        "debug": true  
+        "debug": true,
+        "color": {
+            "brand": {
+              "hue": 207,
+              "saturation": 83,
+              "lightness": 53
+            }
+        }
     },
     "pages": {
         "home": {
