@@ -1,7 +1,10 @@
 {
     "default": {
         "title": "Surgery Tashkent",
-        "language": "uz",
+        "language":{
+            "fallback": "uz",
+            "supported": ["uz"]
+          },
         "debug": true,
         "color": {
             "brand": {
@@ -40,12 +43,12 @@
     "menu": {
         "enabled": true,
         "menus": [
-          {"name":"home"},
-          {"name":"about", "icon": "home_icon"},
-          {"name":"services", "icon": "home_icon"},
-          {"name":"gallery", "icon": "home_icon"},
-          {"name":"results", "icon": "home_icon"},
-          {"name":"contact", "icon": "home_icon"}
+          {"link":"home"},
+          {"link":"about", "icon": "home_icon"},
+          {"link":"services", "icon": "home_icon"},
+          {"link":"gallery", "icon": "home_icon"},
+          {"link":"results", "icon": "home_icon"},
+          {"link":"contact", "icon": "home_icon"}
         ]
     }
 }
