@@ -249,3 +249,12 @@ CREATE TABLE IF NOT EXISTS `comments` (
 
   PRIMARY KEY (`id`)
 );
+
+CREATE TABLE IF NOT EXISTS `photoManagement` (
+  `id` INT NOT NULL UNIQUE auto_increment,
+  `photoName` VARCHAR(100),
+  `photoFile` VARCHAR(100),
+
+
+  PRIMARY KEY (`id`)
+);

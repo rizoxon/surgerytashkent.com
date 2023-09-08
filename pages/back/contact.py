@@ -24,15 +24,11 @@ def contact():
                     params = (request.form["fullName"], request.form['phoneNumber'], request.form['comment']),
                     commit = True
                 )
-                print(MySQL.getLastQuery())
-                print(2)
 
                 if res is False:
-                    print(3)
                     return response(type="error",message="databaseError", toast=True)
 
                 # Success
-                print(4)
                 return response(type="success",message="saved", toast=True)
 
         ############################## JSON

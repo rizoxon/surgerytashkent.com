@@ -87,7 +87,8 @@
           {"page":"results", "icon": "home_icon"},
           {"page":"contact", "icon": "home_icon"},
           {"page":"logOut"},
-          {"page":"admin", "icon": "home_icon"}
+          {"page":"admin"},
+          {"page":"photoManagement"}
         ]
     }
 }

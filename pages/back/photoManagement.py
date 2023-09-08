@@ -12,20 +12,48 @@ def photoManagement():
     elif request.method == "POST":
         ############################## FORM
         if "multipart/form-data" in request.content_type.split(';'):
-            if request.form["for"] == "uploadPhoto":
-                if "file_name" not in request.form: return response(type="error", field="file_name", message="fieldEmpty")
+            if request.form["for"] == "savePhoto":
+                if "photoName" not in request.form or not request.form['photoName']: 
+                    return response(type="error", field="photoName", message="fieldEmpty")
+                if "photoFile" not in request.form or not request.form['photoFile']: 
+                    return response(type="error", field="photoFile", message="fieldEmpty")
+
+                
+                print(request.form["photoName"], request.form['photoFile'])
+                res = MySQL.execute(
+                    sql = "INSERT INTO photoManagement (photoName, photoFile) VALUES (%s, %s)",
+                    params = (request.form["photoName"], request.form['photoFile']),
+                    commit = True
+                )
+
+                if res is False:
+                    return response(type="error",message="databaseError", toast=True)
 
                 # Success
-                return response(type="success",message="saved")
+                return response(type="success",message="saved", toast=True, domChange=["main"])
+
+
+        ############################## FORM
+        if "multipart/form-data" in request.content_type.split(';'):
+            if request.form["for"] == "deletePhoto":
+                if "id" not in request.form or not request.form['id']:
+                    return response(type="error", message="databaseError", toast=True)
+
+                data = MySQL.execute(
+                    sql="DELETE FROM photoManagement WHERE id = %s",
+                    params=(request.form['id'],),
+                    commit=True
+                )
+
+                if data is False: return response(type="error", message="databaseError", toast=True)
+
+                return response(type="success",message="deleted",toast=True, domChange=["main"])
 
         ############################## JSON
         if request.content_type == "application/json":
             if request.get_json()["for"] == "getAllPhotos":
-                photos = MySQL.execute(
-                    sql="SELECT * FROM photos"
-                )
+                data = MySQL.execute("SELECT * FROM photoManagement")
 
-                if data == False: return response(type="error", message="databaseError")
+                if data is False: return response(type="error",message="databaseError")
 
-                # Success
                 return response(type="success",message="success",data=data)
