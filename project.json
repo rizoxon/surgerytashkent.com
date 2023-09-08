@@ -57,15 +57,23 @@
 
         "logIn": {
           "enabled": true,
+          "authenticity_statuses": ["unauthenticated"],
           "endpoints": ["/logIn"]
-        },
-        "logOut": {
-            "enabled": true,
-            "endpoints": ["/logOut"]
         },
         "photoManagement": {
           "enabled": true,
+          "authenticity_statuses": ["authorized"],
           "endpoints": ["/photoManagement"]
+        },
+        "admin": {
+          "enabled": true,
+          "authenticity_statuses": ["authorized"],
+          "endpoints": ["/admin"]
+        },
+        "logOut": {
+          "enabled": true,
+          "authenticity_statuses": ["unauthorized", "authorized"],
+          "endpoints": ["/logOut"]
         }
 
     },
@@ -77,7 +85,9 @@
           {"page":"services", "icon": "home_icon"},
           {"page":"gallery", "icon": "home_icon"},
           {"page":"results", "icon": "home_icon"},
-          {"page":"contact", "icon": "home_icon"}
+          {"page":"contact", "icon": "home_icon"},
+          {"page":"logOut"},
+          {"page":"admin", "icon": "home_icon"}
         ]
     }
 }
