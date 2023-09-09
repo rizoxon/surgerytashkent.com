@@ -8,8 +8,8 @@ export async function before(){
     for(const data of window.pageData.resp.data)
     window.pageData.photoRows += `
       <tr>
-        <td>${data["photoName"]}</td>
-        <td>${data["photoFile"]}</td>
+        <td>${data["title"]}</td>
+        <td>${data["file"]}</td>
         <td>
           <form action="/photoManagement" for="deletePhoto">
             <input type="hidden" name="id" value="${data["id"]}">
@@ -23,19 +23,19 @@ export async function before(){
 
 export default function content(){
   return `
-    <container class="gap-1 p-5">    
+    <container class="gap-1 p-5">
       <form action="/photoManagement" for="savePhoto" class="w-60 surface-clean p-5" style="height: auto;">
         <label>
-          <p for="photoName">Rasm nomini kiriting</p>
-          <input type="text" name="photoName"  />
+          <p for="title">Rasm nomini kiriting</p>
+          <input type="text" name="title" />
         </label>
         <label>
-          <p for="photoFile">Photo fileni kiriting</p>
-          <input type="text" name="photoFile"  />
+          <p for="file">Rasmni tanlang</p>
+          <input type="file" name="file">
         </label>
         <label>
-          <input type="submit" name="save" value="Saqlash" />
-          <p for="sendComment"></p>
+          <input type="submit" name="savePhoto" value="Saqlash" />
+          <p for="savePhoto"></p>
         </label>
       </form>
 
