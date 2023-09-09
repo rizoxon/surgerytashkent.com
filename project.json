@@ -60,11 +60,6 @@
           "authenticity_statuses": ["unauthenticated"],
           "endpoints": ["/logIn"]
         },
-        "photoManagement": {
-          "enabled": true,
-          "authenticity_statuses": ["authorized"],
-          "endpoints": ["/photoManagement"]
-        },
         "admin": {
           "enabled": true,
           "authenticity_statuses": ["authorized"],
@@ -87,8 +82,7 @@
           {"page":"results", "icon": "home_icon"},
           {"page":"contact", "icon": "home_icon"},
           {"page":"logOut"},
-          {"page":"admin"},
-          {"page":"photoManagement"}
+          {"page":"admin"}
         ]
     }
 }

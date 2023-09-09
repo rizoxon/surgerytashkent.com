@@ -1,58 +1,122 @@
 export const TITLE = window.Lang.use("admin");
-
 export async function before(){
-  window.pageData.resp = await window.bridge("admin", {for:"getAllComments"});
+  Photos: {
+    window.pageData.resp = await window.bridge("admin", {for:"getAllPhotos"});
 
-  window.pageData.commentsRows = "No data";
+    window.pageData.photoRows = "No data";
 
-  if("data" in window.pageData.resp){
-    window.pageData.commentsRows = "";
-    for(const data of window.pageData.resp.data)
-    window.pageData.commentsRows += `
-      <tr>
-        <td>${data["fullName"]}</td>
-        <td>${data["phoneNumber"]}</td>
-        <td>${data["comment"]}</td>
-        <td>
-          <form action="/admin" for="deleteComment">
-            <input type="hidden" name="id" value="${data["id"]}">
-            <button name="deleteCommentButton"><x-icon name="trash"></x-icon></button>
-          </form>
-        </td>
-      </tr>
-    `;
+    if("data" in window.pageData.resp){
+      window.pageData.photoRows = "";
+      for(const data of window.pageData.resp.data)
+      window.pageData.photoRows += `
+        <tr>
+          <td>${data["title"]}</td>
+          <td>${data["file"]}</td>
+          <td>
+            <form action="/admin" for="deletePhoto">
+              <input type="hidden" name="id" value="${data["id"]}">
+              <button name="deleteCommentButton"><x-icon name="trash"></x-icon></button>
+            </form>
+          </td>
+        </tr>
+      `;
+    }
+  }
+
+  Comments: {
+    window.pageData.resp = await window.bridge("admin", {for:"getAllComments"});
+
+    window.pageData.commentsRows = "No data";
+
+    if("data" in window.pageData.resp){
+      window.pageData.commentsRows = "";
+      for(const data of window.pageData.resp.data)
+      window.pageData.commentsRows += `
+        <tr>
+          <td>${data["fullName"]}</td>
+          <td>${data["phoneNumber"]}</td>
+          <td>${data["comment"]}</td>
+          <td>
+            <form action="/admin" for="deleteComment">
+              <input type="hidden" name="id" value="${data["id"]}">
+              <button name="deleteCommentButton"><x-icon name="trash"></x-icon></button>
+            </form>
+          </td>
+        </tr>
+      `;
+    }
   }
 }
 
 export default function content(){
+  const photos = `
+    <section id="photos" class="surface-clean w-100 p-1 d-flex flex-column">
+      <form action="/admin" for="savePhoto" class="w-100 p-5" style="height: auto;">
+        <label>
+          <p for="title">Rasm nomini kiriting</p>
+          <input type="text" name="title" />
+        </label>
+        <label>
+          <p for="file">Rasmni tanlang</p>
+          <input type="file" name="file">
+        </label>
+        <label>
+          <input type="submit" name="savePhoto" value="Saqlash" />
+          <p for="savePhoto"></p>
+        </label>
+      </form>
+
+      <table class="x-skeleton scrollbar-x">
+
+        <thead>
+          <tr>
+            <th>Photo name</th>
+            <th>Photo file</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+
+        <tbody>${window.pageData.photoRows}<tbody>
+      </table>
+
+    </section>
+  `;
+
+  const commnets = `
+    <section id="commnets" class="surface-clean w-100 p-1">
+      <table class="x-skeleton scrollbar-x">
+
+        <thead>
+          <tr>
+            <th>Full name</th>
+            <th>Phone number</th>
+            <th>Comment</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+
+        <tbody>${window.pageData.commentsRows}<tbody>
+      </table>
+
+    </section>
+  `;
+
+
   return `
     <container>
       <row class="gap-1 p-5">
         <column id="sections" class="w-auto">
           <x-nav selector="column#sections">
             [
+              {"link": "photos"},
               {"link": "commnets"}
             ]
           </x-nav>
         </column>
 
         <column id="sections" class="w-70">
-          <section id="commnets" class="surface-clean w-100 p-1">
-            <table class="x-skeleton scrollbar-x">
-
-              <thead>
-                <tr>
-                  <th>Full name</th>
-                  <th>Phone number</th>
-                  <th>Comment</th>
-                  <th>Action</th>
-                </tr>
-              </thead>
-
-              <tbody>${window.pageData.commentsRows}<tbody>
-            </table>
-
-          </section>
+          ${photos}
+          ${commnets}
         </column>
       </row>
     </container>
