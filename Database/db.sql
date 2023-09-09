@@ -198,48 +198,11 @@ CREATE TABLE IF NOT EXISTS `users_roles` (
 
 
 
--- -------------------------- Surgery Tashkent
-CREATE TABLE IF NOT EXISTS `photos` (
-  `id` INT NOT NULL UNIQUE auto_increment,
-  `name` INT NOT NULL,
-
-  PRIMARY KEY (`id`)
-);
-
-CREATE TABLE IF NOT EXISTS `gallery` (
-  `id` INT NOT NULL UNIQUE auto_increment,
-  `photo` INT NOT NULL,
-
-  FOREIGN KEY (`photo`) REFERENCES photos(`id`) ON DELETE CASCADE,
-
-  PRIMARY KEY (`id`)
-);
-
-CREATE TABLE IF NOT EXISTS `results` (
-  `id` INT NOT NULL UNIQUE auto_increment,
-  `photo` INT NOT NULL,
-
-  FOREIGN KEY (`photo`) REFERENCES photos(`id`) ON DELETE CASCADE,
-
-  PRIMARY KEY (`id`)
-);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+-- ---------------------------------------------
+-- ---------------------------------------------
+-- --------------------------------------------- Surgery Tashkent
+-- ---------------------------------------------
+-- ---------------------------------------------
 CREATE TABLE IF NOT EXISTS `comments` (
   `id` INT NOT NULL UNIQUE auto_increment,
   `fullName` VARCHAR(100),
@@ -250,11 +213,10 @@ CREATE TABLE IF NOT EXISTS `comments` (
   PRIMARY KEY (`id`)
 );
 
-CREATE TABLE IF NOT EXISTS `photoManagement` (
+CREATE TABLE IF NOT EXISTS `photos` (
   `id` INT NOT NULL UNIQUE auto_increment,
-  `photoName` VARCHAR(100),
-  `photoFile` VARCHAR(100),
-
+  `title` VARCHAR(100) NOT NULL,
+  `file` VARCHAR(100) NOT NULL,
 
   PRIMARY KEY (`id`)
 );
