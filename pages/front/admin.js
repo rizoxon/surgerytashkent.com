@@ -13,6 +13,33 @@ export async function before(){
           <td>${data["title"]}</td>
           <td>${data["file"]}</td>
           <td>
+            <x-modal trigger="click" type="icon" value="vertical_dots" button>
+              <form action="/admin" for="photoUpdate">
+                <label>
+                  <p for="title">Rasm sarlavhasini kiriting</p>
+                  <input type="text" name="title"  />
+                </label>
+                <fieldset>
+                  <legend>Choose label</legend>
+                  <label>
+                    <input type="checkbox" name="general"  />
+                    <p for="general">Umumiy</p>
+                  </label>
+                  <label>
+                    <input type="checkbox" name="doctor"  />
+                    <p for="doctor">Doktor</p>
+                  </label>
+                  <label>
+                    <input type="checkbox" name="result"  />
+                    <p for="result">Natija</p>
+                  </label>
+                </fieldset>
+                <label>
+                  <input type="submit" name="send" value="Jo'natish" />
+                  <p for="sendComment"></p>
+                </label>
+              </form>
+            </x-modal>
             <form action="/admin" for="deletePhoto">
               <input type="hidden" name="id" value="${data["id"]}">
               <button name="deleteCommentButton"><x-icon name="trash"></x-icon></button>
