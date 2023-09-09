@@ -220,3 +220,29 @@ CREATE TABLE IF NOT EXISTS `photos` (
 
   PRIMARY KEY (`id`)
 );
+
+
+CREATE TABLE IF NOT EXISTS `photo_labels` (
+  `id` INT NOT NULL UNIQUE auto_increment,
+  `name` VARCHAR(20) NOT NULL UNIQUE,
+  PRIMARY KEY (`id`)
+);
+INSERT INTO photo_labels (name)
+  VALUES
+    ("general"),
+    ("docotor"),
+    ("result")
+;
+
+CREATE TABLE IF NOT EXISTS `photos_labels` (
+  `id` INT NOT NULL UNIQUE auto_increment,
+  `photo` INT NOT NULL,
+  `label` INT NOT NULL,
+
+  FOREIGN KEY (`photo`) REFERENCES photos(`id`) ON DELETE CASCADE,
+  FOREIGN KEY (`label`) REFERENCES photo_labels(`id`) ON DELETE CASCADE,
+
+  CONSTRAINT `unique_photos_labels` UNIQUE (`photo`, `label`),
+
+  PRIMARY KEY (`id`)
+);
