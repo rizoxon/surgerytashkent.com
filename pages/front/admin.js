@@ -12,12 +12,12 @@ export async function before(){
         <tr>
           <td>${data["title"]}</td>
           <td>${data["file"]}</td>
-          <td>
-            <x-modal trigger="click" type="icon" value="vertical_dots" button>
+          <td class="d-flex gap-0-5">
+            <x-modal class="w-50" trigger="click" type="icon" value="vertical_dots" button>
               <form action="/admin" for="photoUpdate">
                 <label>
                   <p for="title">Rasm sarlavhasini kiriting</p>
-                  <input type="text" name="title"  />
+                  <input type="text" value="${data["title"]}" name="title"  />
                 </label>
                 <fieldset>
                   <legend>Choose label</legend>
@@ -40,7 +40,8 @@ export async function before(){
                 </label>
               </form>
             </x-modal>
-            <form action="/admin" for="deletePhoto">
+
+            <form action="/admin" for="deletePhoto" class="w-50">
               <input type="hidden" name="id" value="${data["id"]}">
               <button name="deleteCommentButton"><x-icon name="trash"></x-icon></button>
             </form>
