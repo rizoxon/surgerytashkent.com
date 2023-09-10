@@ -230,7 +230,7 @@ CREATE TABLE IF NOT EXISTS `photo_labels` (
 INSERT INTO photo_labels (name)
   VALUES
     ("general"),
-    ("docotor"),
+    ("doctor"),
     ("result")
 ;
 
