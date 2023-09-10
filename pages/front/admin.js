@@ -1,6 +1,9 @@
 export const TITLE = window.Lang.use("admin");
 export async function before(){
   Photos: {
+    const photoLabels = await window.bridge("admin", {for:"getAllPhotoLabels"});
+    const photosLabels = await window.bridge("admin", {for:"getAllPhotosLabels"});
+
     window.pageData.resp = await window.bridge("admin", {for:"getAllPhotos"});
 
     window.pageData.photoRows = "No data";
@@ -14,7 +17,9 @@ export async function before(){
           <td>${data["file"]}</td>
           <td class="d-flex gap-0-5">
             <x-modal class="w-50" trigger="click" type="icon" value="vertical_dots" button>
-              <form action="/admin" for="photoUpdate">
+              <form action="/admin" for="updatePhoto">
+                <input type="hidden" value="${data["id"]}" name="photoID">
+
                 <label>
                   <p for="title">Rasm sarlavhasini kiriting</p>
                   <input type="text" value="${data["title"]}" name="title"  />
@@ -22,15 +27,15 @@ export async function before(){
                 <fieldset>
                   <legend>Choose label</legend>
                   <label>
-                    <input type="checkbox" name="general"  />
+                    <input type="checkbox" name="labels" value="general"  />
                     <p for="general">Umumiy</p>
                   </label>
                   <label>
-                    <input type="checkbox" name="doctor"  />
+                    <input type="checkbox" name="labels" value="doctor" />
                     <p for="doctor">Doktor</p>
                   </label>
                   <label>
-                    <input type="checkbox" name="result"  />
+                    <input type="checkbox" name="labels" value="result"  />
                     <p for="result">Natija</p>
                   </label>
                 </fieldset>
@@ -94,7 +99,7 @@ export default function content(){
         </label>
       </form>
 
-      <table class="x-skeleton scrollbar-x">
+      <table class="x-clean scrollbar-x">
 
         <thead>
           <tr>
