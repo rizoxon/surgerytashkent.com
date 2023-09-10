@@ -86,6 +86,55 @@ def admin():
 
                 return response(type="success",message="deleted",toast=True, domChange=["main"])
 
+            if request.form["for"] == "updatePhoto":
+                if "photoID" not in request.form or not request.form['photoID']:
+                    return response(type="error", message="unkownError")
+
+                if "title" not in request.form or not request.form['title']:
+                    return response(type="error", field="title", message="fieldEmpty")
+
+                update = MySQL.execute(
+                    sql="UPDATE photos SET title = %s WHERE id=%s;",
+                    params=(request.form['title'], request.form['photoID']),
+                    commit=True
+                )
+
+                if update is False: return response(type="error",message="databaseError")
+
+                # Labels
+                delete = MySQL.execute(
+                    sql="DELETE FROM photos_labels WHERE photo = %s;",
+                    params=(request.form["photoID"],),
+                    commit=True
+                )
+
+                if delete is False: return response(type="error", message="databaseError")
+
+                if len(request.form.getlist('labels')) > 0:
+                    # Insert New/Updated Roles
+                    for label in request.form.getlist('labels'):
+                        labelID = MySQL.execute(
+                            sql="SELECT id FROM photo_labels WHERE name=%s LIMIT 1;",
+                            params=(label, ),
+                            fetchOne=True,
+                            dictionary=False
+                        )
+
+                        # If Returned Data Is Not None
+                        if labelID:
+                            # Insert To Database
+                            insert = MySQL.execute(
+                                sql="INSERT INTO photos_labels (photo, label) VALUES (%s, %s)",
+                                params=(request.form['photoID'], labelID[0]),
+                                commit=True
+                            )
+
+                            if insert is False: return response(type="error",message=f"Could Not Save The Label: {label}")
+
+                # Success
+                return response(type="success",message="saved", toast=True, domChange=["main"])
+
+
             if request.form["for"] == "deleteComment":
                 if "id" not in request.form or not request.form['id']:
                     return response(type="error", message="databaseError", toast=True)
@@ -111,6 +160,20 @@ def admin():
 
             if request.get_json()["for"] == "getAllComments":
                 data = MySQL.execute("SELECT * FROM comments")
+
+                if data is False: return response(type="error",message="databaseError")
+
+                return response(type="success",message="success",data=data)
+
+            if request.get_json()["for"] == "getAllPhotoLabels":
+                data = MySQL.execute("SELECT * FROM photo_labels")
+
+                if data is False: return response(type="error",message="databaseError")
+
+                return response(type="success",message="success",data=data)
+
+            if request.get_json()["for"] == "getAllPhotosLabels":
+                data = MySQL.execute("SELECT * FROM photos_labels")
 
                 if data is False: return response(type="error",message="databaseError")
 
