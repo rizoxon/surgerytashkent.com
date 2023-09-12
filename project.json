@@ -81,8 +81,8 @@
           {"page":"gallery", "icon": "home_icon"},
           {"page":"results", "icon": "home_icon"},
           {"page":"contact", "icon": "home_icon"},
-          {"page":"logOut"},
-          {"page":"admin"}
+          {"page":"admin"},
+          {"page":"logOut"}
         ]
     }
 }
