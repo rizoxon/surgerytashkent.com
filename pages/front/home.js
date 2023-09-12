@@ -10,7 +10,7 @@ export default function content(){
         <column class="flex-x-center flex-y-start w-60 gap-0-8">
           <p class="radius-default sm-text bg-shadow">Shifokor</p>
           <p class="text-size-3 text-lh-2-5">Xusnuddinov Nizomuddin Zuxruddinovich</p>
-          <p class="text-size-1.5">ROSSIYA, KOREYA, GRUJIYA, AZARBAYJON VA TURKIYADA onkologiya va radiologiya yo'nalishida rsnpmc doktoranturasi ta'limini o'tagan. Shoshilinch jarrohlik, videolaparoskopiya, pankreatobiliar jarrohlik va onkologiyaga oid 10 dan ortiq nashrlar muallifi va hammuallifi. U 2021 yilda TMA tomonidan chiqarilgan endoskopik jarrohlik bo'yicha mutaxassislikka ega.Bariatrik jarrohlar xalqaro assotsiatsiyasi (IFSO) aʼzosi, Oʻzbekiston bariatrik jarrohlari.</p>
+          <p class="text-size-1.5">ROSSIYA, KOREYA, GRUJIYA, AZARBAYJON VA TURKIYADA onkologiya va radiologiya yo'nalishida rsnpmc doktoranturasi ta'limini o'tagan. Shoshilinch jarrohlik, videolaparoskopiya, pankreatobiliar jarrohlik va onkologiyaga oid 10 dan ortiq nashrlar muallifi va hammuallifi. U 2021 yilda TMA tomonidan chiqarilgan endoskopik jarrohlik bo'yicha mutaxassislikka ega. Bariatrik jarrohlar xalqaro assotsiatsiyasi (IFSO) aʼzosi, Oʻzbekiston bariatrik jarrohlari.</p>
           <a href="/about"><button class="text-size-1">Batafsil</button></a>
         </column>
         <img src="./images/doctor.png" alt="Doctor">
@@ -18,17 +18,17 @@ export default function content(){
 
       <row>
         <row class="flex-center w-40">
-          <img src="./images/about.jpg" alt="Doctor">
+          <img src="./images/clinic.jpg" alt="Doctor">
         </row>
         <column class="flex-x-center flex-y-start w-60 gap-0-8">
-          <p class="radius-default sm-text">About us</p>
-          <h1>We Give You The Perfect Smile You Wanted</h1>
-          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+          <p class="radius-default sm-text bg-shadow">Shifoxona</p>
+          <h1>Sog'lom hayot sari yo'l shu yerdan boshlanadi.</h1>
+          <p>“ SABA DARMON ” клиникаси ўз фаолиятини 18 йилдан бери юритиб келмоқда. Клиника ўз фаолиятини бепуштликни даволаш билан бошлаган. Хозирда барча касалликларни самарали даволаб келмоқдамиз.</p>
           <ul>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            <li>18 йиллик иш тажрибаси.</li>
+            <li>35 шифокор.</li>
+            <li>14 жаррох.</li>
+            <li>1 500 000 бемор даволанган.</li>
           </ul>
           <p class="text-size-2">+998 (90) 123-45-67 </p>
           <a href="#"><button class="text-size-1">Batafsil</button></a>
@@ -36,62 +36,62 @@ export default function content(){
       </row>
 
       <column class="p-5 flex-y-center w-80">
-        <h1 class="text-center">Бариатрическая хирургия</h1>
+        <h1 class="text-center">Bariatrik jarrohlik</h1>
         <p>
-          Ожирение (obesity), о котором говорят как о ”Болезни века", представляет серьезную угрозу для здоровья людей и, к сожалению, продолжает быстро расти как в мире, также и в нашей стране.
-          Самостоятельно применяемые различные диеты, спортивные упражнения и попытки изменить образ жизни во многих случаях в сами по себе остаются безрезультатными. В частности, серьезные проблемы со здоровьем, такие как диабет, болезни сердца и апноэ во сне, которые приносит ожирение с собой, со временем становятся опасными для жизни. Именно в такие моменты большое значение приобретает бариатрическая хирургия.
-          Бариатрическая хирургия - это совокупность всех хирургических операций, проводимых с целью снижения веса.
-          Эти операции направлены на снижение веса путем установления ограничений на то, сколько вы можете съесть, и уменьшения всасывания пищи из желудочно-кишечного тракта.
-          Наиболее распространенными Бариатрическими операциями являются:
-          Резекция желудка - Рукавная Гастропластика
-          Гастрошунтирование
-          Мини Желудочный Обходной Анастомоз
-          Желудочный бандаж
-          Если мы сделаем упрощение, мы можем сказать, что объем желудка во время операции по резекции желудка, объем желудка уменьшается за счет хирургического вмешательства, что приводит к меньшему потреблению пищи. Пациент способен держать под контролем объем принимаемой пищи, быстро достигая к чувству сытости.
-          Или при другом типе бариатрической операции, сокращая площадь кишечника, уменьшается поглощение питательных веществ. Таким образом, предотвращает потребление калорий.
-          Именно поэтому во многих случаях бариатрическую хирургию также называют “Хирургией избыточного веса”. Потому что бариатрическая хирургия - единственный метод, который обеспечивает долгосрочную и устойчивую потерю веса.
-          В бариатрической хирургии операции выполняются закрытым методом, то есть лапороскопически. Таким образом, не оставляет следов порезов на теле пациента и не портит эстетический вид. Лапороскопическое выполнение операций сокращает время заживления и время пребывания в стационаре.
-          Пациент, который за короткое время видит в себе позитивные изменения, также чувствует серьезные изменения в своем настроении.
-          В сочетании с применяемой диетой и активной жизненной деятельностью бариатрическая хирургия дает ожидаемые результаты в снижении веса.
+        &nbsp &nbsp &nbsp “Asr kasalligi” deb atalgan semizlik inson salomatligi uchun jiddiy xavf tug‘diradi va afsuski, jahon miqyosida ham, mamlakatimizda ham tez sur’atlar bilan o‘sishda davom etmoqda.
+        O'z-o'zidan boshqariladigan turli xil parhezlar, sport mashqlari va turmush tarzini o'zgartirishga urinishlar ko'p hollarda o'z-o'zidan samarasiz bo'lib qoladi. Xususan, semizlik o‘zi bilan olib keladigan diabet, yurak xastaligi va uyqu apnesi kabi jiddiy sog‘liq muammolari vaqt o‘tishi bilan hayot uchun xavf tug‘diradi. Aynan shunday paytlarda bariatrik jarrohlik muhim ahamiyatga ega bo'ladi.
+        <br> &nbsp &nbsp &nbsp  Bariatrik jarrohlik - bu vazn yo'qotish uchun bajariladigan barcha jarrohlik muolajalar to'plami.
+        <br> &nbsp &nbsp &nbsp Ushbu operatsiyalar og'irlikni kamaytirishga qaratilgan bo'lib, siz qancha ovqatlanishingiz mumkinligiga cheklovlar qo'yish va ovqatning oshqozon-ichak traktidan so'rilishini kamaytirishdir.
+        <br><br> &nbsp &nbsp &nbsp Eng keng tarqalgan Bariatrik operatsiyalar:
+        <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Oshqozon rezektsiyasi - Sleeve Gastroplasty
+        <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Gastrobypass operatsiyasi
+        <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Mini gastrik bypass anastomozi
+        <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Oshqozon tasmasi
+        <br><br> &nbsp &nbsp &nbsp Agar soddalashtirsak, gastrektomiya operatsiyasi paytida oshqozon hajmi, operatsiya tufayli oshqozon hajmi kamayadi, natijada oziq-ovqat kamroq iste'mol qilinadi. Bemor iste'mol qilinadigan oziq-ovqat miqdorini nazorat qila oladi, tezda to'yinganlik tuyg'usiga erishadi.
+        Yoki boshqa turdagi bariatrik jarrohlik bilan, ichak hajmini kamaytirish orqali ozuqa moddalarining so'rilishi kamayadi. Shunday qilib, kaloriya iste'molini oldini oladi.
+        Shuning uchun ko'p hollarda bariatrik jarrohlik "Og'irlikdagi jarrohlik" deb ham ataladi. Chunki bariatrik jarrohlik uzoq muddatli va barqaror vazn yo'qotishni ta'minlaydigan yagona usuldir.
+        Bariatrik jarrohlikda operatsiyalar yopiq usulda, ya'ni laparoskopik usulda amalga oshiriladi. Shunday qilib, u bemorning tanasida kesilgan izlarni qoldirmaydi va estetik ko'rinishni buzmaydi. Laparoskopik jarrohlik davolanish vaqtini va kasalxonada qolishni qisqartiradi.
+        Qisqa vaqt ichida o'zida ijobiy o'zgarishlarni ko'rgan bemorning kayfiyatida ham sezilarli o'zgarishlar yuz beradi.
+        Sog'lom ovqatlanish va faol turmush tarzi bilan birgalikda bariatrik jarrohlik kutilgan vazn yo'qotish natijalarini beradi.
         </p>
       </column>
 
-      <column>
-        <h1>Our Trusted & Professional Services</h1>
+      <column class="p-5">
+        <h1 class="mb-5">Bizning ishonchli va professional jarrohlik xizmatlarimiz</h1>
         <row class="flex-y-center">
           <column class="p-5 gap-1">
             <row class="flex-y-center gap-1">
               <x-icon name="light_mode"></x-icon>
               <column class="flex-y-start">
-                <h3>Orthopaedics</h3>
-                <p>It is a long established fact that a reader will be distracted</p>
+                <h3>Yмумий хирургия</h3>
+                <p>Tananing har qanday mintaqasidagi shikastlanishlar va kasalliklarni tashxislash va davolashga qaratilgan keng ko'lamli operativ muolajalarni o'z ichiga oladi.</p>
               </column>
             </row>
             <row class="flex-y-center gap-1">
               <x-icon name="light_mode"></x-icon>
               <column class="flex-y-start">
-                <h3>Orthopaedics</h3>
-                <p>It is a long established fact that a reader will be distracted</p>
+                <h3>гинекология</h3>
+                <p>Hayotni biz bilan yangitdan boshlang</p>
               </column>
             </row>
             <row class="flex-y-center gap-1">
               <x-icon name="light_mode"></x-icon>
               <column class="flex-y-start">
-                <h3>Orthopaedics</h3>
-                <p>It is a long established fact that a reader will be distracted</p>
+                <h3>ЛОР</h3>
+                <p>LOR - bu bosh va bo'yin kasalliklarini jarrohlik va tibbiy davolash bilan shug'ullanadigan tibbiyotning jarrohlik kichik ixtisosligi.</p>
               </column>
             </row>
           </column>
 
           <column>
-            <img src="./images/png_doctor.png">
+            <img src="./images/doctor.png" style="width: 40%;">
           </column>
           
           <column class="p-5 gap-1">
             <row class="flex-y-center gap-1">
               <column class="flex-y-end">
-                <h3>Orthopaedics</h3>
-                <p class="text-right">It is a long established fact that a reader will be distracted</p>
+                <h3>лапороскопик операциялар</h3>
+                <p class="text-right">Laparoskopik jarrohlik - bu kichik (bir santimetrdan kam) kesmalar orqali qorin bo'shlig'iga qisqa, tor naychalar (trokarlar) kiritiladigan jarrohlik usuli.</p>
               </column>
               <x-icon name="light_mode"></x-icon>
             </row>

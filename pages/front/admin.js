@@ -4,6 +4,9 @@ export async function before(){
     const photoLabels = await window.bridge("admin", {for:"getAllPhotoLabels"});
     const photosLabels = await window.bridge("admin", {for:"getAllPhotosLabels"});
 
+    console.log(photoLabels);
+    console.log(photosLabels);
+
     window.pageData.resp = await window.bridge("admin", {for:"getAllPhotos"});
 
     window.pageData.photoRows = "No data";
