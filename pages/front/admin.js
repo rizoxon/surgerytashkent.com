@@ -1,61 +1,58 @@
 export const TITLE = window.Lang.use("admin");
 export async function before(){
   Photos: {
-    const photoLabels = await window.bridge("admin", {for:"getAllPhotoLabels"});
-    const photosLabels = await window.bridge("admin", {for:"getAllPhotosLabels"});
-
-    console.log(photoLabels);
-    console.log(photosLabels);
-
     window.pageData.resp = await window.bridge("admin", {for:"getAllPhotos"});
+
+    // Pull labeled photos by its label
+    // const labeledPhotos = await window.bridge("admin", {for:"getAllPhotosByLabel", label:"doctor"});
 
     window.pageData.photoRows = "No data";
 
     if("data" in window.pageData.resp){
       window.pageData.photoRows = "";
-      for(const data of window.pageData.resp.data)
-      window.pageData.photoRows += `
-        <tr>
-          <td>${data["title"]}</td>
-          <td>${data["file"]}</td>
-          <td class="d-flex gap-0-5">
-            <x-modal class="w-50" trigger="click" type="icon" value="vertical_dots" button>
-              <form action="/admin" for="updatePhoto">
-                <input type="hidden" value="${data["id"]}" name="photoID">
+      for(const photo of window.pageData.resp.data)
+        window.pageData.photoRows += `
+          <tr>
+            <td>${photo["title"]}</td>
+            <td>${photo["file"]}</td>
+            <td class="d-flex gap-0-5">
+              <x-modal class="w-50" trigger="click" type="icon" value="vertical_dots" button>
+                <form action="/admin" for="updatePhoto">
+                  <input type="hidden" value="${photo["id"]}" name="photoID">
 
-                <label>
-                  <p for="title">Rasm sarlavhasini kiriting</p>
-                  <input type="text" value="${data["title"]}" name="title"  />
-                </label>
-                <fieldset>
-                  <legend>Choose label</legend>
                   <label>
-                    <input type="checkbox" name="labels" value="general"  />
-                    <p for="general">Umumiy</p>
+                    <p for="title">Rasm sarlavhasini kiriting</p>
+                    <input type="text" value="${photo["title"]}" name="title"  />
                   </label>
+                  <fieldset>
+                    <legend>Choose label</legend>
+                    <label>
+                      <input type="checkbox" name="labels" value="general" ${photo["labels"]?.includes("general") ? "checked" : ""}  />
+                      <p for="general">Umumiy</p>
+                    </label>
+                    <label>
+                      <input type="checkbox" name="labels" value="doctor" ${photo["labels"]?.includes("doctor") ? "checked" : ""} />
+                      <p for="doctor">Doktor</p>
+                    </label>
+                    <label>
+                      <input type="checkbox" name="labels" value="result" ${photo["labels"]?.includes("result") ? "checked" : ""} />
+                      <p for="result">Natija</p>
+                    </label>
+                  </fieldset>
                   <label>
-                    <input type="checkbox" name="labels" value="doctor" />
-                    <p for="doctor">Doktor</p>
+                    <input type="submit" name="send" value="Jo'natish" />
+                    <p for="sendComment"></p>
                   </label>
-                  <label>
-                    <input type="checkbox" name="labels" value="result"  />
-                    <p for="result">Natija</p>
-                  </label>
-                </fieldset>
-                <label>
-                  <input type="submit" name="send" value="Jo'natish" />
-                  <p for="sendComment"></p>
-                </label>
+                </form>
+              </x-modal>
+
+              <form action="/admin" for="deletePhoto" class="w-50">
+                <input type="hidden" name="id" value="${photo["id"]}">
+                <button name="deleteCommentButton"><x-icon name="trash"></x-icon></button>
               </form>
-            </x-modal>
-
-            <form action="/admin" for="deletePhoto" class="w-50">
-              <input type="hidden" name="id" value="${data["id"]}">
-              <button name="deleteCommentButton"><x-icon name="trash"></x-icon></button>
-            </form>
-          </td>
-        </tr>
-      `;
+            </td>
+          </tr>
+        `;
     }
   }
 
