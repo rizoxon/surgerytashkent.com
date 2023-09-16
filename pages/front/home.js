@@ -18,7 +18,7 @@ export default function content(){
 
       <row>
         <row class="flex-center w-40">
-          <img src="./images/clinic.jpg" alt="Doctor">
+          <img src="./images/clinic.jpg" class="bs-default" alt="Doctor">
         </row>
         <column class="flex-x-center flex-y-start w-60 gap-0-8">
           <p class="radius-default sm-text bg-shadow">Shifoxona</p>
@@ -36,7 +36,7 @@ export default function content(){
       </row>
 
       <column class="p-5 flex-y-center w-80">
-        <h1 class="text-center">Bariatrik jarrohlik</h1>
+        <h1 class="text-center mb-5">Bariatrik jarrohlik</h1>
         <p>
         &nbsp &nbsp &nbsp “Asr kasalligi” deb atalgan semizlik inson salomatligi uchun jiddiy xavf tug‘diradi va afsuski, jahon miqyosida ham, mamlakatimizda ham tez sur’atlar bilan o‘sishda davom etmoqda.
         O'z-o'zidan boshqariladigan turli xil parhezlar, sport mashqlari va turmush tarzini o'zgartirishga urinishlar ko'p hollarda o'z-o'zidan samarasiz bo'lib qoladi. Xususan, semizlik o‘zi bilan olib keladigan diabet, yurak xastaligi va uyqu apnesi kabi jiddiy sog‘liq muammolari vaqt o‘tishi bilan hayot uchun xavf tug‘diradi. Aynan shunday paytlarda bariatrik jarrohlik muhim ahamiyatga ega bo'ladi.
@@ -56,105 +56,104 @@ export default function content(){
         </p>
       </column>
 
+      <row class="p-5 bmi">
+        <form class="c-bmi">
+          <label class="c-bmi__label"><strong>Bo'y</strong>
+            <input class="c-bmi__range" type="range" name="h" min="150" max="230" step="0.5" value="180" />
+            <output name="ho"><output>
+          </label>
+          <label class="c-bmi__label"><strong>Vazn</strong>
+            <input class="c-bmi__range" type="range" name="w" min="35" max="200" step="0.1" value="75" />
+            <output name="wo">75</output>
+          </label>
+          <div class="c-bmi__result">Tana vazn indeksi: <output name="r"></output></div>
+          <div class="c-bmi__groups" readonly>
+            <input type="radio" id="bmi-g0" name="g" />
+            <label for="bmi-g0">Kam vazn</label>
+            <div class="c-bmi__group-text">18,5 dan kam tana vazn indeksi noto'g'ri ovqatlanish, ovqatlanish buzilishi yoki boshqa sog'liq muammolarini ko'rsatishi mumkin.</div>
+            <input type="radio" id="bmi-g1" name="g" checked />
+            <label for="bmi-g1">Odatiy</label>
+            <div class="c-bmi__group-text">18,5 dan 25 gacha bo'lgan Tana vazn indeksi normal va sog'lom hisoblanadi. </div>
+            <input type="radio" id="bmi-g2" name="g" />
+            <label for="bmi-g2">Deyarli semizlik</label>
+            <div class="c-bmi__group-text">Ushbu toifaga kiradigan odamlar semirishni rivojlantirishxavfi ostida bo'lishi mumkin.<br />Ilgari bu "ortiqcha vazn" deb tasniflangan.</div>
+            <input type="radio" id="bmi-g3" name="g" />
+            <label for="bmi-g3">Ortiqcha vazn I</label>
+            <div class="c-bmi__group-text">Tana vazn indeksi 30 ga teng yoki yuqori bo'lgan odamlarda semizlik bo'lishi mumkin, bu sog'likka zarar etkazishi mumkin bo'lgan kasallik yoki ortiqcha yog' to'planishi sifatida aniqlanadi.</div>
+            <input type="radio" id="bmi-g4" name="g" />
+            <label for="bmi-g4">Ortiqcha vazn II</label>
+            <div class="c-bmi__group-text">Tana vazn indeksi 30 ga teng yoki yuqori bo'lgan odamlarda semizlik bo'lishi mumkin, bu sog'likka zarar etkazishi mumkin bo'lgan kasallik yoki ortiqcha yog' to'planishi sifatida aniqlanadi.</div>
+            <input type="radio" id="bmi-g5" name="g" />
+            <label for="bmi-g5">Ortiqcha vazn III</label>
+            <div class="c-bmi__group-text">Tana vazn indeksi 30 ga teng yoki yuqori bo'lgan odamlarda semizlik bo'lishi mumkin, bu sog'likka zarar etkazishi mumkin bo'lgan kasallik yoki ortiqcha yog' to'planishi sifatida aniqlanadi.</div>
+          </div>
+        </form>
+      </row>
+
       <column class="p-5">
         <h1 class="mb-5">Bizning ishonchli va professional jarrohlik xizmatlarimiz</h1>
         <row class="flex-y-center">
           <column class="p-5 gap-1">
             <row class="flex-y-center gap-1">
-              <x-icon name="light_mode"></x-icon>
+              <img style="width: 15%;" src="./images/surgery-room.png" />
               <column class="flex-y-start">
-                <h3>Yмумий хирургия</h3>
-                <p>Tananing har qanday mintaqasidagi shikastlanishlar va kasalliklarni tashxislash va davolashga qaratilgan keng ko'lamli operativ muolajalarni o'z ichiga oladi.</p>
+                <h4>Yмумий хирургия</h4>
+                <p class="text-size-0-7" class="text-size-0-7">Tananing har qanday mintaqasidagi shikastlanishlar va kasalliklarni tashxislash va davolashga qaratilgan keng ko'lamli operativ muolajalarni o'z ichiga oladi.</p>
               </column>
             </row>
             <row class="flex-y-center gap-1">
-              <x-icon name="light_mode"></x-icon>
+              <img style="width: 15%;" src="./images/gynecology.png" />
               <column class="flex-y-start">
-                <h3>гинекология</h3>
-                <p>Hayotni biz bilan yangitdan boshlang</p>
+                <h4>гинекология</h4>
+                <p class="text-size-0-7">Hayotni biz bilan yangitdan boshlang. Eng so'ngi texnika va malakali shifokorlar faqat bizda.</p>
               </column>
             </row>
             <row class="flex-y-center gap-1">
-              <x-icon name="light_mode"></x-icon>
+              <img style="width: 15%;" src="./images/lor.png" />
               <column class="flex-y-start">
-                <h3>ЛОР</h3>
-                <p>LOR - bu bosh va bo'yin kasalliklarini jarrohlik va tibbiy davolash bilan shug'ullanadigan tibbiyotning jarrohlik kichik ixtisosligi.</p>
+                <h4>ЛОР</h4>
+                <p class="text-size-0-7">LOR - bu bosh va bo'yin kasalliklarini jarrohlik va tibbiy davolash bilan shug'ullanadigan tibbiyotning jarrohlik kichik ixtisosligi.</p>
               </column>
             </row>
           </column>
 
           <column>
-            <img src="./images/doctor.png" style="width: 40%;">
+            <img src="./images/services.jpg" style="width: 60%;">
           </column>
           
           <column class="p-5 gap-1">
             <row class="flex-y-center gap-1">
               <column class="flex-y-end">
-                <h3>лапороскопик операциялар</h3>
-                <p class="text-right">Laparoskopik jarrohlik - bu kichik (bir santimetrdan kam) kesmalar orqali qorin bo'shlig'iga qisqa, tor naychalar (trokarlar) kiritiladigan jarrohlik usuli.</p>
+                <h4>лапороскопик операциялар</h4>
+                <p class="text-size-0-7 text-right" class="text-right">Laparoskopik jarrohlik - bu kichik (bir santimetrdan kam) kesmalar orqali qorin bo'shlig'iga qisqa, tor naychalar (trokarlar) kiritiladigan jarrohlik usuli.</p>
               </column>
-              <x-icon name="light_mode"></x-icon>
+              <img style="width: 15%;" src="./images/scalpel.png" />
             </row>
             <row class="flex-y-center gap-1">
               <column class="flex-y-end">
-                <h3>Orthopaedics</h3>
-                <p class="text-right">It is a long established fact that a reader will be distracted</p>
+                <h4>бариатрик операциялар</h4>
+                <p class="text-size-0-7 text-right" class="text-right">Bariatrik jarrohlik parhez va jismoniy mashqlar yordam bermaganda yoki vazningiz tufayli jiddiy sog'liq muammolariga duch kelganda bemorlarga yordam beradi.</p>
               </column>
-              <x-icon name="light_mode"></x-icon>
+              <img style="width: 15%;" src="./images/bariatric.png" />
             </row>
             <row class="flex-y-center gap-1">
               <column class="flex-y-end">
-                <h3>Orthopaedics</h3>
-                <p class="text-right">It is a long established fact that a reader will be distracted</p>
+                <h4>стационар даво</h4>
+                <p class="text-size-0-7 text-right" class="text-right">Ushbu davolash markazi bemorlarga ambulator yordam ko'rsatishdan ko'ra ko'proq intensiv davolanish uchun xavfsiz va xavfsiz joyni ta'minlaydi.</p>
               </column>
-              <x-icon name="light_mode"></x-icon>
+              <img style="width: 15%;" src="./images/inpatient.png" />
             </row>
           </column>
         </row>
       </column>
-      
-
-      <row class="p-5 bmi">
-        <form class="c-bmi">
-          <label class="c-bmi__label"><strong>Height</strong>
-            <input class="c-bmi__range" type="range" name="h" min="150" max="230" step="0.5" value="180" />
-            <output name="ho"><output>
-          </label>
-          <label class="c-bmi__label"><strong>Weight</strong>
-            <input class="c-bmi__range" type="range" name="w" min="35" max="200" step="0.1" value="75" />
-            <output name="wo">75</output>
-          </label>
-          <div class="c-bmi__result">Your BMI Is: <output name="r"></output></div>
-          <div class="c-bmi__groups" readonly>
-            <input type="radio" id="bmi-g0" name="g" />
-            <label for="bmi-g0">Underweight</label>
-            <div class="c-bmi__group-text">The WHO regards a BMI of less than 18.5 as underweight and may indicate malnutrition, an eating disorder, or other health problems.</div>
-            <input type="radio" id="bmi-g1" name="g" checked />
-            <label for="bmi-g1">Normal</label>
-            <div class="c-bmi__group-text">A BMI between 18.5 and 25 is considered normal and healthy. </div>
-            <input type="radio" id="bmi-g2" name="g" />
-            <label for="bmi-g2">Pre-obesity</label>
-            <div class="c-bmi__group-text">People who fall into this category may be at risk of developing obesity.<br />This was earlier classified as "overweight".</div>
-            <input type="radio" id="bmi-g3" name="g" />
-            <label for="bmi-g3">Obese I</label>
-            <div class="c-bmi__group-text">People who have BMI equal or over 30 may have obesity, which is defined as an abnormal or excessive accumulation of fat that may harm health.</div>
-            <input type="radio" id="bmi-g4" name="g" />
-            <label for="bmi-g4">Obese II</label>
-            <div class="c-bmi__group-text">People who have BMI equal or over 30 may have obesity, which is defined as an abnormal or excessive accumulation of fat that may harm health.</div>
-            <input type="radio" id="bmi-g5" name="g" />
-            <label for="bmi-g5">Obese III</label>
-            <div class="c-bmi__group-text">People who have BMI equal or over 30 may have obesity, which is defined as an abnormal or excessive accumulation of fat that may harm health.</div>
-          </div>
-        </form>
-      </row>
 
       <column class="w-100">
-        <h1>Follow us!</h1>
+        <h2>Ijtimoiy tarmoqlar</h2>
         <row class="gap-2 p-5">
-          <a href="#" style="width: 80px"><x-icon name="facebook_original"></x-icon></a>  
-          <a href="#" style="width: 80px"><x-icon name="instagram_original"></x-icon></a>  
-          <a href="#" style="width: 80px"><x-icon name="telegram_original"></x-icon></a>  
-          <a href="#" style="width: 80px"><x-icon name="YouTube_dark_round"></x-icon></a>  
+          <a href="#" class="surface-clean p-5"><img src="./images/facebook.png" style="width: 50px;" /></a>
+          <a href="#" class="surface-clean p-5"><img src="./images/instagram.png" style="width: 50px;" /></a>
+          <a href="#" class="surface-clean p-5"><img src="./images/telegram.png" style="width: 50px;" /></a>
+          <a href="#" class="surface-clean p-5"><img src="./images/youtube.png" style="width: 50px;" /></a>
         </row>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2995.985208578498!2d69.2167817!3d41.330935000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b8b303ea6cb%3A0xc10570ee75a17d5!2sSaba%20Darmon!5e0!3m2!1sen!2s!4v1693187392275!5m2!1sen!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </column>

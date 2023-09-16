@@ -76,12 +76,12 @@
         "enabled": true,
         "menus": [
           {"page":"home"},
-          {"page":"about", "icon": "home_icon"},
-          {"page":"services", "icon": "home_icon"},
-          {"page":"gallery", "icon": "home_icon"},
-          {"page":"results", "icon": "home_icon"},
-          {"page":"contact", "icon": "home_icon"},
-          {"page":"admin"},
+          {"page":"about", "icon": "about"},
+          {"page":"services", "icon": "services"},
+          {"page":"gallery", "icon": "gallery"},
+          {"page":"results", "icon": "results"},
+          {"page":"contact", "icon": "contact"},
+          {"page":"admin", "icon": "admin"},
           {"page":"logOut"}
         ]
     }

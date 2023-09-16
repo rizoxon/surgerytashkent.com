@@ -1,19 +1,24 @@
 export const TITLE = window.Lang.use("about");
+// export async function before(){
+//   const labeledPhotos = await window.bridge("admin", {for:"getAllPhotosByLabel", label:"doctor"});
+//   console.log('-----------------------------------');
+//   console.log(labeledPhotos);
+// }
 
 export default function content(){
 
   return `
   <container class="about">
     <row class="flex-center">
-      <h1>About Us</h1>
+      <h1>Biz haqimizda</h1>
     </row>
 
     <row>
       <row class="flex-center w-40">
-          <img src="./images/about.jpg" alt="Doctor">
+          <img src="./images/klinika.jpg" class="bs-default" alt="Doctor">
       </row>
       <column class="flex-x-center flex-y-start w-60 gap-0-8">
-        <p class="radius-default sm-text">Klinika</p>
+        <p class="radius-default sm-text bg-shadow">Klinika</p>
         <h1>Sabodarmon | Клиникамизда</h1>
         <p>
           -консультатив поликлиника <br>
@@ -35,53 +40,162 @@ export default function content(){
 
     <row>
       <column class="flex-x-center flex-y-start w-60 gap-0-8">
-        <p class="radius-default sm-text">Shifokor</p>
-        <h1>Хуснуддинов Низомуддин Зухруддиннович</h1>
+        <p class="radius-default sm-text bg-shadow">Shifokor</p>
+        <h1>Xusnuddinov Nizomiddin Zuxruddinovich</h1>
         <p>
-          &nbsp Хуснуддинов Низомуддин Зухруддиннович, базовый докторант в РСПМЦ ОиР, врач-хирург 3 категории. <br>
-          &nbsp Хуснуддинов Н, в 2017 году окончил  Ташкентская Медицинская Академия.  <br>
-          &nbsp С 2017 по 2020 годы проходил магистратуру по специальности «Хирургия» Ташкентской медицинской академии. <br>
-          &nbsp C 2021 года и по настоящее время работает аспирантом в Республиканском специализированном научно-практическом медицинском центре онкологии и радиологии.  <br>
-          &nbsp Хуснуддинов Н, является автором и соавтором более 10 публикаций посвященным вопросам ургентной хирургии, видеолапароскопии, панкреатобиларной хирургии и онкологии. <br> 
-          &nbsp За время своей профессиональной деятельности неоднократно проходил тематические усовершенствования, мастер-классы по онкологии и хирургии в 2017 г (Ташент, Узбекистан), Эндоскопической хирургии в 2018 г (Ташент, Узбекистан), хирургия ожирения 2018-2019 гг (Ташкент), метаболическая хирургия 2021 г. (Грузия, Тбилиси).  <br>
-          &nbsp Имеет специализацию по эндоскопической хирургии 2021г выданные ТМА. <br>
-          &nbsp Является членом бариатрических хирургов международной ассоциации (IFSO), бариатрических хирургов Узбекистана. <br> <hr>
+          Xusnuddinov Nizomuddin Zuxruddinovich, RSPMTS OiR tayanch doktoranti, 3-toifali jarroh.
+          Xusnuddinov N, 2017-yilda Toshkent tibbiyot akademiyasini tamomlagan.
+          2017-2020 yillarda Toshkent tibbiyot akademiyasining “Xirurgiya” ixtisosligi bo‘yicha magistratura bosqichini tamomlagan.
+          2021 yildan hozirgacha Respublika ixtisoslashtirilgan onkologiya va radiologiya ilmiy-amaliy tibbiyot markazi aspiranti lavozimida ishlab kelmoqda.
+          Xusnuddinov N, shoshilinch jarrohlik, videolaparoskopiya, pankreatikobiliar jarrohlik va onkologiya masalalariga bag'ishlangan 10 dan ortiq nashrlarning muallifi va hammuallifidir.
+          Kasbiy faoliyati davomida u bir necha marta tematik takomillashtirish, 2017 yilda onkologiya va jarrohlik bo'yicha mahorat darslarini (Toshent, O'zbekiston), 2018 yilda endoskopik jarrohlik (Toshent, O'zbekiston), semizlik jarrohligi 2018-2019 (Toshkent), 2021 (Gruziya) metabolik jarrohlik bo'yicha bitirgan. , Tbilisi).
+          TMA tomonidan chiqarilgan 2021 yilda endoskopik jarrohlik bo'yicha ixtisoslashgan.
+          Bariatrik jarrohlar xalqaro assotsiatsiyasi (IFSO) aʼzosi, Oʻzbekiston bariatrik jarrohlari.
+          <br>
+          <button class="mt-5">
+            <a href="./images/doctor_info.docx" download style="color: white;">
+              To'liq ma'lumot
+            </a>
+          </button>
         </p>
       </column>
       <row class="flex-center w-40">
-        <img src="./images/about.jpg" alt="Doctor">
+        <img src="./images/main_doctor.jpg" class="bs-default" alt="Doctor">
       </row>
     </row>
     
-    <row class="gap-1 p-5">
-      <img src="./images/doctor_info_1.png">
-      <img src="./images/doctor_info_2.png">
-      <img src="./images/doctor_info_3.png">
+
+    <row class="gap-1 m-5">
+      <column class="surface-clean p-5">
+        <row class="gap-5 flex-center mb-5">
+          <img style="width: 20%;" src="./images/surgery-room.png" />
+          <h3>Yмумий хирургия</h3>
+        </row>
+        <p class="text-size-1" class="text-size-0-7">Tananing har qanday mintaqasidagi shikastlanishlar va kasalliklarni tashxislash va davolashga qaratilgan keng ko'lamli operativ muolajalarni o'z ichiga oladi.</p>
+      </column>
+
+      <column class="surface-clean p-5">
+        <row class="gap-5 flex-center mb-5">
+         <img style="width: 20%;" src="./images/lor.png" />
+          <h3>LOR</h3>
+         </row>
+        <p class="text-size-1" class="text-size-0-7">LOR - bu bosh va bo'yin kasalliklarini jarrohlik va tibbiy davolash bilan shug'ullanadigan tibbiyotning jarrohlik kichik ixtisosligi.</p>
+      </column>
+
+      <column class="surface-clean p-5">
+        <row class="gap-5 flex-center mb-5">
+         <img style="width: 20%;" src="./images/scalpel.png" />
+          <h3>Laproskopik operatsiyalar</h3>
+         </row>
+        <p class="text-size-1" class="text-size-0-7">Laparoskopik jarrohlik - bu kichik (bir santimetrdan kam) kesmalar orqali qorin bo'shlig'iga qisqa, tor naychalar (trokarlar) kiritiladigan jarrohlik usuli.</p>
+      </column>
+
+      <column class="surface-clean p-5">
+        <row class="gap-5 flex-center mb-5">
+         <img style="width: 20%;" src="./images/bariatric.png" />
+          <h3>Bariatrik operatsiyalar</h3>
+         </row>
+        <p class="text-size-1" class="text-size-0-7">Bariatrik jarrohlik parhez va jismoniy mashqlar yordam bermaganda yoki vazningiz tufayli jiddiy sog'liq muammolariga duch kelganda bemorlarga yordam beradi.</p>
+      </column>
+
+      <column class="surface-clean p-5">
+        <row class="gap-5 flex-center mb-5">
+         <img style="width: 20%;" src="./images/gynecology.png" />
+          <h3>Ginekologiya</h3>
+         </row>
+        <p class="text-size-1" class="text-size-0-7">Hayotni biz bilan yangitdan boshlang. Eng so'ngi texnika va malakali shifokorlar faqat bizda.</p>
+      </column>
+
+      <column class="surface-clean p-5">
+        <row class="gap-5 flex-center mb-5">
+         <img style="width: 20%;" src="./images/inpatient.png" />
+          <h3>Statsionar davo</h3>
+         </row>
+        <p class="text-size-1" class="text-size-0-7">Ushbu davolash markazi bemorlarga ambulator yordam ko'rsatishdan ko'ra ko'proq intensiv davolanish uchun xavfsiz va xavfsiz joyni ta'minlaydi.</p>
+      </column>
+
     </row>
 
-    <row class="gap-2 m-5">
-      <p class="surface-clean w-20 d-flex flex-center">Onkohirurgiya</p>
-      <p class="surface-clean w-20 d-flex flex-center">Umumiy hirurgiya</p>
-      <p class="surface-clean w-20 d-flex flex-center">Endoskopik hirurgiya</p>
-      <p class="surface-clean w-20 d-flex flex-center">Bartiartik hirurgiya</p>
-    </row>
+    <column class="p-5 w-100">
+      <row class="w-80 flex-x-between">
+        <column>
+          <h2>25</h2>
+          <p>Malakali shifokor</p>
+        </column>
+        <column>
+          <h2>2500+</h2>
+          <p>Mamnum be'mor</p>
+        </column>
+        <column>
+          <h2>12+</h2>
+          <p>Yillik tajriba</p>
+        </column>
+        <column>
+          <h2>250+</h2>
+          <p>Yutuqlar</p>
+        </column>
+      </row>
 
+      <h2 style="margin: 3rem 0">Bizning sinovdan o'tgan ish jarayonimiz</h2>
 
-    <!--///////////////////////////// ERROR  //////////////////////// -->
+      <row class="gap-5">
+        <column>
+          <row>
+            <img src="./images/conversation.png" style="width: 100%" />
+            <h1>1</h1>
+          </row>
+          Be'pul konsultatsiya
+        </column>
 
-    <column class="about-doctors">
-      <h2>Barcha shifokorlar</h2>
-      <section>
-        <img src="./images/doctor_1.jpg">
-        <img src="./images/doctor_2.jpg">
-        <img src="./images/doctor_1.jpg">
-        <img src="./images/doctor_2.jpg">
-        <img src="./images/doctor_1.jpg">
-        <img src="./images/doctor_2.jpg">
-        <img src="./images/doctor_2.jpg">
-        <img src="./images/doctor_2.jpg">
-      </section>
+        <column>
+          <row>
+            <img src="./images/medical-team.png" style="width: 100%" />
+            <h1>2</h1>
+          </row>
+          Sana va vaqtni belgilang
+        </column>
+
+        <column>
+          <row>
+            <img src="./images/hospital.png" style="width: 100%" />
+            <h1>3</h1>
+          </row>
+          Shifoxonaga yetib keling
+        </column>
+
+        <column>
+          <row>
+            <img src="./images/vaccine.png" style="width: 100%" />
+            <h1>4</h1>
+          </row>
+          Sog'lom hayotdan zavqlaning
+        </column>
+      </row>
     </column>
+
+    <row class="gap-2"> 
+      <column class="surface-clean">
+        <img src="./images/doctor_1.jpg" />
+        <h3>Xusnuddinov Nizomiddin Zuxruddinovich</h3>
+      </column>
+      <column class="surface-clean">
+        <img src="./images/doctor_1.jpg" />
+        <h3>Doktorning ismi</h3>
+      </column>
+      <column class="surface-clean">
+        <img src="./images/doctor_1.jpg" />
+        <h3>Doktorning ismi</h3>
+      </column>
+      <column class="surface-clean">
+        <img src="./images/doctor_1.jpg" />
+        <h3>Doktorning ismi</h3>
+      </column>
+      <column class="surface-clean">
+        <img src="./images/doctor_1.jpg" />
+        <h3>Doktorning ismi</h3>
+      </column>
+    </row>
+
 
   </container>
   
