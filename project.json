@@ -1,88 +1,54 @@
 {
-    "database": {
-        "enabled": true,
-        "MySQL": {
-            "enabled": true,
-            "name": "surgery_tashkent",
-            "user": "surgerytashkent",
-            "password": "surgerytashkent_pass",
-            "host": "127.0.0.1",
-            "port": "33060",
-            "charset": "utf8mb4",
-            "collate": "utf8mb4_0900_ai_ci"
+  "default": {
+    "title": "Surgery Tashkent",
+    "language":{
+        "fallback": "uz",
+        "supported": ["uz"]
+      },
+    "debug": true,
+    "color": {
+        "brand": {
+          "hue": 207,
+          "saturation": 83,
+          "lightness": 53
         }
-    },
-
-    "default": {
-        "title": "Surgery Tashkent",
-        "language":{
-            "fallback": "uz",
-            "supported": ["uz"]
-          },
-        "debug": true,
-        "color": {
-            "brand": {
-              "hue": 207,
-              "saturation": 83,
-              "lightness": 53
-            }
-        }
-    },
-    "pages": {
-        "home": {
-          "enabled": true,
-          "endpoints": ["/home", "/"]
-        },
-        "about": {
-            "enabled": true,
-            "endpoints": ["/about"]
-        },
-        "services": {
-            "enabled": true,
-            "endpoints": ["/services"]
-        },
-        "gallery": {
-            "enabled": true,
-            "endpoints": ["/gallery"]
-        },
-        "contact": {
-            "enabled": true,
-            "endpoints": ["/contact"]
-        },
-        "results": {
-            "enabled": true,
-            "endpoints": ["/results"]
-        },
-
-
-        "logIn": {
-          "enabled": true,
-          "authenticity_statuses": ["unauthenticated"],
-          "endpoints": ["/logIn"]
-        },
-        "admin": {
-          "enabled": true,
-          "authenticity_statuses": ["authorized"],
-          "endpoints": ["/admin"]
-        },
-        "logOut": {
-          "enabled": true,
-          "authenticity_statuses": ["unauthorized", "authorized"],
-          "endpoints": ["/logOut"]
-        }
-
-    },
-    "menu": {
-        "enabled": true,
-        "menus": [
-          {"page":"home"},
-          {"page":"about", "icon": "about"},
-          {"page":"services", "icon": "services"},
-          {"page":"gallery", "icon": "gallery"},
-          {"page":"results", "icon": "results"},
-          {"page":"contact", "icon": "contact"},
-          {"page":"admin", "icon": "admin"},
-          {"page":"logOut"}
-        ]
     }
+  },
+  "pages": {
+    "home": {
+      "enabled": true,
+      "endpoints": ["/", "/home"]
+    },
+    "bariatric": {
+      "enabled": true,
+      "endpoints": ["/bariatric"]
+    },
+    "laproskopic": {
+      "enabled": true,
+      "endpoints": ["/laproskopic"]
+    },
+    "gallery": {
+      "enabled": true,
+      "endpoints": ["/gallery"]
+    },
+    "results": {
+      "enabled": true,
+      "endpoints": ["/results"]
+    },
+    "doctors": {
+      "enabled": true,
+      "endpoints": ["/doctors"]
+    }
+  },
+  "menu": {
+    "enabled": true,
+    "menus": [
+      {"page":"home"},
+      {"page":"bariatric"},
+      {"page":"laproskopic"},
+      {"page":"doctors"},
+      {"page":"gallery"},
+      {"page":"resuls"}
+    ]
+  }
 }
