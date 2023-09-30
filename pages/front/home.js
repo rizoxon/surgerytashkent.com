@@ -8,13 +8,13 @@ export default function content(){
         <row class="gap-1 p-5">
           <img src="images/logo.gif" class="w-60" style="align-self: center;" />
           <column class="gap-1 w-20">
-            <a href="#" class="surface-clean p-5 w-100">
+            <a href="/bariatric" class="surface-clean p-5 w-100">
               <column>
                 <image src="images/fattothin.png" class="w-20">
                 <h4>Bariatriya</h4>
               </column>
             </a>
-            <a href="#" class="surface-clean p-5 w-100">
+            <a href="/laproskopic" class="surface-clean p-5 w-100">
               <column>
                 <image src="images/surgery.png" class="w-20">
                 <h4>Laproskopik hirurgiya</h4>
@@ -23,99 +23,99 @@ export default function content(){
           </column>
         </row>
 
-        <row class="gap-1 p-5">
-          <column class="surface-clean p-2">
+        <row class="gap-2 p-5">
+          <column class="surface-clean flex-x-between p-2 pb-0">
             <img src="images/bariatric.png" class="w-20 mb-5">
             <row class="flex-x-between">
               <x-modal trigger="click" type="text" value="Batafsil" button class="mb-2">
                 Bariatrik operatsiya haqida ma'lumot + rasm
               </x-modal>
-              <h4>Bariartik operatsiyalar</h4>
+              <h3>Bariartik operatsiyalar</h3>
             </row>
           </column>
 
-          <column class="surface-clean p-2">
+          <column class="surface-clean flex-x-between p-2 pb-0">
             <img src="images/bariatric.png" class="w-20 mb-5">
             <row class="flex-x-between">
               <x-modal trigger="click" type="text" value="Batafsil" button class="mb-2">
                 Bariatrik operatsiya haqida ma'lumot + rasm
               </x-modal>
-              <h4>Bariartik operatsiyalar</h4>
+              <h3>Bariartik operatsiyalar</h3>
             </row>
           </column>
 
-          <column class="surface-clean p-2">
+          <column class="surface-clean flex-x-between p-2 pb-0">
             <img src="images/bariatric.png" class="w-20 mb-5">
             <row class="flex-x-between">
               <x-modal trigger="click" type="text" value="Batafsil" button class="mb-2">
                 Bariatrik operatsiya haqida ma'lumot + rasm
               </x-modal>
-              <h4>Bariartik operatsiyalar</h4>
+              <h3>Bariartik operatsiyalar</h3>
             </row>
           </column>
 
-          <column class="surface-clean p-2">
-            <img src="images/intestine.png" class="w-20 mb-5">
+          <column class="surface-clean flex-x-between p-2 pb-0">
+            <img src="images/bariatric.png" class="w-20 mb-5">
             <row class="flex-x-between">
               <x-modal trigger="click" type="text" value="Batafsil" button class="mb-2">
                 Bariatrik operatsiya haqida ma'lumot + rasm
               </x-modal>
-              <h4>Bariartik operatsiyalar</h4>
+              <h3>Bariartik operatsiyalar</h3>
             </row>
           </column>
         </row>
       </column>
 
-      <column class="w-100 p-5">
-        <h2 class="surface-2D w-100 text-center bg-info" style="color:white;">Yo'nalishlar</h2>
+      <column class="w-100 gap-5 p-5" style="padding-top: 0;">
+        <h2 class="surface-2D w-100 text-center bg-info" style="color:white; width: 100vw;">Yo'nalishlar</h2>
 
-        <row class="flex-x-between p-5 surface-2D">
+        <row class="flex-x-between p-5 bg-5 w-80">
           <img src="images/bariatric_surgery_process.jpg" class="w-40" />
           <column class="flex-y-end flex-x-between">
             <h2>Laproskopik xirurgiya</h2>
             <p class="text-right mt-3 mb-3">
               Bariatrik hirurgiya haqida qisqa ma'lumot Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae pulvinar risus. Praesent a cursus lorem. Curabitur nisi purus, luctus vitae pulvinar ac, finibus ac tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed gravida eleifend erat, ut placerat nibh aliquet pellentesque. Nam fringilla nulla ut ligula.
             </p>
-            <button><a href="#">Batafsil</a></button>
+            <button><a href="#" style="color:white;">Batafsil</a></button>
           </column>
         </row>
 
-        <row class="flex-x-between p-5 surface-2D">
+        <row class="flex-x-between p-5 bg-5 w-80">
           <img src="images/bariatric_surgery_process.jpg" class="w-40" />
           <column class="flex-y-end flex-x-between">
             <h2>Laproskopik xirurgiya</h2>
             <p class="text-right mt-3 mb-3">
               Bariatrik hirurgiya haqida qisqa ma'lumot Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae pulvinar risus. Praesent a cursus lorem. Curabitur nisi purus, luctus vitae pulvinar ac, finibus ac tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed gravida eleifend erat, ut placerat nibh aliquet pellentesque. Nam fringilla nulla ut ligula.
             </p>
-            <button><a href="#">Batafsil</a></button>
+            <button><a href="#" style="color:white;">Batafsil</a></button>
           </column>
         </row>
 
-        <row class="flex-x-between p-5 surface-2D">
+        <row class="flex-x-between p-5 bg-5 w-80">
           <img src="images/bariatric_surgery_process.jpg" class="w-40" />
           <column class="flex-y-end flex-x-between">
             <h2>Laproskopik xirurgiya</h2>
             <p class="text-right mt-3 mb-3">
               Bariatrik hirurgiya haqida qisqa ma'lumot Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae pulvinar risus. Praesent a cursus lorem. Curabitur nisi purus, luctus vitae pulvinar ac, finibus ac tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed gravida eleifend erat, ut placerat nibh aliquet pellentesque. Nam fringilla nulla ut ligula.
             </p>
-            <button><a href="#">Batafsil</a></button>
+            <button><a href="#" style="color:white;">Batafsil</a></button>
           </column>
         </row>
 
-        <row class="flex-x-between p-5 surface-2D">
+        <row class="flex-x-between p-5 bg-5 w-80">
           <img src="images/bariatric_surgery_process.jpg" class="w-40" />
           <column class="flex-y-end flex-x-between">
             <h2>Laproskopik xirurgiya</h2>
             <p class="text-right mt-3 mb-3">
               Bariatrik hirurgiya haqida qisqa ma'lumot Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae pulvinar risus. Praesent a cursus lorem. Curabitur nisi purus, luctus vitae pulvinar ac, finibus ac tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed gravida eleifend erat, ut placerat nibh aliquet pellentesque. Nam fringilla nulla ut ligula.
             </p>
-            <button><a href="#">Batafsil</a></button>
+            <button><a href="#" style="color:white;">Batafsil</a></button>
           </column>
         </row>
 
       </column>
 
-      <column class="w-100 p-5">
+      <column class="w-100">
         <h2 class="surface-2D w-100 text-center bg-info" style="color:white;">Shifokorlar</h2>
 
         <row class="flex-x-between p-5 surface-2D">
