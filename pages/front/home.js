@@ -28,97 +28,173 @@ export default function content(){
             <img src="images/bariatric.png" class="w-20 mb-5">
             <row class="flex-x-between">
               <x-modal trigger="click" type="text" value="Batafsil" button class="mb-2">
-                Bariatrik operatsiya haqida ma'lumot + rasm
+                <row class="p-2 gap-1 box-modal">
+                  <img src="images/bar3.jpg" class="w-30">
+                  <img src="images/bar1.jpg" class="w-30">
+                  <img src="images/bar5.jpg" class="w-30">
+                </row>
+                <column class="gap-1 p-2">
+                  <h3>Ma'lumot</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod distinctio eum suscipit non repellat illo cumque! Molestias praesentium quasi aliquam autem, quia voluptatem odio, eveniet, perspiciatis doloremque tenetur doloribus nostrum.
+                  </p>
+                </column>
               </x-modal>
-              <h3>Bariartik operatsiyalar</h3>
+              <h3>Bariatriya</h3>
             </row>
           </column>
 
           <column class="surface-clean flex-x-between p-2 pb-0">
-            <img src="images/bariatric.png" class="w-20 mb-5">
+            <img src="images/nose.png" class="w-20 mb-5">
             <row class="flex-x-between">
               <x-modal trigger="click" type="text" value="Batafsil" button class="mb-2">
-                Bariatrik operatsiya haqida ma'lumot + rasm
+                <row class="p-2 gap-1 box-modal">
+                  <img src="images/bar3.jpg" class="w-30">
+                  <img src="images/bar1.jpg" class="w-30">
+                  <img src="images/bar5.jpg" class="w-30">
+                </row>
+                <column class="gap-1 p-2">
+                  <h3>Ma'lumot</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod distinctio eum suscipit non repellat illo cumque! Molestias praesentium quasi aliquam autem, quia voluptatem odio, eveniet, perspiciatis doloremque tenetur doloribus nostrum.
+                  </p>
+                </column>
               </x-modal>
-              <h3>Bariartik operatsiyalar</h3>
+              <h3>XEK</h3>
             </row>
           </column>
 
           <column class="surface-clean flex-x-between p-2 pb-0">
-            <img src="images/bariatric.png" class="w-20 mb-5">
+            <img src="images/back.png" class="w-20 mb-5">
             <row class="flex-x-between">
               <x-modal trigger="click" type="text" value="Batafsil" button class="mb-2">
-                Bariatrik operatsiya haqida ma'lumot + rasm
+                <row class="p-2 gap-1 box-modal">
+                  <img src="images/bar3.jpg" class="w-30">
+                  <img src="images/bar1.jpg" class="w-30">
+                  <img src="images/bar5.jpg" class="w-30">
+                </row>
+                <column class="gap-1 p-2">
+                  <h3>Ma'lumot</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod distinctio eum suscipit non repellat illo cumque! Molestias praesentium quasi aliquam autem, quia voluptatem odio, eveniet, perspiciatis doloremque tenetur doloribus nostrum.
+                  </p>
+                </column>
               </x-modal>
-              <h3>Bariartik operatsiyalar</h3>
+              <h3>Grija</h3>
             </row>
           </column>
 
           <column class="surface-clean flex-x-between p-2 pb-0">
-            <img src="images/bariatric.png" class="w-20 mb-5">
+            <img src="images/intestine.png" class="w-20 mb-5">
             <row class="flex-x-between">
               <x-modal trigger="click" type="text" value="Batafsil" button class="mb-2">
-                Bariatrik operatsiya haqida ma'lumot + rasm
+                <row class="p-2 gap-1 box-modal">
+                  <img src="images/bar3.jpg" class="w-30">
+                  <img src="images/bar1.jpg" class="w-30">
+                  <img src="images/bar5.jpg" class="w-30">
+                </row>
+                <column class="gap-1 p-2">
+                  <h3>Ma'lumot</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod distinctio eum suscipit non repellat illo cumque! Molestias praesentium quasi aliquam autem, quia voluptatem odio, eveniet, perspiciatis doloremque tenetur doloribus nostrum.
+                  </p>
+                </column>
               </x-modal>
-              <h3>Bariartik operatsiyalar</h3>
+              <h3>Operatsiya nomi</h3>
             </row>
           </column>
         </row>
       </column>
 
-      <column class="w-100 gap-5 p-5" style="padding-top: 0;">
+      <column class="w-100 gap-3 p-5" style="padding-top: 0;">
         <h2 class="surface-2D w-100 text-center bg-info" style="color:white; width: 100vw;">Yo'nalishlar</h2>
 
-        <row class="flex-x-between p-5 bg-5 w-80">
-          <img src="images/bariatric_surgery_process.jpg" class="w-40" />
+        <row class="flex-x-between p-5 bg-5 w-90">
+          <img src="images/bariatric_surgery_process.jpg" class="w-40 mr-5" />
           <column class="flex-y-end flex-x-between">
             <h2>Laproskopik xirurgiya</h2>
-            <p class="text-right mt-3 mb-3">
+            <p class="mt-3 mb-3">
               Bariatrik hirurgiya haqida qisqa ma'lumot Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae pulvinar risus. Praesent a cursus lorem. Curabitur nisi purus, luctus vitae pulvinar ac, finibus ac tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed gravida eleifend erat, ut placerat nibh aliquet pellentesque. Nam fringilla nulla ut ligula.
             </p>
-            <button><a href="#" style="color:white;">Batafsil</a></button>
+            <button><a href="/laproskopic" style="color:white;">Batafsil</a></button>
           </column>
         </row>
 
-        <row class="flex-x-between p-5 bg-5 w-80">
-          <img src="images/bariatric_surgery_process.jpg" class="w-40" />
+        <row class="flex-x-between p-5 bg-5 w-90">
+          <img src="images/general_surgery.jpg" class="w-40 mr-5" />
           <column class="flex-y-end flex-x-between">
-            <h2>Laproskopik xirurgiya</h2>
-            <p class="text-right mt-3 mb-3">
+            <h2>Umumiy xirurgik operatsiya</h2>
+            <p class="mt-3 mb-3">
               Bariatrik hirurgiya haqida qisqa ma'lumot Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae pulvinar risus. Praesent a cursus lorem. Curabitur nisi purus, luctus vitae pulvinar ac, finibus ac tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed gravida eleifend erat, ut placerat nibh aliquet pellentesque. Nam fringilla nulla ut ligula.
             </p>
-            <button><a href="#" style="color:white;">Batafsil</a></button>
+            <x-modal trigger="click" type="text" value="Batafsil" button class="mb-2">
+              <row class="p-2 gap-1 box-modal">
+                <img src="images/bar3.jpg" class="w-30">
+                <img src="images/bar1.jpg" class="w-30">
+                <img src="images/bar5.jpg" class="w-30">
+              </row>
+              <column class="gap-1 p-2">
+                <h3>Ma'lumot</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod distinctio eum suscipit non repellat illo cumque! Molestias praesentium quasi aliquam autem, quia voluptatem odio, eveniet, perspiciatis doloremque tenetur doloribus nostrum.
+                </p>
+              </column>
+            </x-modal>
           </column>
         </row>
 
-        <row class="flex-x-between p-5 bg-5 w-80">
-          <img src="images/bariatric_surgery_process.jpg" class="w-40" />
+        <row class="flex-x-between p-5 bg-5 w-90">
+          <img src="images/oncology.jpg" class="w-40 mr-5" />
           <column class="flex-y-end flex-x-between">
-            <h2>Laproskopik xirurgiya</h2>
-            <p class="text-right mt-3 mb-3">
+            <h2>Onkalogiya</h2>
+            <p class="mt-3 mb-3">
               Bariatrik hirurgiya haqida qisqa ma'lumot Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae pulvinar risus. Praesent a cursus lorem. Curabitur nisi purus, luctus vitae pulvinar ac, finibus ac tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed gravida eleifend erat, ut placerat nibh aliquet pellentesque. Nam fringilla nulla ut ligula.
             </p>
-            <button><a href="#" style="color:white;">Batafsil</a></button>
+            <x-modal trigger="click" type="text" value="Batafsil" button class="mb-2">
+              <row class="p-2 gap-1 box-modal">
+                <img src="images/bar3.jpg" class="w-30">
+                <img src="images/bar1.jpg" class="w-30">
+                <img src="images/bar5.jpg" class="w-30">
+              </row>
+              <column class="gap-1 p-2">
+                <h3>Ma'lumot</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod distinctio eum suscipit non repellat illo cumque! Molestias praesentium quasi aliquam autem, quia voluptatem odio, eveniet, perspiciatis doloremque tenetur doloribus nostrum.
+                </p>
+              </column>
+            </x-modal>
           </column>
         </row>
 
-        <row class="flex-x-between p-5 bg-5 w-80">
-          <img src="images/bariatric_surgery_process.jpg" class="w-40" />
+        <row class="flex-x-between p-5 bg-5 w-90">
+          <img src="images/statsionar.jpg" class="w-40 mr-5" />
           <column class="flex-y-end flex-x-between">
-            <h2>Laproskopik xirurgiya</h2>
-            <p class="text-right mt-3 mb-3">
+            <h2>Statsionar davolash</h2>
+            <p class="mt-3 mb-3">
               Bariatrik hirurgiya haqida qisqa ma'lumot Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae pulvinar risus. Praesent a cursus lorem. Curabitur nisi purus, luctus vitae pulvinar ac, finibus ac tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed gravida eleifend erat, ut placerat nibh aliquet pellentesque. Nam fringilla nulla ut ligula.
             </p>
-            <button><a href="#" style="color:white;">Batafsil</a></button>
+            <x-modal trigger="click" type="text" value="Batafsil" button class="mb-2">
+              <row class="p-2 gap-1 box-modal">
+                <img src="images/bar3.jpg" class="w-30">
+                <img src="images/bar1.jpg" class="w-30">
+                <img src="images/bar5.jpg" class="w-30">
+              </row>
+              <column class="gap-1 p-2">
+                <h3>Ma'lumot</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod distinctio eum suscipit non repellat illo cumque! Molestias praesentium quasi aliquam autem, quia voluptatem odio, eveniet, perspiciatis doloremque tenetur doloribus nostrum.
+                </p>
+              </column>
+            </x-modal>
           </column>
         </row>
 
       </column>
 
-      <column class="w-100">
+      <column class="w-100 gap-2">
         <h2 class="surface-2D w-100 text-center bg-info" style="color:white;">Shifokorlar</h2>
 
-        <row class="flex-x-between p-5 surface-2D">
+        <row class="flex-x-between p-5 surface-2D w-90">
           <column class="flex-y-start flex-x-between p-5">
             <h2>Husnuddinov Nizomuddin Zuhruddinnovich</h2>
             <p class="mt-3 mb-3">
@@ -126,14 +202,14 @@ export default function content(){
             </p>
             <row class="flex-x-start gap-1">
               <x-modal trigger="click" type="text" value="Sertifikatlar" button>Sertifikat rasmlari</x-modal>
-              <x-modal trigger="click" type="text" value="Yutuqlar" button>Yutuqlar rasmlari</x-modal>
-              <x-modal trigger="click" type="text" value="Chet-el malakasi" button>Chet eldagi rasmlar</x-modal>
+              <x-modal trigger="click" type="text" value="Diplomlar" button>Diplom rasmlari</x-modal>
+              <x-modal trigger="click" type="text" value="Yutuqlar" button>Yutuq rasmlar</x-modal>
             </row>
           </column>
           <img src="images/main_doctor_1.jpg" class="w-20" />
         </row>
 
-        <row class="flex-x-between p-5 surface-2D">
+        <row class="flex-x-between p-5 surface-2D w-90">
           <column class="flex-y-start flex-x-between p-5">
             <h2>Odilho'jaev Asqar Anvarovich</h2>
             <p class="mt-3 mb-3">
@@ -141,34 +217,34 @@ export default function content(){
             </p>
             <row class="flex-x-start gap-1">
               <x-modal trigger="click" type="text" value="Sertifikatlar" button>Sertifikat rasmlari</x-modal>
-              <x-modal trigger="click" type="text" value="Yutuqlar" button>Yutuqlar rasmlari</x-modal>
-              <x-modal trigger="click" type="text" value="Chet-el malakasi" button>Chet eldagi rasmlar</x-modal>
+              <x-modal trigger="click" type="text" value="Diplomlar" button>Diplom rasmlari</x-modal>
+              <x-modal trigger="click" type="text" value="Yutuqlar" button>Yutuq rasmlar</x-modal>
             </row>
           </column>
           <img src="images/main_doctor_2.jpg" class="w-20" />
         </row>
       </column>
 
-      <column class="w-100 p-5">
+      <column class="w-100 mt-5">
         <h2 class="surface-2D w-100 text-center bg-info" style="color:white;">Klinika</h2>
 
-        <row>
+        <row class="p-5">
           <img src="/images/klinika.jpg" class="w-40" alt="Doctor">
           <column>
             <h1>Sabodarmon</h1>
             <p class="p-5">
-              -консультатив поликлиника <br>
-              -кундузги шифохона <br>
-              -кардиология булими <br>
-              -терапия булими <br>
-              -неврология булими <br>
-              -гепатология булими <br>
-              -жаррохлик амалиётини бажариш булими <br>
-              -лаборотор текширувлар( кон ва сийдик тахлили, гормонал текширувлар, биохимик кон тахлили , коагулограмма, гепатит в,с ва хоказо) <br>
-              -инструментал текширувлар (ЭКГ, ЭХОКГ, ЭЭГ, ЭХОЭГ, УЗИ, кольпоскопия) <br>
-              - ЭФГДС <br>
-              - озонотерапия <br>
-              -комплекс даволар мавжуд <br>
+              -konsultativ poliklinika <br>
+              -kunduzgi shifoxona <br>
+              -kardiologiya bo'limi <br>
+              -terapiya bo'limi <br>
+              -nevrologiya bo'limi <br>
+              -gepatologiya bo'limi <br>
+              -jarroxlik amaliyotini bajarish bo'limi <br>
+              -laborotor tekshiruvlar( qon va siydik taxlili, gormonal tekshiruvlar, bioximik kon taxlili , koagulogramma, gepatit B,S va xokazo) <br>
+              -instrumental tekshiruvlar (EKG, EXOKG, EEG, EXOEG, UZI, kolposkopiya) <br>
+              - EFGDS <br>
+              - ozonoterapiya <br>
+              -kompleks davolar mavjud <br>
             </p>
             <row class="gap-2 flex-center">
               <p class="text-size-2">+998 (90) 123-45-67 </p>
@@ -179,8 +255,9 @@ export default function content(){
       </column>
 
 
-      <column class="w-100 p-5">
-        <h2 class="surface-2D w-100 text-center bg-info" style="color:white;">Boriatriya</h2>
+      <column class="w-100">
+        <h2 class="surface-2D w-100 text-center bg-info" style="color:white;">Bariatriya</h2>
+        <h4 style="margin: 20px, 0;">O'z tana vazn indeksingizni o'lchang:</h4>
         <form class="c-bmi">
           <label class="c-bmi__label"><strong>Bo'y</strong>
             <input class="c-bmi__range" type="range" name="h" min="150" max="230" step="0.5" value="180" />
@@ -212,6 +289,18 @@ export default function content(){
             <div class="c-bmi__group-text">Tana vazn indeksi 30 ga teng yoki yuqori bo'lgan odamlarda semizlik bo'lishi mumkin, bu sog'likka zarar etkazishi mumkin bo'lgan kasallik yoki ortiqcha yog' to'planishi sifatida aniqlanadi.</div>
           </div>
         </form>
+
+        <row class="p-2 gap-1 box-modal">
+          <img src="images/bar3.jpg" class="w-30">
+          <img src="images/bar1.jpg" class="w-30">
+          <img src="images/bar5.jpg" class="w-30">
+        </row>
+        <column class="gap-1 p-2">
+          <h3 class="w-90">Ma'lumot</h3>
+          <p class="w-90">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod distinctio eum suscipit non repellat illo cumque! Molestias praesentium quasi aliquam autem, quia voluptatem odio, eveniet, perspiciatis doloremque tenetur doloribus nostrum.
+          </p>
+        </column>
       </column>
 
     </container>

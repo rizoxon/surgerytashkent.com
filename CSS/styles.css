@@ -3,11 +3,9 @@ body{
 }
 container.home {
   & > column:nth-child(2){
-    background-image: url(images/klinika.jpg);
+    background-image: url(images/surgery_room.jpg);
     background-size: cover;
     background-attachment: fixed;
-    background-color: rgba(71, 165, 241, 0.7);
-    background-blend-mode: overlay;
   }
 }
 @media screen and (min-width: 940px) and (max-width: 1140px){
@@ -54,6 +52,9 @@ container.home {
         }
       }
     }
+  }
+  .box-modal > img{
+    width: 100%;
   }
 }
 
