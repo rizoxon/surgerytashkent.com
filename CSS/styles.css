@@ -1,6 +1,10 @@
 body{
   min-width: 100%;
 }
+button{
+  box-shadow: none;
+  color: white;
+}
 container.home {
   & > column:nth-child(2){
     background-image: url(images/surgery_room.jpg);
@@ -11,6 +15,7 @@ container.home {
 @media screen and (min-width: 940px) and (max-width: 1140px){
   container.home {
     & > column:nth-child(2){
+      background-attachment: unset;
       & > row {
         & > img {
           width: auto;
@@ -31,6 +36,9 @@ container.home {
       }
     }
     & > column:nth-child(2){
+      /* background-attachment: unset; */
+      background-size: 400%;
+      background-position: center;
       & > row {
         flex-direction: column;
         & > img {

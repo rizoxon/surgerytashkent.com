@@ -109,7 +109,7 @@ export default function content(){
       <column class="w-100 gap-3 p-5" style="padding-top: 0;">
         <h2 class="surface-2D w-100 text-center bg-info" style="color:white; width: 100vw;">Yo'nalishlar</h2>
 
-        <row class="flex-x-between p-5 bg-5 w-90">
+        <row class="flex-x-between p-5 surface-clean  w-90">
           <img src="images/bariatric_surgery_process.jpg" class="w-40 mr-5" />
           <column class="flex-y-end flex-x-between">
             <h2>Laproskopik xirurgiya</h2>
@@ -120,7 +120,7 @@ export default function content(){
           </column>
         </row>
 
-        <row class="flex-x-between p-5 bg-5 w-90">
+        <row class="flex-x-between p-5 surface-clean w-90">
           <img src="images/general_surgery.jpg" class="w-40 mr-5" />
           <column class="flex-y-end flex-x-between">
             <h2>Umumiy xirurgik operatsiya</h2>
@@ -143,7 +143,7 @@ export default function content(){
           </column>
         </row>
 
-        <row class="flex-x-between p-5 bg-5 w-90">
+        <row class="flex-x-between p-5 surface-clean w-90">
           <img src="images/oncology.jpg" class="w-40 mr-5" />
           <column class="flex-y-end flex-x-between">
             <h2>Onkalogiya</h2>
@@ -166,7 +166,7 @@ export default function content(){
           </column>
         </row>
 
-        <row class="flex-x-between p-5 bg-5 w-90">
+        <row class="flex-x-between p-5 surface-clean w-90 mb-5">
           <img src="images/statsionar.jpg" class="w-40 mr-5" />
           <column class="flex-y-end flex-x-between">
             <h2>Statsionar davolash</h2>
@@ -196,21 +196,6 @@ export default function content(){
 
         <row class="flex-x-between p-5 surface-2D w-90">
           <column class="flex-y-start flex-x-between p-5">
-            <h2>Husnuddinov Nizomuddin Zuhruddinnovich</h2>
-            <p class="mt-3 mb-3">
-              Bariatrik hirurgiya haqida qisqa ma'lumot Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae pulvinar risus. Praesent a cursus lorem. Curabitur nisi purus, luctus vitae pulvinar ac, finibus ac tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed gravida eleifend erat, ut placerat nibh aliquet pellentesque. Nam fringilla nulla ut ligula.
-            </p>
-            <row class="flex-x-start gap-1">
-              <x-modal trigger="click" type="text" value="Sertifikatlar" button>Sertifikat rasmlari</x-modal>
-              <x-modal trigger="click" type="text" value="Diplomlar" button>Diplom rasmlari</x-modal>
-              <x-modal trigger="click" type="text" value="Yutuqlar" button>Yutuq rasmlar</x-modal>
-            </row>
-          </column>
-          <img src="images/main_doctor_1.jpg" class="w-20" />
-        </row>
-
-        <row class="flex-x-between p-5 surface-2D w-90">
-          <column class="flex-y-start flex-x-between p-5">
             <h2>Odilho'jaev Asqar Anvarovich</h2>
             <p class="mt-3 mb-3">
               Bariatrik hirurgiya haqida qisqa ma'lumot Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae pulvinar risus. Praesent a cursus lorem. Curabitur nisi purus, luctus vitae pulvinar ac, finibus ac tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed gravida eleifend erat, ut placerat nibh aliquet pellentesque. Nam fringilla nulla ut ligula.
@@ -222,6 +207,21 @@ export default function content(){
             </row>
           </column>
           <img src="images/main_doctor_2.jpg" class="w-20" />
+        </row>
+
+        <row class="flex-x-between p-5 surface-2D w-90">
+          <column class="flex-y-start flex-x-between p-5">
+            <h2>Husnuddinov Nizomuddin Zuhruddinnovich</h2>
+            <p class="mt-3 mb-3">
+              Bariatrik hirurgiya haqida qisqa ma'lumot Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae pulvinar risus. Praesent a cursus lorem. Curabitur nisi purus, luctus vitae pulvinar ac, finibus ac tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed gravida eleifend erat, ut placerat nibh aliquet pellentesque. Nam fringilla nulla ut ligula.
+            </p>
+            <row class="flex-x-start gap-1">
+              <x-modal trigger="click" type="text" value="Sertifikatlar" button>Sertifikat rasmlari</x-modal>
+              <x-modal trigger="click" type="text" value="Diplomlar" button>Diplom rasmlari</x-modal>
+              <x-modal trigger="click" type="text" value="Yutuqlar" button>Yutuq rasmlar</x-modal>
+            </row>
+          </column>
+          <img src="images/main_doctor_1.jpg" class="w-20" />
         </row>
       </column>
 
@@ -301,9 +301,23 @@ export default function content(){
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod distinctio eum suscipit non repellat illo cumque! Molestias praesentium quasi aliquam autem, quia voluptatem odio, eveniet, perspiciatis doloremque tenetur doloribus nostrum.
           </p>
         </column>
+
+        <h2 class="surface-2D w-100 text-center bg-info" style="color:white;">Laproskopiya</h2>
+        <row class="p-2 gap-1 box-modal">
+          <img src="images/laproskopiya1.jpg" class="w-30">
+          <img src="images/laproskopiya2.jpg" class="w-30">
+          <img src="images/laproskopiya3.jpg" class="w-30">
+        </row>
+        <column class="gap-1 p-2">
+          <h3 class="w-90">Ma'lumot</h3>
+          <p class="w-90">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod distinctio eum suscipit non repellat illo cumque! Molestias praesentium quasi aliquam autem, quia voluptatem odio, eveniet, perspiciatis doloremque tenetur doloribus nostrum.
+          </p>
+        </column>
       </column>
 
     </container>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   `;
 }
 export function after(){
@@ -312,7 +326,7 @@ export function after(){
     t=this.w.valueAsNumber,
     i=parseFloat(t/(e/100)**2).toFixed(2),
     h=[[0,18.49],[18.5,24.99],[25,29.99],[30,34.99],[35,39.99],[40,100]].findIndex(e=>e[0]<=i&&i<e[1]);let o=(.393700787*e).toFixed(0);
-    this.ho.value=`${e} cm / ${Math.floor(o/12)}' ${o%=12}"`,this.wo.value=`${t} kg / ${(2.2046*t).toFixed(2)} lb`,
+    this.ho.value=`${e} cm`,this.wo.value=`${t} kg`,
     this.g[h].checked=!0,this.r.value=i
   }
   const bmi = document.querySelector('.c-bmi')
