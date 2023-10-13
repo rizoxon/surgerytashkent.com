@@ -38,6 +38,22 @@
     "doctors": {
       "enabled": true,
       "endpoints": ["/doctors"]
+    },
+
+    "logIn": {
+      "enabled": true,
+      "authenticity_statuses": ["unauthenticated"],
+      "endpoints": ["/logIn"]
+    },
+    "admin": {
+      "enabled": true,
+      "authenticity_statuses": ["authorized"],
+      "endpoints": ["/admin"]
+    },
+    "logOut": {
+      "enabled": true,
+      "authenticity_statuses": ["unauthorized", "authorized"],
+      "endpoints": ["/logOut"]
     }
   },
   "menu": {
@@ -48,7 +64,9 @@
       {"page":"laproskopic"},
       {"page":"doctors"},
       {"page":"gallery"},
-      {"page":"resuls"}
+      {"page":"resuls"},
+      {"page":"admin", "icon": "admin"},
+      {"page":"logOut"}
     ]
   }
 }

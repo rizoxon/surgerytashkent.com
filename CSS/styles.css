@@ -46,6 +46,39 @@ container.home {
     }
   }
 }
+container.bariatric, container.laproskopic{
+  & > row:nth-child(3){
+    & > column:nth-child(1){
+      background-color: rgba(255, 205, 75, 0.5);
+      border: 2px solid #FFCD4B;
+    }
+    & > column:nth-child(2){
+      background-color: rgba(121, 172, 120, 0.5);
+      border: 2px solid #79AC78;
+    }
+    & > column:nth-child(3){
+      background-color: rgba(255, 105, 105, 0.5);
+      border: 2px solid #FF6969;
+    }
+    & > column:nth-child(4){
+      background-color: rgba(92, 210, 230, 0.5);
+      border: 2px solid #5CD2E6;
+    }
+  }
+}
+
+container.laproskopic{
+  & > column:nth-child(2){
+    & > column{
+      & > * {
+        width: 100%;
+      }
+      & > p:nth-child(2){
+        margin: 20px 0;
+      }
+    }
+  }
+}
 
 @media screen and (max-width: 940px){
   form[for="sendComment"]{
@@ -87,6 +120,37 @@ container.home {
   }
   .box-modal > img{
     width: 100%;
+  }
+
+  container.bariatric, container.laproskopic{
+    & > row:nth-child(2){
+      & > column {
+        height: 50vh;
+        & > row > button{
+          margin: 10px;
+        }
+      }
+      & > img{
+        width: 100%;
+      }
+    }
+    & > row:nth-child(3){
+      padding: 10px;
+      display: grid;
+      gap: 10px;
+      grid-template-columns: 50% 50%;
+      grid-template-rows: auto;
+    }
+    & > row:nth-child(4), & > row:nth-child(5){
+      & > img {
+        width: 100%;
+      }
+    }
+  }
+  container.laproskopic{
+    & > h1{
+      font-size: larger;
+    }
   }
 }
 
