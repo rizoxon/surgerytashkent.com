@@ -106,7 +106,7 @@ export default function content(){
         </row>
       </column>
 
-      <column class="w-100 gap-3 p-5" style="padding-top: 0;">
+      <column class="w-100 gap-3" style="padding-top: 0;">
         <h2 class="surface-2D w-100 text-center bg-info" style="color:white; width: 100vw;">Yo'nalishlar</h2>
 
         <row class="flex-x-between p-5 surface-clean  w-90">
