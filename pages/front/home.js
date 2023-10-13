@@ -223,6 +223,7 @@ export default function content(){
           </column>
           <img src="images/main_doctor_1.jpg" class="w-20" />
         </row>
+        <button><a href="/doctors" style="color:white">Barcha shifokorlar haqida ma'lumot</a></button>
       </column>
 
       <column class="w-100 mt-5">
@@ -302,7 +303,8 @@ export default function content(){
           </p>
         </column>
 
-        <h2 class="surface-2D w-100 text-center bg-info" style="color:white;">Laproskopiya</h2>
+        <h2 class="surface-2D w-100 text-center bg-info mt-3 mb-3" style="color:white;">Laproskopiya</h2>
+
         <row class="p-2 gap-1 box-modal">
           <img src="images/laproskopiya1.jpg" class="w-30">
           <img src="images/laproskopiya2.jpg" class="w-30">
@@ -314,6 +316,104 @@ export default function content(){
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod distinctio eum suscipit non repellat illo cumque! Molestias praesentium quasi aliquam autem, quia voluptatem odio, eveniet, perspiciatis doloremque tenetur doloribus nostrum.
           </p>
         </column>
+
+        <h2 class="surface-2D w-100 text-center bg-info mt-3 mb-3" style="color:white;">Natijalar</h2>
+
+        <row class="gap-2 p-3">
+          <column class="surface-clean p-2">
+            <row>
+              <column>
+                <img src="images/before1.jpg" class="w-100 p-1">
+                <h3 class="p-1 info">Avval</h3>
+              </column>
+              <column>
+                <img src="images/after1.jpg" class="w-100 p-1">
+                <h3 class="p-1 info">Keyin</h3>
+              </column>
+            </row>
+          </column>
+          <column class="surface-clean p-2">
+            <row>
+              <column>
+                <img src="images/before1.jpg" class="w-100 p-1">
+                <h3 class="p-1 info">Avval</h3>
+              </column>
+              <column>
+                <img src="images/after1.jpg" class="w-100 p-1">
+                <h3 class="p-1 info">Keyin</h3>
+              </column>
+            </row>
+          </column>
+          <column class="surface-clean p-2">
+            <row>
+              <column>
+                <img src="images/before1.jpg" class="w-100 p-1">
+                <h3 class="p-1 info">Avval</h3>
+              </column>
+              <column>
+                <img src="images/after1.jpg" class="w-100 p-1">
+                <h3 class="p-1 info">Keyin</h3>
+              </column>
+            </row>
+          </column>
+        </row>
+
+        <h2 class="surface-2D w-100 text-center bg-info mt-3 mb-3" style="color:white;">Aloqa</h2>
+        <row class="surface-clean p-2 w-70 contact">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d5991.974372102905!2d69.21694!3d41.330892!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDHCsDE5JzUxLjIiTiA2OcKwMTMnMDEuMCJF!5e0!3m2!1sen!2s!4v1697022796395!5m2!1sen!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <column class="p-2 text-left w-30">
+            <h4 class="info">Manzil</h4>
+            <p>
+              Ўзбекистон, Тошкент <br>
+              Нурафшон кўчаси, Уй № 7А
+            </p>
+            <h4 class="info">Telefon raqam</h4>
+            <p>
+              +998 90 123-45-67
+            </p>
+            <h4 class="info" style="padding-bottom: 5%;">Ijtimoiy tarmoqlar</h4>
+            <column class="gap-1">
+              <row class="gap-1 flex-center">
+                <a href="#" class="bg-5 p-2 d-flex flex-center">
+                  <img src="images/telegram.png" class="w-50">
+                </a>
+                <a href="#" class="bg-5 p-2 d-flex flex-center">
+                  <img src="images/instagram.png" class="w-50">
+                </a>
+              </row>
+              <row class="gap-1 flex-center">
+                <a href="#" class="bg-5 p-2 d-flex flex-center">
+                  <img src="images/facebook.png" class="w-50">
+                </a>
+                <a href="#" class="bg-5 p-2 d-flex flex-center">
+                  <img src="images/youtube.png" class="w-50">
+                </a>
+              </row>
+            </column>
+          </column>
+        </row>
+
+        <form action="/" for="sendComment" class="w-70 surface-clean p-5 mt-5 mb-5">
+          <row class="gap-1">
+            <label>
+              <p for="fullName">Ismingizni kiriting</p>
+              <input type="text" name="fullName"  />
+            </label>
+            <label>
+              <p for="phoneNumber">Telefon raqamingizni kiriting</p>
+              <input type="tel" name="phoneNumber"  />
+            </label>
+          </row>
+          <labe>
+            <p for="comment">Komentariya qoldiring</p>
+            <textarea name="comment"></textarea>
+          </labe>
+          <label>
+            <input type="submit" name="send" value="Jo'natish" />
+            <p for="sendComment"></p>
+          </label>
+        </form>
+
       </column>
 
     </container>

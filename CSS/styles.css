@@ -5,6 +5,27 @@ button{
   box-shadow: none;
   color: white;
 }
+.contact > column {
+  & > *{
+    width: 100%;
+    text-align: left;
+  }
+  & > h4:not(:first-child){
+    padding-top: 10%;
+  }
+  & > column{
+    & > row{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      & > * {
+        width: 100%;
+      }
+    }
+  }
+}
+.info {
+  color: #2491eb;
+}
 container.home {
   & > column:nth-child(2){
     background-image: url(images/surgery_room.jpg);
@@ -27,6 +48,9 @@ container.home {
 }
 
 @media screen and (max-width: 940px){
+  form[for="sendComment"]{
+    width: 100%;
+  }
   container.home {
     & > column:nth-child(1){
       & > row:nth-child(1){

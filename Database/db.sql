@@ -212,37 +212,3 @@ CREATE TABLE IF NOT EXISTS `comments` (
 
   PRIMARY KEY (`id`)
 );
-
-CREATE TABLE IF NOT EXISTS `photos` (
-  `id` INT NOT NULL UNIQUE auto_increment,
-  `title` VARCHAR(100) NOT NULL,
-  `file` VARCHAR(100) NOT NULL,
-
-  PRIMARY KEY (`id`)
-);
-
-
-CREATE TABLE IF NOT EXISTS `photo_labels` (
-  `id` INT NOT NULL UNIQUE auto_increment,
-  `name` VARCHAR(20) NOT NULL UNIQUE,
-  PRIMARY KEY (`id`)
-);
-INSERT INTO photo_labels (name)
-  VALUES
-    ("general"),
-    ("doctor"),
-    ("result")
-;
-
-CREATE TABLE IF NOT EXISTS `photos_labels` (
-  `id` INT NOT NULL UNIQUE auto_increment,
-  `photo` INT NOT NULL,
-  `label` INT NOT NULL,
-
-  FOREIGN KEY (`photo`) REFERENCES photos(`id`) ON DELETE CASCADE,
-  FOREIGN KEY (`label`) REFERENCES photo_labels(`id`) ON DELETE CASCADE,
-
-  CONSTRAINT `unique_photos_labels` UNIQUE (`photo`, `label`),
-
-  PRIMARY KEY (`id`)
-);
