@@ -195,6 +195,7 @@ export default function content(){
         <h2 class="surface-2D w-100 text-center bg-info" style="color:white;">Shifokorlar</h2>
 
         <row class="flex-x-between p-5 surface-2D w-90">
+          <img src="images/main_doctor_2.jpg" class="w-20" />
           <column class="flex-y-start flex-x-between p-5">
             <h2>Odilho'jaev Asqar Anvarovich</h2>
             <p class="mt-3 mb-3">
@@ -206,10 +207,10 @@ export default function content(){
               <x-modal trigger="click" type="text" value="Yutuqlar" button>Yutuq rasmlar</x-modal>
             </row>
           </column>
-          <img src="images/main_doctor_2.jpg" class="w-20" />
         </row>
 
         <row class="flex-x-between p-5 surface-2D w-90">
+          <img src="images/main_doctor_1.jpg" class="w-20" />
           <column class="flex-y-start flex-x-between p-5">
             <h2>Husnuddinov Nizomuddin Zuhruddinnovich</h2>
             <p class="mt-3 mb-3">
@@ -221,7 +222,6 @@ export default function content(){
               <x-modal trigger="click" type="text" value="Yutuqlar" button>Yutuq rasmlar</x-modal>
             </row>
           </column>
-          <img src="images/main_doctor_1.jpg" class="w-20" />
         </row>
         <button><a href="/doctors" style="color:white">Barcha shifokorlar haqida ma'lumot</a></button>
       </column>

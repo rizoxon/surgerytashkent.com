@@ -33,6 +33,57 @@ container.home {
     background-attachment: fixed;
   }
 }
+
+container.doctors {
+  & > header{
+    position: relative;
+    width: 100%;
+    height: 25vh;
+
+    display: grid;
+    place-content: center;
+
+    background: url("images/general_surgery.jpg");
+    background-size: cover;
+    background-position: center;
+
+    &::before{
+      content: "";  
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #2491eb;
+      opacity: 0.5;
+    }
+
+    & > h1 {
+      color: white;
+      z-index: 1;
+      text-shadow: 0 0 2px black;
+    }
+  }
+
+  & > row {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(150px, 1fr) );
+    & > column{
+      font-size: 0.7em;
+      & > row{
+        & > x-modal {
+          font-size: 1.4em;
+          background: #2491eb;
+          text-align: center;
+          color: white;
+          padding: 10px;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+}
+
 @media screen and (min-width: 940px) and (max-width: 1140px){
   container.home {
     & > column:nth-child(2){
@@ -121,7 +172,6 @@ container.laproskopic{
   .box-modal > img{
     width: 100%;
   }
-
   container.bariatric, container.laproskopic{
     & > row:nth-child(2){
       & > column {
@@ -150,6 +200,25 @@ container.laproskopic{
   container.laproskopic{
     & > h1{
       font-size: larger;
+    }
+  }
+  container.doctors {
+    & > header{
+      height: 20vh;
+    }
+    & > row {
+      padding: 10px;
+      gap: 10px;
+      & > column{
+        padding: 5px;
+        & > row{
+          gap: 5px;
+          & > x-modal {
+            font-size: 15px;
+            padding: 5px;
+          }
+        }
+      }
     }
   }
 }
