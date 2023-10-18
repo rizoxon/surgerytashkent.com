@@ -87,9 +87,7 @@ container.doctors {
   }
 }
 
-container.results{
-  overflow: hidden;
-  overflow-y: scroll;
+container.results, container.gallery{
   & > row:nth-child(1){
     max-width: 100dvw;
     gap: 10px;
@@ -100,14 +98,18 @@ container.results{
     }
   }
   & > row:nth-child(3), row:nth-child(5), row:nth-child(7){
-    max-width: 100dvw;
     display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(450px, 1fr) );
+    grid-template-columns: repeat( auto-fill, minmax(200px, 450px) );
+    gap: 10px;
   }
   & > h2:not(:first-child) {
-    margin-top: 5%;
+    margin-top: 2%;
     margin-bottom: 2%;
   }
+}
+container.gallery iframe{
+  width: 100%;
+  height: 30dvh;
 }
 
 @media screen and (min-width: 940px) and (max-width: 1140px){

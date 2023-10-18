@@ -8,7 +8,7 @@ export default function content(){
       </row>
 
       <h2  id="operations" class="surface-2D w-100 text-center bg-info" style="color:white;">Operatsiyalar</h2>
-      <row class="gap-1 p-3">
+      <row>
         <column class="p-1 surface-2D gap-1">
           <img src="images/general_surgery.jpg" class="w-100">
           <p>Lorem ipsum dolor sit amet.</p>
