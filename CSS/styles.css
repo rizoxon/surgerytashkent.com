@@ -1,3 +1,6 @@
+* {
+  scroll-behavior: smooth;
+}
 body{
   min-width: 100%;
 }
@@ -85,16 +88,25 @@ container.doctors {
 }
 
 container.results{
+  overflow: hidden;
+  overflow-y: scroll;
   & > row:nth-child(1){
+    max-width: 100dvw;
     gap: 10px;
     padding: 10px;
     & > button > a {
       color: white;
+      padding: 10px;
     }
   }
-  & > row:nth-child(3){
+  & > row:nth-child(3), row:nth-child(5), row:nth-child(7){
+    max-width: 100dvw;
     display: grid;
     grid-template-columns: repeat( auto-fit, minmax(450px, 1fr) );
+  }
+  & > h2:not(:first-child) {
+    margin-top: 5%;
+    margin-bottom: 2%;
   }
 }
 
@@ -237,7 +249,6 @@ container.laproskopic{
   }
   container.results{
     & > row:nth-child(1){
-      background: red;
       gap: 5px;
       padding: 5px;
       & > button > a {
