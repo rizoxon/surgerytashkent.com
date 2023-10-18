@@ -84,6 +84,20 @@ container.doctors {
   }
 }
 
+container.results{
+  & > row:nth-child(1){
+    gap: 10px;
+    padding: 10px;
+    & > button > a {
+      color: white;
+    }
+  }
+  & > row:nth-child(3){
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(450px, 1fr) );
+  }
+}
+
 @media screen and (min-width: 940px) and (max-width: 1140px){
   container.home {
     & > column:nth-child(2){
@@ -218,6 +232,16 @@ container.laproskopic{
             padding: 5px;
           }
         }
+      }
+    }
+  }
+  container.results{
+    & > row:nth-child(1){
+      background: red;
+      gap: 5px;
+      padding: 5px;
+      & > button > a {
+        color: white;
       }
     }
   }

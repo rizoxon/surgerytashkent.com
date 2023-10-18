@@ -64,7 +64,7 @@
       {"page":"laproskopic"},
       {"page":"doctors"},
       {"page":"gallery"},
-      {"page":"resuls"},
+      {"page":"results"},
       {"page":"admin", "icon": "admin"},
       {"page":"logOut"}
     ]
