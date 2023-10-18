@@ -19,25 +19,25 @@
       "enabled": true,
       "endpoints": ["/", "/home"]
     },
-    "bariatric": {
+    "Bariatriya": {
       "enabled": true,
-      "endpoints": ["/bariatric"]
+      "endpoints": ["/bariatriya"]
     },
-    "laproskopic": {
+    "Laparoskopiya": {
       "enabled": true,
-      "endpoints": ["/laproskopic"]
+      "endpoints": ["/laparoskopiya"]
     },
-    "gallery": {
+    "Videolar": {
       "enabled": true,
-      "endpoints": ["/gallery"]
+      "endpoints": ["/videolar"]
     },
-    "results": {
+    "Rasmlar": {
       "enabled": true,
-      "endpoints": ["/results"]
+      "endpoints": ["/rasmlar"]
     },
-    "doctors": {
+    "Shifokorlar": {
       "enabled": true,
-      "endpoints": ["/doctors"]
+      "endpoints": ["/shifokorlar"]
     },
 
     "logIn": {
@@ -60,11 +60,11 @@
     "enabled": true,
     "menus": [
       {"page":"home"},
-      {"page":"bariatric"},
-      {"page":"laproskopic"},
-      {"page":"doctors"},
-      {"page":"gallery"},
-      {"page":"results"},
+      {"page":"Bariatriya", "icon": "bariatric"},
+      {"page":"Laparoskopiya", "icon": "laparoscopy"},
+      {"page":"Shifokorlar", "icon":"doctors"},
+      {"page":"Videolar", "icon":"gallery"},
+      {"page":"Rasmlar", "icon":"results"},
       {"page":"admin", "icon": "admin"},
       {"page":"logOut"}
     ]

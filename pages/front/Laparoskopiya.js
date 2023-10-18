@@ -1,20 +1,20 @@
 export default function content(){
   return `
-    <container class="bariatric">
+    <container class="laproskopic">
       <h1 class="p-5">
-        Eng sifatli bariatrik operatsiyalar
+        Zamonaviy laparoskopik operatsiyalar
       </h1>
-      <row class="w-70">
-        <column class="p-5 flex-x-between">
+      <column class="w-70">
+        <img src="images/b_main.jpg" class="w-100">
+        <column class="p-5">
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, velit.</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto facere voluptate dicta est doloribus nesciunt, assumenda dolores esse, dolor illum iste cupiditate, ad excepturi. Exercitationem voluptatum perspiciatis animi omnis pariatur.</p>
           <row class="flex-x-between flex-y-center">
-            <button><h2><a href="#" style="color: white;">Aloqa</a></h2></button>
+            <button><h2><a href="#contact" style="color: white;">Aloqa</a></h2></button>
             <h2>+998 90 123-45-67</h2>
           </row>
         </column>
-        <img src="images/b_main.jpg" class="w-60">
-      </row>
+      </column>
 
       <row class="w-70 gap-2 mt-5">
         <column class="flex-center p-5 surface-clean">
@@ -45,12 +45,12 @@ export default function content(){
       </row>
 
       <row class="gap-1 w-80 p-5">
-        <img src="images/bar1.jpg" class="w-30 surface-clean p-1">
-        <img src="images/bar2.jpg" class="w-30 surface-clean p-1">
-        <img src="images/bar3.jpg" class="w-30 surface-clean p-1">
+        <img src="images/general_surgery.jpg" class="w-30 surface-clean p-1">
+        <img src="images/laproskopiya3.jpg" class="w-30 surface-clean p-1">
+        <img src="images/bariatrik1.jpg" class="w-30 surface-clean p-1">
       </row>
 
-      <row class="surface-clean p-2 w-70 contact">
+      <row class="surface-clean p-2 w-70 contact" id="contact">
         <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d5991.974372102905!2d69.21694!3d41.330892!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDHCsDE5JzUxLjIiTiA2OcKwMTMnMDEuMCJF!5e0!3m2!1sen!2s!4v1697022796395!5m2!1sen!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <column class="p-2 text-left w-30">
           <h4 class="info">Manzil</h4>

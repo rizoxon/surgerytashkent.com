@@ -8,13 +8,13 @@ export default function content(){
         <row class="gap-1 p-5">
           <img src="images/logo.gif" class="w-60" style="align-self: center;" />
           <column class="gap-1 w-20">
-            <a href="/bariatric" class="surface-clean p-5 w-100">
+            <a href="/bariatriya" class="surface-clean p-5 w-100">
               <column>
                 <image src="images/fattothin.png" class="w-20">
                 <h4>Bariatriya</h4>
               </column>
             </a>
-            <a href="/laproskopic" class="surface-clean p-5 w-100">
+            <a href="/laparoskopiya" class="surface-clean p-5 w-100">
               <column>
                 <image src="images/surgery.png" class="w-20">
                 <h4>Laproskopik hirurgiya</h4>
@@ -116,7 +116,7 @@ export default function content(){
             <p class="mt-3 mb-3">
               Bariatrik hirurgiya haqida qisqa ma'lumot Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae pulvinar risus. Praesent a cursus lorem. Curabitur nisi purus, luctus vitae pulvinar ac, finibus ac tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed gravida eleifend erat, ut placerat nibh aliquet pellentesque. Nam fringilla nulla ut ligula.
             </p>
-            <button><a href="/laproskopic" style="color:white;">Batafsil</a></button>
+            <button><a href="/laparoskopiya" style="color:white;">Batafsil</a></button>
           </column>
         </row>
 
@@ -223,7 +223,7 @@ export default function content(){
             </row>
           </column>
         </row>
-        <button><a href="/doctors" style="color:white">Barcha shifokorlar haqida ma'lumot</a></button>
+        <button><a href="/shifokorlar" style="color:white">Barcha shifokorlar haqida ma'lumot</a></button>
       </column>
 
       <column class="w-100 mt-5">
@@ -249,7 +249,7 @@ export default function content(){
             </p>
             <row class="gap-2 flex-center">
               <p class="text-size-2">+998 (90) 123-45-67 </p>
-              <button><a href="#">Batafsil</a></button>
+              <button><a href="http://sabadarmon.uz/">Batafsil</a></button>
             </row>
           </column>
         </row>
@@ -364,8 +364,8 @@ export default function content(){
           <column class="p-2 text-left w-30">
             <h4 class="info">Manzil</h4>
             <p>
-              Ўзбекистон, Тошкент <br>
-              Нурафшон кўчаси, Уй № 7А
+              O'zbekiston, Toshkent <br>
+              Nurafshon ko'chasi, 7A Uy
             </p>
             <h4 class="info">Telefon raqam</h4>
             <p>
