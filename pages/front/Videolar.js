@@ -9,27 +9,41 @@ export default function content(){
 
       <h2  id="operations" class="surface-2D w-100 text-center bg-info" style="color:white;">Operatsiya jarayonlari</h2>
       <row class="p-1 gap-1">
-        <iframe src="https://www.youtube.com/embed/KaOoI3GXkw8?si=hS1ar9vzPM5WCnWI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <iframe src="https://www.youtube.com/embed/KaOoI3GXkw8?si=hS1ar9vzPM5WCnWI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <iframe src="https://www.youtube.com/embed/KaOoI3GXkw8?si=hS1ar9vzPM5WCnWI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <iframe src="https://www.youtube.com/embed/KaOoI3GXkw8?si=hS1ar9vzPM5WCnWI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe class="anim" src="https://www.youtube.com/embed/KaOoI3GXkw8?si=hS1ar9vzPM5WCnWI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe class="anim" src="https://www.youtube.com/embed/KaOoI3GXkw8?si=hS1ar9vzPM5WCnWI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe class="anim" src="https://www.youtube.com/embed/KaOoI3GXkw8?si=hS1ar9vzPM5WCnWI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe class="anim" src="https://www.youtube.com/embed/KaOoI3GXkw8?si=hS1ar9vzPM5WCnWI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </row>
 
       <h2  id="advice" class="surface-2D w-100 text-center bg-info" style="color:white;">Vrachlar bilan suhbatlar</h2>
       <row class="p-1 gap-1">
-        <iframe src="https://www.youtube.com/embed/KaOoI3GXkw8?si=hS1ar9vzPM5WCnWI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <iframe src="https://www.youtube.com/embed/KaOoI3GXkw8?si=hS1ar9vzPM5WCnWI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <iframe src="https://www.youtube.com/embed/KaOoI3GXkw8?si=hS1ar9vzPM5WCnWI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <iframe src="https://www.youtube.com/embed/KaOoI3GXkw8?si=hS1ar9vzPM5WCnWI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe class="anim" src="https://www.youtube.com/embed/KaOoI3GXkw8?si=hS1ar9vzPM5WCnWI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe class="anim" src="https://www.youtube.com/embed/KaOoI3GXkw8?si=hS1ar9vzPM5WCnWI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe class="anim" src="https://www.youtube.com/embed/KaOoI3GXkw8?si=hS1ar9vzPM5WCnWI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe class="anim" src="https://www.youtube.com/embed/KaOoI3GXkw8?si=hS1ar9vzPM5WCnWI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </row>
 
       <h2  id="interview" class="surface-2D w-100 text-center bg-info" style="color:white;">Be'morlar bilan intervyu</h2>
       <row class="p-1 gap-1">
-        <iframe src="https://www.youtube.com/embed/KaOoI3GXkw8?si=hS1ar9vzPM5WCnWI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <iframe src="https://www.youtube.com/embed/KaOoI3GXkw8?si=hS1ar9vzPM5WCnWI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <iframe src="https://www.youtube.com/embed/KaOoI3GXkw8?si=hS1ar9vzPM5WCnWI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <iframe src="https://www.youtube.com/embed/KaOoI3GXkw8?si=hS1ar9vzPM5WCnWI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe class="anim" src="https://www.youtube.com/embed/KaOoI3GXkw8?si=hS1ar9vzPM5WCnWI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe class="anim" src="https://www.youtube.com/embed/KaOoI3GXkw8?si=hS1ar9vzPM5WCnWI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe class="anim" src="https://www.youtube.com/embed/KaOoI3GXkw8?si=hS1ar9vzPM5WCnWI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe class="anim" src="https://www.youtube.com/embed/KaOoI3GXkw8?si=hS1ar9vzPM5WCnWI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </row>
     </container>
   `;
+}
+
+export function after(){
+  const observer = new IntersectionObserver((items) => {
+    items.forEach((item) => {
+      console.log(item)
+      if (item.isIntersecting) {
+        item.target.classList.add('move')
+      }
+    });
+  });
+
+  const anim_elements = document.querySelectorAll('.anim');
+  anim_elements.forEach((el) => observer.observe(el));
 }

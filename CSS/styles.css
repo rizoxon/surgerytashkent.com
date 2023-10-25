@@ -274,7 +274,53 @@ container.laproskopic{
   }
 }
 
+/* ////////////////////////////////////////////// SCROLL ANIMATIONS */
+.anim {
+  opacity: 0;
+  filter: blur(5px);
+  transform: scale(0.7);
+  transition: all 1s ease-in-out;
+}
 
+.move{
+  opacity: 1;
+  filter: blur(0);
+  transform: scale(1);
+  transition: all 1s ease;
+}
+
+.anim_left, .anim_right, .anim_rotate{
+  opacity: 0;
+  filter: blur(5px);
+  transition: all 0.8s ease-in-out;
+}
+.anim_left{
+  transform: scale(0.2) translateX(-100%);
+
+}
+.anim_right{
+  transform: scale(0.2) translateX(100%);
+}
+
+.anim_rotate{
+  transform: scale(0.2) rotate(180deg);
+}
+.move_rotate{
+  opacity: 1;
+  filter: blur(0);
+  transform: scale(1) rotate(0);  
+}
+.move_left, .move_right{
+  opacity: 1;
+  filter: blur(0);
+  transform: scale(1) translateX(0);
+}
+
+@media(prefers-reduced-motion){
+  .move{
+    transition: none;
+  }
+}
 
 
 

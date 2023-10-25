@@ -1,3 +1,5 @@
 export default function header(){
-	return window.Lang.use("surgeryTashkent");
+	return `
+		${window.Lang.use("surgeryTashkent")}	
+	`;
 }

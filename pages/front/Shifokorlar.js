@@ -6,7 +6,7 @@ export default function content(){
       </header>
       <row class="p-5 gap-2">
 
-        <column class="p-5 surface-clean gap-1">
+        <column class="p-5 surface-clean gap-1 anim">
           <img src="images/main_doctor_2.jpg" class="w-100">
           <h3>Odilho'jaev Asqar Anvarovich</h3>
           <row class="flex-x-between">
@@ -16,7 +16,7 @@ export default function content(){
           </row>
         </column>
 
-        <column class="p-5 surface-clean gap-1">
+        <column class="p-5 surface-clean gap-1 anim">
           <img src="images/main_doctor_1.jpg" class="w-100">
           <h3>Husnuddinov Nizomuddin Zuhruddinnovich</h3>
           <row class="flex-x-between">
@@ -26,7 +26,7 @@ export default function content(){
           </row>
         </column>
 
-        <column class="p-5 surface-clean gap-1">
+        <column class="p-5 surface-clean gap-1 anim">
           <img src="images/main_doctor_2.jpg" class="w-100">
           <h3>Odilho'jaev Asqar Anvarovich</h3>
           <row class="flex-x-between">
@@ -36,7 +36,7 @@ export default function content(){
           </row>
         </column>
 
-        <column class="p-5 surface-clean gap-1">
+        <column class="p-5 surface-clean gap-1 anim">
           <img src="images/main_doctor_1.jpg" class="w-100">
           <h3>Husnuddinov Nizomuddin Zuhruddinnovich</h3>
           <row class="flex-x-between">
@@ -49,4 +49,20 @@ export default function content(){
       </row>
     </container>
   `;
+}
+
+export function after(){
+  const observer = new IntersectionObserver((items) => {
+    items.forEach((item) => {
+      console.log(item)
+      if (item.isIntersecting) {
+        item.target.classList.add('move')
+      } else {
+        item.target.classList.remove('move')
+      }
+    });
+  });
+
+  const anim_elements = document.querySelectorAll('.anim');
+  anim_elements.forEach((el) => observer.observe(el));
 }
