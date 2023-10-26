@@ -212,3 +212,20 @@ CREATE TABLE IF NOT EXISTS `comments` (
 
   PRIMARY KEY (`id`)
 );
+
+CREATE TABLE IF NOT EXISTS `photos` (
+  `id` INT NOT NULL UNIQUE auto_increment,
+  `title` VARCHAR(100) NOT NULL,
+  `type` VARCHAR(100) NOT NULL,
+  `file` VARCHAR(100) NOT NULL,
+
+  PRIMARY KEY (`id`)
+);
+
+CREATE TABLE IF NOT EXISTS `videos` (
+  `id` INT NOT NULL UNIQUE auto_increment,
+  `iframe` TEXT NOT NULL,
+  `type` VARCHAR(100) NOT NULL,
+
+  PRIMARY KEY (`id`)
+);
