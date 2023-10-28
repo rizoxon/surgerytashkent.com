@@ -1,3 +1,56 @@
+export async function before(){
+  const doctors = await window.bridge("photos", {for:"getAllDoctors"});
+  const certificates = await window.bridge("photos", {for:"getAllCertificates"});
+  const diplomas = await window.bridge("photos", {for:"getAllDiplomas"});
+  
+  window.pageData.doctorRows = "No data";
+  window.pageData.certificateRows = "No data";
+  window.pageData.diplomaRows = "No data";
+
+  if("data" in doctors){
+    window.pageData.doctorRows = "";
+    window.pageData.certificateRows = "";
+    window.pageData.diplomaRows = "";
+
+    for(const doctor of doctors.data){
+
+      for(const certificate of certificates.data){
+        if (certificate["name"] == doctor["fullname"]) {   
+          window.pageData.certificateRows += `<img src="assets/certificates/${certificate["file"]}" style="max-width: 80dvw; margin: 10px 0;">`;
+        }
+      }
+  
+      for(const diploma of diplomas.data){
+        if (diploma["name"] == doctor["fullname"]) {   
+          window.pageData.diplomaRows += `<img src="assets/diplomas/${diploma["file"]}" style="max-width: 80dvw; margin: 10px 0;">`;
+        }
+      }
+
+      window.pageData.doctorRows += `
+        <column class="p-5 surface-clean gap-1 anim">
+          <img src="assets/doctors/${doctor["file"]}" class="w-100">
+          <h3>${doctor["fullname"]}</h3>
+          <row class="flex-x-between">
+            <x-modal trigger="click" type="text" value="Ma'lumot">
+              <h3 class="m-2">${doctor["fullname"]}</h3>
+              <p class="p-2">${doctor["info"]}</p>
+            </x-modal>
+            <x-modal trigger="click" type="text" value="Sertifikatlar">
+              ${window.pageData.certificateRows}
+            </x-modal>
+            <x-modal trigger="click" type="text" value="Diplomlar">
+              ${window.pageData.diplomaRows}
+            </x-modal>
+          </row>
+        </column>
+      `
+      window.pageData.certificateRows = ""
+      window.pageData.diplomaRows = ""
+      
+    }
+  }
+}
+
 export default function content(){
   return `
     <container class="doctors">
@@ -5,47 +58,7 @@ export default function content(){
         <h1>Bizning mutaxassislarimiz</h1>
       </header>
       <row class="p-5 gap-2">
-
-        <column class="p-5 surface-clean gap-1 anim">
-          <img src="images/main_doctor_2.jpg" class="w-100">
-          <h3>Odilho'jaev Asqar Anvarovich</h3>
-          <row class="flex-x-between">
-            <x-modal trigger="click" type="text" value="Ma'lumot">Ma'lumot</x-modal>
-            <x-modal trigger="click" type="text" value="Sertifikatlar">Sertifikat rasmlari</x-modal>
-            <x-modal trigger="click" type="text" value="Diplomlar">Diplom rasmlari</x-modal>
-          </row>
-        </column>
-
-        <column class="p-5 surface-clean gap-1 anim">
-          <img src="images/main_doctor_1.jpg" class="w-100">
-          <h3>Husnuddinov Nizomuddin Zuhruddinnovich</h3>
-          <row class="flex-x-between">
-            <x-modal trigger="click" type="text" value="Ma'lumot">Ma'lumot</x-modal>
-            <x-modal trigger="click" type="text" value="Sertifikatlar">Sertifikat rasmlari</x-modal>
-            <x-modal trigger="click" type="text" value="Diplomlar">Diplom rasmlari</x-modal>
-          </row>
-        </column>
-
-        <column class="p-5 surface-clean gap-1 anim">
-          <img src="images/main_doctor_2.jpg" class="w-100">
-          <h3>Odilho'jaev Asqar Anvarovich</h3>
-          <row class="flex-x-between">
-            <x-modal trigger="click" type="text" value="Ma'lumot">Ma'lumot</x-modal>
-            <x-modal trigger="click" type="text" value="Sertifikatlar">Sertifikat rasmlari</x-modal>
-            <x-modal trigger="click" type="text" value="Diplomlar">Diplom rasmlari</x-modal>
-          </row>
-        </column>
-
-        <column class="p-5 surface-clean gap-1 anim">
-          <img src="images/main_doctor_1.jpg" class="w-100">
-          <h3>Husnuddinov Nizomuddin Zuhruddinnovich</h3>
-          <row class="flex-x-between">
-            <x-modal trigger="click" type="text" value="Ma'lumot">Ma'lumot</x-modal>
-            <x-modal trigger="click" type="text" value="Sertifikatlar">Sertifikat rasmlari</x-modal>
-            <x-modal trigger="click" type="text" value="Diplomlar">Diplom rasmlari</x-modal>
-          </row>
-        </column>
-
+        ${window.pageData.doctorRows}
       </row>
     </container>
   `;
@@ -54,7 +67,6 @@ export default function content(){
 export function after(){
   const observer = new IntersectionObserver((items) => {
     items.forEach((item) => {
-      console.log(item)
       if (item.isIntersecting) {
         item.target.classList.add('move')
       } else {

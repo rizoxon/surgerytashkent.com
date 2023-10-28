@@ -229,3 +229,28 @@ CREATE TABLE IF NOT EXISTS `videos` (
 
   PRIMARY KEY (`id`)
 );
+
+CREATE TABLE IF NOT EXISTS `doctors` (
+  `id` INT NOT NULL UNIQUE auto_increment,
+  `fullname` VARCHAR(100) NOT NULL,
+  `info` TEXT NOT NULL,
+  `file` VARCHAR(100) NOT NULL,
+
+  PRIMARY KEY (`id`)
+);
+
+CREATE TABLE IF NOT EXISTS `certificates` (
+  `id` INT NOT NULL UNIQUE auto_increment,
+  `name` VARCHAR(100) NOT NULL,
+  `file` VARCHAR(100) NOT NULL,
+
+  PRIMARY KEY (`id`)
+);
+
+CREATE TABLE IF NOT EXISTS `diplomas` (
+  `id` INT NOT NULL UNIQUE auto_increment,
+  `name` VARCHAR(100) NOT NULL,
+  `file` VARCHAR(100) NOT NULL,
+
+  PRIMARY KEY (`id`)
+);

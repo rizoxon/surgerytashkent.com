@@ -24,6 +24,107 @@ export async function before(){
     }
   }
 
+  Doctors: {
+    window.pageData.resp = await window.bridge("admin", {for:"getAllDoctors"});
+
+    window.pageData.doctorRows = "No data";
+
+    if("data" in window.pageData.resp){
+      window.pageData.doctorRows = "";
+      for(const doctor of window.pageData.resp.data)
+        window.pageData.doctorRows += `
+          <tr>
+            <td>${doctor["id"]}</td>
+            <td><img src="assets/doctors/${doctor["file"]}" style="width: 100px;"></td>
+            <td>${doctor["fullname"]}</td>
+            <td>${doctor["info"]}</td>
+            <td class="d-flex gap-0-5">
+              <x-modal class="w-50" trigger="click" type="icon" value="vertical_dots" button style="min-width: 50px">
+                <form action="/admin" for="updateDoctor">
+                  <input type="hidden" value="${doctor["id"]}" name="doctorID">
+                  <label>
+                    <p for="fullname">To'liq ismni kiriting</p>
+                    <input type="text" name="fullname" value="${doctor["fullname"]}" />
+                  </label>
+                  <label>
+                    <p for="info">Doktor ma'lumotini kiriting</p>
+                    <textarea name="info" rows="20">
+                      ${doctor["info"]}
+                    </textarea>
+                  </label>
+                  <label>
+                    <input type="submit" name="send" value="Jo'natish" />
+                    <p for="updateDoctor"></p>
+                  </label>
+                </form>
+              </x-modal>
+
+              <form action="/admin" for="deleteDoctor" class="w-50" style="min-width: 50px">
+                <input type="hidden" name="id" value="${doctor["id"]}">
+                <button name="deleteDoctorButton"><x-icon name="trash"></x-icon></button>
+              </form>
+            </td>
+          </tr>
+        `;
+    }
+  }
+
+  DoctorNames: {
+    window.pageData.resp = await window.bridge("admin", {for:"getAllDoctors"});
+
+    window.pageData.nameRows = "No data";
+
+    if("data" in window.pageData.resp){
+      window.pageData.nameRows = "";
+      for(const doctor of window.pageData.resp.data)
+        window.pageData.nameRows += `<option value="${doctor["fullname"]}">${doctor["fullname"]}</option>`;
+    }
+  }
+  Certificates: {
+    window.pageData.resp = await window.bridge("admin", {for:"getAllCertificates"});
+
+    window.pageData.certificateRows = "No data";
+    console.log(window.pageData.resp);
+    if("data" in window.pageData.resp){
+      window.pageData.certificateRows = "";
+      for(const certificate of window.pageData.resp.data)
+        window.pageData.certificateRows += `
+          <tr>
+            <td><img src="assets/certificates/${certificate["file"]}" style="width: 100px;"></td>
+            <td>${certificate["name"]}</td>
+            <td>
+              <form action="/admin" for="deleteCertificate" class="w-100">
+                <input type="hidden" name="id" value="${certificate["id"]}">
+                <button name="deleteCertificateButton"><x-icon name="trash"></x-icon></button>
+              </form>
+            </td>
+          </tr>
+        `;
+    }
+  }
+  Diplomas: {
+    window.pageData.resp = await window.bridge("admin", {for:"getAllDiplomas"});
+
+    window.pageData.diplomaRows = "No data";
+
+    if("data" in window.pageData.resp){
+      window.pageData.diplomaRows = "";
+      for(const diploma of window.pageData.resp.data)
+        window.pageData.diplomaRows += `
+          <tr>
+            <td><img src="assets/diplomas/${diploma["file"]}" style="width: 100px;"></td>
+            <td>${diploma["name"]}</td>
+            <td>
+              <form action="/admin" for="deleteDiploma" class="w-100">
+                <input type="hidden" name="id" value="${diploma["id"]}">
+                <button name="deleteCertificateButton"><x-icon name="trash"></x-icon></button>
+              </form>
+            </td>
+          </tr>
+        `;
+    }
+  }
+
   Photos: {
     window.pageData.resp = await window.bridge("admin", {for:"getAllPhotos"});
 
@@ -97,6 +198,8 @@ export async function before(){
         `;
     }
   }
+  
+  
 }
 
 
@@ -203,6 +306,114 @@ export default function content(){
   </section>
   `;
 
+  const doctors = `
+  <section id="doctors" class="surface-clean w-100 p-1 d-flex flex-column">
+    <form action="/admin" for="saveDoctor" class="w-100 p-5" style="height: auto;">
+      <label>
+        <p for="fullname">To'liq ismni kiriting</p>
+        <input type="text" name="fullname" />
+      </label>
+      <label>
+        <p for="file">Doktor rasmni tanlang</p>
+        <input type="file" name="file">
+      </label>
+      <label>
+        <p for="info">Doktor ma'lumotini kiriting</p>
+        <textarea name="info" rows="20"></textarea>
+      </label>
+      <label>
+        <input type="submit" name="saveDoctor" value="Saqlash" />
+        <p for="saveDoctor"></p>
+      </label>
+    </form>
+
+    <table class="x-default scrollbar-x">
+
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Rasm</th>
+          <th>To'liq ism</th>
+          <th>Ma'lumot</th>
+          <th>Amallar</th>
+        </tr>
+      </thead>
+
+      <tbody>${window.pageData.doctorRows}<tbody>
+    </table>
+
+  </section>
+  `;
+  const certificates = `
+  <section id="certificates" class="surface-clean w-100 p-1 d-flex flex-column">
+    <form action="/admin" for="saveCertificate" class="w-100 p-5" style="height: auto;">
+      <label>
+        <p for="file">Sertifikatni tanlang</p>
+        <input type="file" name="file">
+      </label>
+      <label>
+        <p for="type">Sertifikat egasini tanlang</p>
+        <select name="name">
+          ${window.pageData.nameRows}
+        </select>
+      </label>
+      <label>
+        <input type="submit" name="saveCertificate" value="Saqlash" />
+        <p for="saveCertificate"></p>
+      </label>
+    </form>
+
+    <table class="x-default scrollbar-x">
+
+      <thead>
+        <tr>
+          <th>Sertifikat</th>
+          <th>Sertifikat egasining</th>
+          <th>O'chirish</th>
+        </tr>
+      </thead>
+
+      <tbody>${window.pageData.certificateRows}<tbody>
+    </table>
+
+  </section>
+  `;
+  const diplomas = `
+  <section id="diplomas" class="surface-clean w-100 p-1 d-flex flex-column">
+    <form action="/admin" for="saveDiploma" class="w-100 p-5" style="height: auto;">
+      <label>
+        <p for="file">Diplomni tanlang</p>
+        <input type="file" name="file">
+      </label>
+      <label>
+        <p for="type">Diplom egasini tanlang</p>
+        <select name="name">
+          ${window.pageData.nameRows}
+        </select>
+      </label>
+      <label>
+        <input type="submit" name="saveDiploma" value="Saqlash" />
+        <p for="saveDiploma"></p>
+      </label>
+    </form>
+
+    <table class="x-default scrollbar-x">
+
+      <thead>
+        <tr>
+          <th>Diplom</th>
+          <th>Diplom egasining</th>
+          <th>O'chirish</th>
+        </tr>
+      </thead>
+
+      <tbody>${window.pageData.diplomaRows}<tbody>
+    </table>
+
+  </section>
+  `;
+  
+
 
   return `
     <container>
@@ -211,6 +422,9 @@ export default function content(){
           <x-nav selector="column#sections">
             [
               {"link": "commnets"},
+              {"link": "doctors"},
+              {"link": "certificates"},
+              {"link": "diplomas"},
               {"link": "photos"},
               {"link": "videos"}
             ]
@@ -219,6 +433,9 @@ export default function content(){
 
         <column id="sections" class="w-70">
           ${commnets}
+          ${doctors}
+          ${certificates}
+          ${diplomas}
           ${photos}
           ${videos}
         </column>

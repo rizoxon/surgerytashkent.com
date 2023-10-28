@@ -29,6 +29,7 @@ button{
 .info {
   color: #2491eb;
 }
+
 container.home {
   & > column:nth-child(2){
     background-image: url(images/surgery_room.jpg);
@@ -334,130 +335,125 @@ container.laproskopic{
 
 
 /* ///////////////////////////////////////BMI CALC */
-.c-bmi {
-  border-radius: .25rem;
-  box-sizing: border-box;
-  font-family: ui-sans-serif, system-ui, sans-serif;
-  padding: 1rem;
-  max-width: 40rem;
+/* Import Roboto font from Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+/*
+  Define CSS variables for colors
+*/
+:root {
+  --background-color: #f6f6f6;
+  --vigo-color: #2491eb;
+  --slider-color: #A3A3A3;
+  --input-number-color: #EBEBEB;
+}
+.bmi-calculator {
+  border: 5px solid white;
+  -moz-box-shadow: 0px 0px 5px hsl(15, 2%, 55%);
+  -webkit-box-shadow: 0px 0px 5px hsl(15, 2%, 55%);
+  box-shadow: 0px 0px 10px hsl(0,0%,73.9%);
+  padding: 3em;
+  margin: 2em;
+  height: auto;
+  background-color: white;
+}
+.bmi-calculator-weight, .bmi-calculator-height {
+  margin-bottom: 2.2em;
   width: 100%;
-  }
-  .c-bmi fieldset {
-  border: 0;
-  margin: 0;
-  padding: 0;
-  }
-  .c-bmi__group-text {
-  display: none;
-  font-size: large;
-  order: 2;
-  padding: 1rem 0;
-  text-align: left;
+}
+
+.weight-slider, .height-slider {
   width: 100%;
-  }
-  .c-bmi__groups {
-  border: 0;
-  flex-wrap: wrap;
-  font-size: x-small;
-  padding: 0;
-  text-align: center;
-  width: 100%;
-  }
-  .c-bmi__groups label {
-  display: block;
-  padding: .5rem;
-  position: relative;
-  }
-  
-  [for="bmi-g0"] { background-color: #4691e2; }
-  [for="bmi-g1"] { background-color: #0cb764; }
-  [for="bmi-g2"] { background-color: #febf18; }
-  [for="bmi-g3"] { background-color: #fc8711; }
-  [for="bmi-g4"] { background-color: #ff6455; }
-  [for="bmi-g5"] { background-color: #cc1100; color: #fff; }
-  
-  .c-bmi__groups input:checked + label::before {
-  background-color: #fff;
-  clip-path: polygon(0% 0%,0% 100%,75.00% 50.00%);
-  content: '';
-  display: inline-block;
-  height: 1rem;
-  left: 0.5rem;
-  position: absolute;
-  top: 0.35rem;
-  width: 1rem;
-  }
-  .c-bmi__groups input:checked + label + div {
-  display: block;
-  flex: 0 0 100%;
-  }
-  .c-bmi__label {
-  display: block;
-  font-size: 1rem;
-  margin: 0 0 1rem 0;
-  position: relative;
-  }
-  .c-bmi__label output {
-  position: absolute;
-  right: 0;
-  top: 0;
-  }
-  .c-bmi__range {
+  height: 1px;
+  border-radius: 10px;
+  background: var(--slider-color); /* Light grey background. */
+  outline: none; /* Remove outline. */
+}
+.range {
+  -moz-appearance: none; /* Override default CSS styles */
   -webkit-appearance: none;
   appearance: none;
-  background-color: transparent;
+  cursor: pointer;
+}
+
+.range:focus {
   outline: none;
+}
+.range::-ms-track {
   width: 100%;
-  }
-  .c-bmi__range::-webkit-slider-runnable-track {
-  background-image: linear-gradient(to bottom, transparent 45%, #2491eb 45%,#2491eb 55%, transparent 55%);
-  }
-  .c-bmi__range::-moz-range-track {
-  background-image: linear-gradient(to bottom, transparent 45%, #2491eb 45%,#2491eb 55%, transparent 55%);
-  }
-  .c-bmi__range::-webkit-slider-thumb {
+  cursor: pointer;
+}
+
+/* Special styling for WebKit/Blink */
+.range::-webkit-slider-thumb {
   -webkit-appearance: none;
-  appearance: none;
-  background-color: hsl(207, 83%, 53%);
-  border-radius: 50%;
-  height: 2rem;
-  width: 2rem;
-  }
-  .c-bmi__range::-moz-range-thumb {
-  appearance: none;
-  background-color: hsl(225,100%,20%);
-  border-radius: 50%;
-  height: 2rem;
-  width: 2rem;
-  }
-  .c-bmi__range:focus::-webkit-slider-thumb {
-  background-color: hsl(225,100%,20%);
-  box-shadow: inset 0 0 0 0.25rem hsl(225,100%,20%);
-  }
-  .c-bmi__range:focus::-moz-range-thumb {
-  background-color: hsl(225,100%,20%);
-  box-shadow: inset 0 0 0 0.25rem hsl(225,100%,20%);
-  }
-  .c-bmi__result {
-  display: block;
-  font-size: 200%;
-  margin-bottom: 1.5rem;
+  border: 2.5px solid var(--vigo-color);
+  height: 20px;
+  width: 20px;
+  border-radius: 40px;
+  background: white;
+  cursor: pointer;
+  margin-top: 0px;
+}
+
+.range::-moz-range-thumb {
+  border: 2.5px solid var(--vigo-color);
+  height: 20px;
+  width: 20px;
+  border-radius: 40px;
+  background: white;
+  cursor: pointer;
+}
+
+.range::-ms-thumb {
+  border: 2.5px solid var(--vigo-color);
+  height: 20px;
+  width: 20px;
+  border-radius: 40px;
+  background: white;
+  cursor: pointer;
+}
+
+.number {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+  /* Real styling part :D */
+  background: var(--input-number-color);
+  border-style: none;
+  height: 30px;
+  width: 100px;
+  margin-left: 20px;
+  margin-right: 10px;
   text-align: right;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+}
+
+.number:focus {
+  outline: none;
+}
+
+.gumb {
+  text-align: center;
+  font-size: 1em;
+  color: white;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 11px 32px;
+  border: none;
+  background-color: var(--vigo-color);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+/*
+Media querie for iPhone 5
+*/
+@media only screen and (max-width: 325px) {
+  .bmi-calculator {
+    height: 560px;
   }
-  .c-bmi [type="radio"] { display: none; }
-  
-  /* RWD */
-  @media (min-width: 600px) {
-  .c-bmi__groups { display: flex; }
-  .c-bmi__groups input:checked + label::before {
-      background-color: inherit;
-      clip-path: polygon(0% 0%,100% 0%,50% 100%);
-      left: 50%;
-      top: -1rem;
-      transform: translateX(-50%);
-      width: 1.5rem;
+
+  h1 {
+    font-size: 1.5em;
   }
-  .c-bmi__groups label { flex: 1; }
-  [for="bmi-g0"] { border-radius: .25rem 0 0 .25rem; }
-  [for="bmi-g5"] { border-radius: 0 .25rem .25rem 0; }
-  }
+}

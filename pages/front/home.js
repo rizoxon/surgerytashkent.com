@@ -200,9 +200,38 @@ export default function content(){
               Bariatrik hirurgiya haqida qisqa ma'lumot Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae pulvinar risus. Praesent a cursus lorem. Curabitur nisi purus, luctus vitae pulvinar ac, finibus ac tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed gravida eleifend erat, ut placerat nibh aliquet pellentesque. Nam fringilla nulla ut ligula.
             </p>
             <row class="flex-x-start gap-1">
-              <x-modal trigger="click" type="text" value="Sertifikatlar" button>Sertifikat rasmlari</x-modal>
-              <x-modal trigger="click" type="text" value="Diplomlar" button>Diplom rasmlari</x-modal>
-              <x-modal trigger="click" type="text" value="Yutuqlar" button>Yutuq rasmlar</x-modal>
+              <x-modal trigger="click" type="text" value="Sertifikatlar" button>
+                <img src="images/certificate.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/certificate.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/certificate.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/certificate.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/certificate.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/certificate.jpg" style="max-width: 80dvw; margin: 10px 0;">
+              </x-modal>
+              <x-modal trigger="click" type="text" value="Diplomlar" button>
+                <img src="images/certificate.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/certificate.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/certificate.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/certificate.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/certificate.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/certificate.jpg" style="max-width: 80dvw; margin: 10px 0;">
+              </x-modal>
+              <x-modal trigger="click" type="text" value="Ma'lumot" button>
+                <h3 class="m-2">Odilxo'jaev Asqar Anvarovich</h3>
+                <p class="p-2">
+                  Adilxo'jaev Asqar Anvarovich, tibbiyot fanlari doktori, dotsent, oliy toifali jarroh.
+                  Adilxo‘jaev A, 2005-yilda Birinchi Toshkent Davlat tibbiyot institutini tamomlagan.
+                  2005-2008 yillarda Toshkent tibbiyot akademiyasi “Xirurgiya” ixtisosligi bo‘yicha magistraturani tamomlagan.
+                  2009-2010 yildan beri TMA xirurgiya kafedrasi aspiranti boʻlgan va 2010 yilda “Oshqozon osti bezi boshining mahalliy rivojlangan saratoni uchun endovaskulyar aralashuvlarni takomillashtirish” ixtisosligi boʻyicha tibbiyot fanlari nomzodi ilmiy darajasini olish uchun nomzodlik dissertatsiyasini himoya qilgan. Jarrohlik".
+                  2010-2016 yillarda TMA fakultet va gospital xirurgiyasi kafedrasida assistent, so‘ngra dotsent lavozimlarida ishlagan.
+                  2016-yilda “Xirurgiya” ixtisosligi bo‘yicha “Periampulyar o‘smalarda jarrohlik taktikasini takomillashtirish” mavzusida doktorlik dissertatsiyasini himoya qilgan va 2018-yilda oliy toifali dotsent ilmiy unvonini olgan.
+                  2018 yildan hozirgacha Respublika ixtisoslashtirilgan onkologiya va radiologiya ilmiy-amaliy tibbiyot markazida ishlab kelmoqda.
+                  Adilxo'jaev A. Shoshilinch jarrohlik, videolaparoskopiya, pankreatikobiliar jarrohlik va onkologiya masalalariga bag'ishlangan 150 dan ortiq nashrlarning muallifi va hammuallifi. 10 ta oʻquv qoʻllanma, tavsiyalar, 3 ta monografiya, shuningdek, 3 ta ixtiroga patent muallifi.
+                  Kasbiy faoliyati davomida u bir necha marta tematik takomillashtirish, 2007 yilda onkologiya (Rossiya, Moskva), 2012 yilda endoskopik jarrohlik (Rossiya, Moskva), 2017 yilda ftiziatriya (Ispaniya, Barselona), 2018 yilda pankreatikobiliar va endoskopik jarrohlik bo'yicha mahorat darslarini yakunladi. (Koreya Respublikasi, Seul), semizlik jarrohligi 2018-2019 (Toshkent), metabolik jarrohlik 2021 (Gruziya, Tbilisi).
+                  2017 yilda endoskopik jarrohlik, 2018 yilda ftiziojarrohlik, ToshUIV tomonidan chiqarilgan qorin onkoxirurgiyasi mutaxassisligi bor.
+                  Bariatrik jarrohlar xalqaro assotsiatsiyasi (IFSO), Oʻzbekiston bariatrik jarrohlari, Oʻzbekiston onkologlar assotsiatsiyasi aʼzosi, MDH mamlakatlari gepatologik jarrohlar uyushmasi aʼzosi.
+                </p>
+              </x-modal>
             </row>
           </column>
         </row>
@@ -215,9 +244,38 @@ export default function content(){
               Bariatrik hirurgiya haqida qisqa ma'lumot Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae pulvinar risus. Praesent a cursus lorem. Curabitur nisi purus, luctus vitae pulvinar ac, finibus ac tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed gravida eleifend erat, ut placerat nibh aliquet pellentesque. Nam fringilla nulla ut ligula.
             </p>
             <row class="flex-x-start gap-1">
-              <x-modal trigger="click" type="text" value="Sertifikatlar" button>Sertifikat rasmlari</x-modal>
-              <x-modal trigger="click" type="text" value="Diplomlar" button>Diplom rasmlari</x-modal>
-              <x-modal trigger="click" type="text" value="Yutuqlar" button>Yutuq rasmlar</x-modal>
+              <x-modal trigger="click" type="text" value="Sertifikatlar" button>
+                <img src="images/certificate.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/certificate.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/certificate.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/certificate.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/certificate.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/certificate.jpg" style="max-width: 80dvw; margin: 10px 0;">
+              </x-modal>
+              <x-modal trigger="click" type="text" value="Diplomlar" button>
+                <img src="images/certificate.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/certificate.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/certificate.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/certificate.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/certificate.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/certificate.jpg" style="max-width: 80dvw; margin: 10px 0;">
+              </x-modal>
+              <x-modal trigger="click" type="text" value="Ma'lumot" button>
+                <h3 class="m-2">Odilxo'jaev Asqar Anvarovich</h3>
+                <p class="p-2">
+                  Adilxo'jaev Asqar Anvarovich, tibbiyot fanlari doktori, dotsent, oliy toifali jarroh.
+                  Adilxo‘jaev A, 2005-yilda Birinchi Toshkent Davlat tibbiyot institutini tamomlagan.
+                  2005-2008 yillarda Toshkent tibbiyot akademiyasi “Xirurgiya” ixtisosligi bo‘yicha magistraturani tamomlagan.
+                  2009-2010 yildan beri TMA xirurgiya kafedrasi aspiranti boʻlgan va 2010 yilda “Oshqozon osti bezi boshining mahalliy rivojlangan saratoni uchun endovaskulyar aralashuvlarni takomillashtirish” ixtisosligi boʻyicha tibbiyot fanlari nomzodi ilmiy darajasini olish uchun nomzodlik dissertatsiyasini himoya qilgan. Jarrohlik".
+                  2010-2016 yillarda TMA fakultet va gospital xirurgiyasi kafedrasida assistent, so‘ngra dotsent lavozimlarida ishlagan.
+                  2016-yilda “Xirurgiya” ixtisosligi bo‘yicha “Periampulyar o‘smalarda jarrohlik taktikasini takomillashtirish” mavzusida doktorlik dissertatsiyasini himoya qilgan va 2018-yilda oliy toifali dotsent ilmiy unvonini olgan.
+                  2018 yildan hozirgacha Respublika ixtisoslashtirilgan onkologiya va radiologiya ilmiy-amaliy tibbiyot markazida ishlab kelmoqda.
+                  Adilxo'jaev A. Shoshilinch jarrohlik, videolaparoskopiya, pankreatikobiliar jarrohlik va onkologiya masalalariga bag'ishlangan 150 dan ortiq nashrlarning muallifi va hammuallifi. 10 ta oʻquv qoʻllanma, tavsiyalar, 3 ta monografiya, shuningdek, 3 ta ixtiroga patent muallifi.
+                  Kasbiy faoliyati davomida u bir necha marta tematik takomillashtirish, 2007 yilda onkologiya (Rossiya, Moskva), 2012 yilda endoskopik jarrohlik (Rossiya, Moskva), 2017 yilda ftiziatriya (Ispaniya, Barselona), 2018 yilda pankreatikobiliar va endoskopik jarrohlik bo'yicha mahorat darslarini yakunladi. (Koreya Respublikasi, Seul), semizlik jarrohligi 2018-2019 (Toshkent), metabolik jarrohlik 2021 (Gruziya, Tbilisi).
+                  2017 yilda endoskopik jarrohlik, 2018 yilda ftiziojarrohlik, ToshUIV tomonidan chiqarilgan qorin onkoxirurgiyasi mutaxassisligi bor.
+                  Bariatrik jarrohlar xalqaro assotsiatsiyasi (IFSO), Oʻzbekiston bariatrik jarrohlari, Oʻzbekiston onkologlar assotsiatsiyasi aʼzosi, MDH mamlakatlari gepatologik jarrohlar uyushmasi aʼzosi.
+                </p>
+              </x-modal>
             </row>
           </column>
         </row>
@@ -256,36 +314,34 @@ export default function content(){
 
       <column class="w-100">
         <h2 class="surface-2D w-100 text-center bg-info" style="color:white;">Bariatriya</h2>
-        <h4 style="margin: 20px, 0;">O'z tana vazn indeksingizni o'lchang:</h4>
-        <form class="c-bmi">
-          <label class="c-bmi__label"><strong>Bo'y</strong>
-            <input class="c-bmi__range" type="range" name="h" min="150" max="230" step="0.5" value="180" />
-            <output name="ho"><output>
-          </label>
-          <label class="c-bmi__label"><strong>Vazn</strong>
-            <input class="c-bmi__range" type="range" name="w" min="35" max="200" step="0.1" value="75" />
-            <output name="wo">75</output>
-          </label>
-          <div class="c-bmi__result">Tana vazn indeksi: <output name="r"></output></div>
-          <div class="c-bmi__groups" readonly>
-            <input type="radio" id="bmi-g0" name="g" />
-            <label for="bmi-g0">Kam vazn</label>
-            <div class="c-bmi__group-text">18,5 dan kam tana vazn indeksi noto'g'ri ovqatlanish, ovqatlanish buzilishi yoki boshqa sog'liq muammolarini ko'rsatishi mumkin.</div>
-            <input type="radio" id="bmi-g1" name="g" checked />
-            <label for="bmi-g1">Odatiy</label>
-            <div class="c-bmi__group-text">18,5 dan 25 gacha bo'lgan Tana vazn indeksi normal va sog'lom hisoblanadi. </div>
-            <input type="radio" id="bmi-g2" name="g" />
-            <label for="bmi-g2">Deyarli semizlik</label>
-            <div class="c-bmi__group-text">Ushbu toifaga kiradigan odamlar semirishni rivojlantirishxavfi ostida bo'lishi mumkin.<br />Ilgari bu "ortiqcha vazn" deb tasniflangan.</div>
-            <input type="radio" id="bmi-g3" name="g" />
-            <label for="bmi-g3">Ortiqcha vazn I</label>
-            <div class="c-bmi__group-text">Tana vazn indeksi 30 ga teng yoki yuqori bo'lgan odamlarda semizlik bo'lishi mumkin, bu sog'likka zarar etkazishi mumkin bo'lgan kasallik yoki ortiqcha yog' to'planishi sifatida aniqlanadi.</div>
-            <input type="radio" id="bmi-g4" name="g" />
-            <label for="bmi-g4">Ortiqcha vazn II</label>
-            <div class="c-bmi__group-text">Tana vazn indeksi 30 ga teng yoki yuqori bo'lgan odamlarda semizlik bo'lishi mumkin, bu sog'likka zarar etkazishi mumkin bo'lgan kasallik yoki ortiqcha yog' to'planishi sifatida aniqlanadi.</div>
-            <input type="radio" id="bmi-g5" name="g" />
-            <label for="bmi-g5">Ortiqcha vazn III</label>
-            <div class="c-bmi__group-text">Tana vazn indeksi 30 ga teng yoki yuqori bo'lgan odamlarda semizlik bo'lishi mumkin, bu sog'likka zarar etkazishi mumkin bo'lgan kasallik yoki ortiqcha yog' to'planishi sifatida aniqlanadi.</div>
+        <form name="bmiForm">
+          <div class="bmi-calculator">
+            <h1 style="margin-bottom: 1em;">Tana vazn indeksini o'lchang</h1>
+            <div class="bmi-calculator-weight">
+              <input class="weight-slider range" name="realweight" id="myWeight" type="range" min="25" max="180" value="60" />
+              <p style="margin-top: 1.8em;">
+                Vazn: 
+                <input class="number" name="Teža" id="inputWeight" type="number" value="60" min="25" max="180" oninput="showValWeight(this.value)"/>
+                <span id="weight"></span> kg
+              </p>
+            </div>
+            <div class="bmi-calculator-height">
+              <input class="height-slider range" name="realheight" id="myHeight" type="range" min="100" max="220" value="160">
+              <p style="margin-top: 1.8em;">
+                Bo'y:
+                <input class="number" name="Višina" id="inputHeight" type="number" value="160" min="100" max="220" oninput="showValHeight(this.value)"/>
+                <span id="height"></span> cm
+              </p>
+            </div>
+            <input class="gumb" type="button" value="Hisoblash" id="button" style="margin-top: 0.5em">
+            <p style="margin-top: 1em;font-size: 1.2em;">
+              <strong>Sizning Tana Vazn Indeksingiz:</strong>
+              <span id="yourbmi" style="font-size: 1.2em;margin-left: 8px;"></span>
+            </p>
+            <p></p>
+            <p>
+              <span id="evaluationMessage"></span>
+            </p>
           </div>
         </form>
 
@@ -421,7 +477,6 @@ export default function content(){
 export function after(){
   const observer = new IntersectionObserver((items) => {
     items.forEach((item) => {
-      console.log(item)
       if (item.isIntersecting) {
         item.target.classList.add('move')
       } else {
@@ -434,17 +489,59 @@ export function after(){
   anim_elements.forEach((el) => observer.observe(el));
 
 
-
-
-  function B(){
-    const e=this.h.valueAsNumber,
-    t=this.w.valueAsNumber,
-    i=parseFloat(t/(e/100)**2).toFixed(2),
-    h=[[0,18.49],[18.5,24.99],[25,29.99],[30,34.99],[35,39.99],[40,100]].findIndex(e=>e[0]<=i&&i<e[1]);let o=(.393700787*e).toFixed(0);
-    this.ho.value=`${e} cm`,this.wo.value=`${t} kg`,
-    this.g[h].checked=!0,this.r.value=i
+  var weightSlider = document.getElementById("myWeight");
+  var weightOutput = document.getElementById("inputWeight");
+  // Height variables
+  var heightSlider = document.getElementById("myHeight");
+  var heightOutput = document.getElementById("inputHeight");
+  // Display slider value
+  weightOutput.innerHTML = weightSlider.value;
+  heightOutput.innerHTML = heightSlider.value;
+  // Update sliders in real time while dragging it
+  weightSlider.oninput = function () {
+    weightOutput.innerHTML = this.value;
   }
-  const bmi = document.querySelector('.c-bmi')
-  bmi.addEventListener('input', B);
-  bmi.dispatchEvent(new Event('input'));
+  heightSlider.oninput = function () {
+    heightOutput.innerHTML = this.value;
+  }
+  // Change weight-slider value on weight-number input
+  function showValWeight(newVal) {
+    weightSlider.value=newVal;
+  };
+  // Change height-slider value on height-number input
+  function showValHeight(newVal) {
+    heightSlider.value=newVal;
+  };
+  // *** Change number input when dragging slider ***
+  // Add 2 eventListeners for weight and input sliders
+  weightSlider.addEventListener("input", updateValueWeight);
+  heightSlider.addEventListener("input", updateValueHeight);
+  function updateValueWeight(e) {
+    weightOutput.value = e.srcElement.value;
+  }
+  function updateValueHeight(e) {
+    heightOutput.value = e.srcElement.value;
+  }
+  // Calculate BMI
+  function calculateBmi() {
+    var weight = document.bmiForm.realweight.value;
+    var height = (document.bmiForm.realheight.value)/100;
+    var realbmi = (weight)/Math.pow(height, 2);
+    var realbmiOutput = document.getElementById("yourbmi");
+    var messageOutput = document.getElementById("evaluationMessage");
+    var roundedBmi = realbmi.toFixed(1);
+    messageOutput.innerHTML = ""; // Clear message before calculating new BMI
+    realbmiOutput.innerHTML = " " + roundedBmi; // Print BMI
+    // Appropriate message for your BMI rating
+    if (roundedBmi < 30) {
+      messageOutput.innerHTML = "18,5 dan 25 gacha bo'lgan Tana vazn indeksi normal va sog'lom hisoblanadi, undon ozi yengil vazn, ortig'i esa ortiqcha vazn hisoblanadi";
+    } else {
+      messageOutput.innerHTML = "Tana vazn indeksi 25 dan yuqori bo'lgan odamlarda semizlik bo'lishi mumkin, bu sog'likka zarar etkazishi mumkin bo'lgan kasallik yoki ortiqcha yog' to'planishi sifatida aniqlanadi.";
+    }
+  }
+
+  document.querySelector("#button").addEventListener('click', e => {
+    e.preventDefault()
+    calculateBmi();
+  })
 }

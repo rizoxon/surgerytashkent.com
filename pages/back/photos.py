@@ -30,3 +30,24 @@ def Photos():
                 if data is False: return response(type="error",message="databaseError")
 
                 return response(type="success",message="success",data=data)
+
+            if request.get_json()["for"] == "getAllDoctors":
+                data = MySQL.execute("SELECT * FROM doctors")
+
+                if data is False: return response(type="error",message="databaseError")
+
+                return response(type="success",message="success",data=data)
+
+            if request.get_json()["for"] == "getAllCertificates":
+                data = MySQL.execute("SELECT * FROM certificates")
+
+                if data is False: return response(type="error",message="databaseError")
+
+                return response(type="success",message="success",data=data)
+
+            if request.get_json()["for"] == "getAllDiplomas":
+                data = MySQL.execute("SELECT * FROM diplomas")
+
+                if data is False: return response(type="error",message="databaseError")
+
+                return response(type="success",message="success",data=data)
