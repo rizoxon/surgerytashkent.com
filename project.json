@@ -17,7 +17,7 @@
     "title": "Surgery Tashkent",
     "language":{
         "fallback": "uz",
-        "supported": ["uz"]
+        "supported": ["uz", "ru", "en"]
       },
     "debug": true,
     "color": {
@@ -73,14 +73,14 @@
   "menu": {
     "enabled": true,
     "menus": [
-      {"page":"home"},
+      {"page":"home", "icon": "home"},
       {"page":"Bariatriya", "icon": "bariatric"},
       {"page":"Laparoskopiya", "icon": "laparoscopy"},
       {"page":"Shifokorlar", "icon":"doctors"},
       {"page":"Videolar", "icon":"gallery"},
       {"page":"Rasmlar", "icon":"results"},
       {"page":"admin", "icon": "admin"},
-      {"page":"logOut"}
+      {"page":"logOut", "icon": "logOut", "name": "logIn"}
     ]
   }
 }

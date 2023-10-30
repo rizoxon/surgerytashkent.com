@@ -9,13 +9,13 @@ export default function content(){
             <a href="/bariatriya" class="surface-clean p-5 w-100 anim">
               <column>
                 <image src="images/fattothin.png" class="w-20">
-                <h4>Bariatriya</h4>
+                <h4>${window.Lang.use("bariatric")}</h4>
               </column>
             </a>
             <a href="/laparoskopiya" class="surface-clean p-5 w-100 anim">
               <column>
                 <image src="images/surgery.png" class="w-20">
-                <h4>Laproskopik hirurgiya</h4>
+                <h4>${window.Lang.use("laparoscopicSurgery")}</h4>
               </column>
             </a>
           </column>
@@ -25,60 +25,60 @@ export default function content(){
           <column class="surface-clean flex-x-between p-2 pb-0 anim">
             <img src="images/bariatric.png" class="w-20 mb-5">
             <row class="flex-x-between">
-              <x-modal trigger="click" type="text" value="Batafsil" button class="mb-2">
+              <x-modal trigger="click" type="text" value="${window.Lang.use("more")}" button class="mb-2">
                 <row class="p-2 gap-1 box-modal">
                   <img src="images/bar3.jpg" class="w-30">
                   <img src="images/bar1.jpg" class="w-30">
                   <img src="images/bar5.jpg" class="w-30">
                 </row>
                 <column class="gap-1 p-2">
-                  <h3>Ma'lumot</h3>
+                  <h3>${window.Lang.use("info")}</h3>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod distinctio eum suscipit non repellat illo cumque! Molestias praesentium quasi aliquam autem, quia voluptatem odio, eveniet, perspiciatis doloremque tenetur doloribus nostrum.
+                    ${window.Lang.use("bariatric_info")}
                   </p>
                 </column>
               </x-modal>
-              <h3>Bariatriya</h3>
+              <h3 class="w-100 text-center">${window.Lang.use("bariatric")}</h3>
             </row>
           </column>
 
           <column class="surface-clean flex-x-between p-2 pb-0 anim">
-            <img src="images/nose.png" class="w-20 mb-5">
+            <img src="images/xek.png" class="w-20 mb-5">
             <row class="flex-x-between">
-              <x-modal trigger="click" type="text" value="Batafsil" button class="mb-2">
+              <x-modal trigger="click" type="text" value="${window.Lang.use("more")}" button class="mb-2">
                 <row class="p-2 gap-1 box-modal">
                   <img src="images/bar3.jpg" class="w-30">
                   <img src="images/bar1.jpg" class="w-30">
                   <img src="images/bar5.jpg" class="w-30">
                 </row>
                 <column class="gap-1 p-2">
-                  <h3>Ma'lumot</h3>
+                  <h3>${window.Lang.use("info")}</h3>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod distinctio eum suscipit non repellat illo cumque! Molestias praesentium quasi aliquam autem, quia voluptatem odio, eveniet, perspiciatis doloremque tenetur doloribus nostrum.
+                    ${window.Lang.use("xek_info")}
                   </p>
                 </column>
               </x-modal>
-              <h3>XEK</h3>
+              <h3>${window.Lang.use("xek")}</h3>
             </row>
           </column>
 
           <column class="surface-clean flex-x-between p-2 pb-0 anim">
             <img src="images/back.png" class="w-20 mb-5">
             <row class="flex-x-between">
-              <x-modal trigger="click" type="text" value="Batafsil" button class="mb-2">
+              <x-modal trigger="click" type="text" value="${window.Lang.use("more")}" button class="mb-2">
                 <row class="p-2 gap-1 box-modal">
                   <img src="images/bar3.jpg" class="w-30">
                   <img src="images/bar1.jpg" class="w-30">
                   <img src="images/bar5.jpg" class="w-30">
                 </row>
                 <column class="gap-1 p-2">
-                  <h3>Ma'lumot</h3>
+                  <h3>${window.Lang.use("info")}</h3>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod distinctio eum suscipit non repellat illo cumque! Molestias praesentium quasi aliquam autem, quia voluptatem odio, eveniet, perspiciatis doloremque tenetur doloribus nostrum.
+                    ${window.Lang.use("churra_info")}
                   </p>
                 </column>
               </x-modal>
-              <h3>Grija</h3>
+              <h3>${window.Lang.use("churra")}</h3>
             </row>
           </column>
 
@@ -105,38 +105,32 @@ export default function content(){
       </column>
 
       <column class="w-100 gap-3" style="padding-top: 0;">
-        <h2 class="surface-2D w-100 text-center bg-info" style="color:white; width: 100vw;">Yo'nalishlar</h2>
+        <h2 class="surface-2D w-100 text-center bg-info" style="color:white; width: 100vw;">${window.Lang.use("fields")}</h2>
 
         <row class="flex-x-between p-5 surface-clean  w-90 anim">
           <img src="images/bariatric_surgery_process.jpg" class="w-40 mr-5" />
           <column class="flex-y-end flex-x-between">
-            <h2>Laproskopik xirurgiya</h2>
+            <h2>${window.Lang.use("laparoscopicSurgery")}</h2>
             <p class="mt-3 mb-3">
-              Bariatrik hirurgiya haqida qisqa ma'lumot Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae pulvinar risus. Praesent a cursus lorem. Curabitur nisi purus, luctus vitae pulvinar ac, finibus ac tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed gravida eleifend erat, ut placerat nibh aliquet pellentesque. Nam fringilla nulla ut ligula.
+              ${window.Lang.use("laparoscopic_info")}
             </p>
-            <button><a href="/laparoskopiya" style="color:white;">Batafsil</a></button>
+            <button><a href="/laparoskopiya" style="color:white;">${window.Lang.use("more")}</a></button>
           </column>
         </row>
 
         <row class="flex-x-between p-5 surface-clean w-90 anim">
           <img src="images/general_surgery.jpg" class="w-40 mr-5" />
           <column class="flex-y-end flex-x-between">
-            <h2>Umumiy xirurgik operatsiya</h2>
+            <h2>${window.Lang.use("general_surgery")}</h2>
             <p class="mt-3 mb-3">
-              Bariatrik hirurgiya haqida qisqa ma'lumot Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae pulvinar risus. Praesent a cursus lorem. Curabitur nisi purus, luctus vitae pulvinar ac, finibus ac tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed gravida eleifend erat, ut placerat nibh aliquet pellentesque. Nam fringilla nulla ut ligula.
+              ${window.Lang.use("general_surgery_info")}
             </p>
-            <x-modal trigger="click" type="text" value="Batafsil" button class="mb-2">
+            <x-modal trigger="click" type="text" value="${window.Lang.use("more")}" button class="mb-2">
               <row class="p-2 gap-1 box-modal">
                 <img src="images/bar3.jpg" class="w-30">
                 <img src="images/bar1.jpg" class="w-30">
                 <img src="images/bar5.jpg" class="w-30">
               </row>
-              <column class="gap-1 p-2">
-                <h3>Ma'lumot</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod distinctio eum suscipit non repellat illo cumque! Molestias praesentium quasi aliquam autem, quia voluptatem odio, eveniet, perspiciatis doloremque tenetur doloribus nostrum.
-                </p>
-              </column>
             </x-modal>
           </column>
         </row>
@@ -144,22 +138,16 @@ export default function content(){
         <row class="flex-x-between p-5 surface-clean w-90 anim">
           <img src="images/oncology.jpg" class="w-40 mr-5" />
           <column class="flex-y-end flex-x-between">
-            <h2>Onkalogiya</h2>
+            <h2>${window.Lang.use("oncology")}</h2>
             <p class="mt-3 mb-3">
-              Bariatrik hirurgiya haqida qisqa ma'lumot Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae pulvinar risus. Praesent a cursus lorem. Curabitur nisi purus, luctus vitae pulvinar ac, finibus ac tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed gravida eleifend erat, ut placerat nibh aliquet pellentesque. Nam fringilla nulla ut ligula.
+              ${window.Lang.use("oncology_info")}
             </p>
-            <x-modal trigger="click" type="text" value="Batafsil" button class="mb-2">
+            <x-modal trigger="click" type="text" value="${window.Lang.use("more")}" button class="mb-2">
               <row class="p-2 gap-1 box-modal">
                 <img src="images/bar3.jpg" class="w-30">
                 <img src="images/bar1.jpg" class="w-30">
                 <img src="images/bar5.jpg" class="w-30">
               </row>
-              <column class="gap-1 p-2">
-                <h3>Ma'lumot</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod distinctio eum suscipit non repellat illo cumque! Molestias praesentium quasi aliquam autem, quia voluptatem odio, eveniet, perspiciatis doloremque tenetur doloribus nostrum.
-                </p>
-              </column>
             </x-modal>
           </column>
         </row>
@@ -167,22 +155,16 @@ export default function content(){
         <row class="flex-x-between p-5 surface-clean w-90 mb-5 anim">
           <img src="images/statsionar.jpg" class="w-40 mr-5" />
           <column class="flex-y-end flex-x-between">
-            <h2>Statsionar davolash</h2>
+            <h2>${window.Lang.use("inpatient_treatment")}</h2>
             <p class="mt-3 mb-3">
-              Bariatrik hirurgiya haqida qisqa ma'lumot Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae pulvinar risus. Praesent a cursus lorem. Curabitur nisi purus, luctus vitae pulvinar ac, finibus ac tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed gravida eleifend erat, ut placerat nibh aliquet pellentesque. Nam fringilla nulla ut ligula.
+              ${window.Lang.use("inpatient_treatment_info")}
             </p>
-            <x-modal trigger="click" type="text" value="Batafsil" button class="mb-2">
+            <x-modal trigger="click" type="text" value="${window.Lang.use("more")}" button class="mb-2">
               <row class="p-2 gap-1 box-modal">
                 <img src="images/bar3.jpg" class="w-30">
                 <img src="images/bar1.jpg" class="w-30">
                 <img src="images/bar5.jpg" class="w-30">
               </row>
-              <column class="gap-1 p-2">
-                <h3>Ma'lumot</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod distinctio eum suscipit non repellat illo cumque! Molestias praesentium quasi aliquam autem, quia voluptatem odio, eveniet, perspiciatis doloremque tenetur doloribus nostrum.
-                </p>
-              </column>
             </x-modal>
           </column>
         </row>
@@ -190,46 +172,28 @@ export default function content(){
       </column>
 
       <column class="w-100 gap-2">
-        <h2 class="surface-2D w-100 text-center bg-info" style="color:white;">Shifokorlar</h2>
+        <h2 class="surface-2D w-100 text-center bg-info" style="color:white;">${window.Lang.use("doctors")}</h2>
 
         <row class="flex-x-between p-5 surface-2D w-90 anim">
           <img src="images/main_doctor_2.jpg" class="w-20" />
           <column class="flex-y-start flex-x-between p-5">
-            <h2>Odilho'jaev Asqar Anvarovich</h2>
+            <h2>${window.Lang.use("doctor_1")}</h2>
             <p class="mt-3 mb-3">
-              Bariatrik hirurgiya haqida qisqa ma'lumot Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae pulvinar risus. Praesent a cursus lorem. Curabitur nisi purus, luctus vitae pulvinar ac, finibus ac tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed gravida eleifend erat, ut placerat nibh aliquet pellentesque. Nam fringilla nulla ut ligula.
+              ${window.Lang.use("doctor_1_info")}
             </p>
             <row class="flex-x-start gap-1">
               <x-modal trigger="click" type="text" value="Sertifikatlar" button>
-                <img src="images/certificate.jpg" style="max-width: 80dvw; margin: 10px 0;">
-                <img src="images/certificate.jpg" style="max-width: 80dvw; margin: 10px 0;">
-                <img src="images/certificate.jpg" style="max-width: 80dvw; margin: 10px 0;">
-                <img src="images/certificate.jpg" style="max-width: 80dvw; margin: 10px 0;">
                 <img src="images/certificate.jpg" style="max-width: 80dvw; margin: 10px 0;">
                 <img src="images/certificate.jpg" style="max-width: 80dvw; margin: 10px 0;">
               </x-modal>
               <x-modal trigger="click" type="text" value="Diplomlar" button>
                 <img src="images/certificate.jpg" style="max-width: 80dvw; margin: 10px 0;">
                 <img src="images/certificate.jpg" style="max-width: 80dvw; margin: 10px 0;">
-                <img src="images/certificate.jpg" style="max-width: 80dvw; margin: 10px 0;">
-                <img src="images/certificate.jpg" style="max-width: 80dvw; margin: 10px 0;">
-                <img src="images/certificate.jpg" style="max-width: 80dvw; margin: 10px 0;">
-                <img src="images/certificate.jpg" style="max-width: 80dvw; margin: 10px 0;">
               </x-modal>
               <x-modal trigger="click" type="text" value="Ma'lumot" button>
                 <h3 class="m-2">Odilxo'jaev Asqar Anvarovich</h3>
                 <p class="p-2">
-                  Adilxo'jaev Asqar Anvarovich, tibbiyot fanlari doktori, dotsent, oliy toifali jarroh.
-                  Adilxo‘jaev A, 2005-yilda Birinchi Toshkent Davlat tibbiyot institutini tamomlagan.
-                  2005-2008 yillarda Toshkent tibbiyot akademiyasi “Xirurgiya” ixtisosligi bo‘yicha magistraturani tamomlagan.
-                  2009-2010 yildan beri TMA xirurgiya kafedrasi aspiranti boʻlgan va 2010 yilda “Oshqozon osti bezi boshining mahalliy rivojlangan saratoni uchun endovaskulyar aralashuvlarni takomillashtirish” ixtisosligi boʻyicha tibbiyot fanlari nomzodi ilmiy darajasini olish uchun nomzodlik dissertatsiyasini himoya qilgan. Jarrohlik".
-                  2010-2016 yillarda TMA fakultet va gospital xirurgiyasi kafedrasida assistent, so‘ngra dotsent lavozimlarida ishlagan.
-                  2016-yilda “Xirurgiya” ixtisosligi bo‘yicha “Periampulyar o‘smalarda jarrohlik taktikasini takomillashtirish” mavzusida doktorlik dissertatsiyasini himoya qilgan va 2018-yilda oliy toifali dotsent ilmiy unvonini olgan.
-                  2018 yildan hozirgacha Respublika ixtisoslashtirilgan onkologiya va radiologiya ilmiy-amaliy tibbiyot markazida ishlab kelmoqda.
-                  Adilxo'jaev A. Shoshilinch jarrohlik, videolaparoskopiya, pankreatikobiliar jarrohlik va onkologiya masalalariga bag'ishlangan 150 dan ortiq nashrlarning muallifi va hammuallifi. 10 ta oʻquv qoʻllanma, tavsiyalar, 3 ta monografiya, shuningdek, 3 ta ixtiroga patent muallifi.
-                  Kasbiy faoliyati davomida u bir necha marta tematik takomillashtirish, 2007 yilda onkologiya (Rossiya, Moskva), 2012 yilda endoskopik jarrohlik (Rossiya, Moskva), 2017 yilda ftiziatriya (Ispaniya, Barselona), 2018 yilda pankreatikobiliar va endoskopik jarrohlik bo'yicha mahorat darslarini yakunladi. (Koreya Respublikasi, Seul), semizlik jarrohligi 2018-2019 (Toshkent), metabolik jarrohlik 2021 (Gruziya, Tbilisi).
-                  2017 yilda endoskopik jarrohlik, 2018 yilda ftiziojarrohlik, ToshUIV tomonidan chiqarilgan qorin onkoxirurgiyasi mutaxassisligi bor.
-                  Bariatrik jarrohlar xalqaro assotsiatsiyasi (IFSO), Oʻzbekiston bariatrik jarrohlari, Oʻzbekiston onkologlar assotsiatsiyasi aʼzosi, MDH mamlakatlari gepatologik jarrohlar uyushmasi aʼzosi.
+                  ${window.Lang.use("doctor_1_fullinfo")}
                 </p>
               </x-modal>
             </row>
