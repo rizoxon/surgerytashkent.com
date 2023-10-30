@@ -3,10 +3,10 @@
     "enabled": true,
     "MySQL": {
         "enabled": true,
-        "name": "surgery_tashkent",
-        "user": "surgerytashkent",
+        "name": "muhammadrizo$surgerytashkent_db",
+        "user": "muhammadrizo",
         "password": "surgerytashkent_pass",
-        "host": "127.0.0.1",
+        "host": "muhammadrizo.mysql.pythonanywhere-services.com",
         "port": "33060",
         "charset": "utf8mb4",
         "collate": "utf8mb4_0900_ai_ci"
