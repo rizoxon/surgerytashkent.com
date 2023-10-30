@@ -2,9 +2,9 @@
 \! echo "--------------- X ---------------";
 \W
 
-DROP DATABASE IF EXISTS surgerytashkent_db;
-CREATE DATABASE IF NOT EXISTS surgerytashkent_db CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci;
-USE surgerytashkent_db;
+DROP DATABASE IF EXISTS muhammadrizo$surgerytashkent_db;
+CREATE DATABASE IF NOT EXISTS muhammadrizo$surgerytashkent_db CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci;
+USE muhammadrizo$surgerytashkent_db;
 
 SET NAMES utf8mb4;
 
