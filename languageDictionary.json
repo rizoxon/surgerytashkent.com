@@ -266,7 +266,35 @@
         "uz": "Jo'natish",
         "ru": "Отправлять",
         "en": "Send"
+    },
+    "qualityService": {
+        "uz": "Eng sifatli bariatrik operatsiyalar",
+        "ru": "Бариатрические операции высочайшего качества",
+        "en": "Bariatric surgeries of the highest quality"
+    },
+    "bariatricPage": {
+        "uz": "<b>Bariatrik jarrohlik </b>, shuningdek, vazn yo'qotish jarrohligi sifatida ham tanilgan, bu <b>semizlik bilan og'rigan odamlarga sezilarli darajada vazn yo'qotishga yordam berishga qaratilgan jarrohlik amaliyotidir.</b> Bu ovqat hazm qilish tizimiga o'zgartirish kiritishni o'z ichiga oladi, bu siz iste'mol qilishingiz va qabul qilishingiz mumkin bo'lgan oziq-ovqat miqdorini cheklaydi, bu esa sezilarli va barqaror vazn yo'qotishiga olib keladi.",
+        "ru": "<b>Бариатрическая хирургия </b>, также известная как операция по снижению веса, представляет собой хирургическую процедуру, направленную на <b>помощь людям, страдающим ожирением, сбросить значительное количество веса.</b> Это пищеварительная операция, включающая в себя изменения в метаболизме, которые ограничивает количество пищи, которую вы можете съесть и принять, что приводит к значительной и устойчивой потере веса.",
+        "en": "<b>Bariatric surgery </b>, also known as weight loss surgery, is a surgical procedure aimed at <b>helping obese people lose significant amounts of weight.</b> It is a digestive involves making changes to your metabolism that limits the amount of food you can eat and take in, leading to significant and sustainable weight loss."
+    },
+    "fast": {
+        "uz": "Tezkor",
+        "ru": "Быстрый",
+        "en": "Fast"
+    },
+    "reliable": {
+        "uz": "Ishonchli",
+        "ru": "Надежный",
+        "en": "Reliable"
+    },
+    "efficient": {
+        "uz": "Samarali",
+        "ru": "Эффективный",
+        "en": "Efficient"
+    },
+    "guaranteed": {
+        "uz": "Kafolatlangan",
+        "ru": "Гарантировано",
+        "en": "Guaranteed"
     }
-
-    
 }

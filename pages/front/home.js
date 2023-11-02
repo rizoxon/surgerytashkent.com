@@ -114,7 +114,7 @@ export default function content(){
             <p class="mt-3 mb-3">
               ${window.Lang.use("laparoscopic_info")}
             </p>
-            <button><a href="/laparoskopiya" style="color:white;">${window.Lang.use("more")}</a></button>
+            <button><a href="/laparoscopicSurgery" style="color:white;">${window.Lang.use("more")}</a></button>
           </column>
         </row>
 
