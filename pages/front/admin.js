@@ -206,7 +206,7 @@ export async function before(){
 
 
 export default function content(){
-  const commnets = `
+  const comments = `
     <section id="commnets" class="surface-clean w-100 p-1">
       <table class="x-default scrollbar-x">
 
@@ -421,7 +421,7 @@ export default function content(){
         <column id="sections" class="w-auto">
           <x-nav selector="column#sections">
             [
-              {"link": "commnets"},
+              {"link": "comments"},
               {"link": "doctors"},
               {"link": "certificates"},
               {"link": "diplomas"},
@@ -432,7 +432,7 @@ export default function content(){
         </column>
 
         <column id="sections" class="w-70">
-          ${commnets}
+          ${comments}
           ${doctors}
           ${certificates}
           ${diplomas}

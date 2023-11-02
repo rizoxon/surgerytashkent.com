@@ -4,6 +4,15 @@
 body{
   min-width: 100%;
 }
+x-language{
+  & > x-tooltip{
+    & > content {
+      position: absolute !important;
+      top: 100% !important;
+      right: 0 !important;
+    }
+  }
+}
 button{
   box-shadow: none;
   color: white;
@@ -258,6 +267,9 @@ container.laproskopic{
         color: white;
       }
     }
+  }
+  modal > main{
+    min-width: 90dvw;
   }
 }
 
