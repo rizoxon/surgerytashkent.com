@@ -11,8 +11,8 @@
     },
     "photos": {
         "uz": "Rasmlar",
-        "ru": "Картинки",
-        "en": "Фото"
+        "ru": "Фото",
+        "en": "Photos"
     },
     "admin": {
         "uz": "Admin",
@@ -296,5 +296,40 @@
         "uz": "Kafolatlangan",
         "ru": "Гарантировано",
         "en": "Guaranteed"
+    },
+    "modernLaproscopy": {
+        "uz": "Zamonaviy laparoskopik operatsiyalar",
+        "ru": "Современные лапароскопические операции",
+        "en": "Modern laparoscopic operations"
+    },
+    "ourDoctors": {
+        "uz": "Bizning mutaxassis shifokorlarimiz",
+        "ru": "Наши врачи-специалисты",
+        "en": "Our specialist doctors"
+    },
+    "operations": {
+        "uz": "Operatsiyalar",
+        "ru": "Операции",
+        "en": "Operations"
+    },
+    "interviewDoc": {
+        "uz": "Vrachlar bilan suhbat",
+        "ru": "Интервью с врачами",
+        "en": "Interview with doctors"
+    },
+    "interviewClient": {
+        "uz": "Bemorlar bilan suhbat",
+        "ru": "Интервью с пациентами",
+        "en": "Interview with patients"
+    },
+    "beforeAfter": {
+        "uz": "Avval va Keyingi rasmlar",
+        "ru": "Фото до и после",
+        "en": "Before and After photos"
+    },
+    "otherPhotos": {
+        "uz": "Yangi rasmlar",
+        "ru": "Новые фото",
+        "en": "New photos"
     }
 }
