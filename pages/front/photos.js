@@ -37,22 +37,22 @@ export default function content(){
   return `
     <container class="results">
       <row>
-        <button><a href="#operations">Operatsiyalar</a></button>
-        <button><a href="#results">Avval va Keyingi rasmlar</a></button>
-        <button><a href="#others">Boshqa rasmlar</a></button>
+        <button><a href="#operations">${window.Lang.use("operations")}</a></button>
+        <button><a href="#results">${window.Lang.use("beforeAfter")}</a></button>
+        <button><a href="#others">${window.Lang.use("otherPhotos")}</a></button>
       </row>
 
-      <h2  id="operations" class="surface-2D w-100 text-center bg-info" style="color:white;">Operatsiyalar</h2>
+      <h2  id="operations" class="surface-2D w-100 text-center bg-info" style="color:white;">${window.Lang.use("operations")}</h2>
       <row>
         ${window.pageData.operationRows}
       </row>
 
-      <h2 id="results" class="surface-2D w-100 text-center bg-info" style="color:white;">Avval va Keyingi rasmlar</h2>
+      <h2 id="results" class="surface-2D w-100 text-center bg-info" style="color:white;">${window.Lang.use("beforeAfter")}</h2>
       <row>
         ${window.pageData.before_afterRows}
       </row>
 
-      <h2 id="others" class="surface-2D w-100 text-center bg-info" style="color:white;">Boshqa rasmlar</h2>
+      <h2 id="others" class="surface-2D w-100 text-center bg-info" style="color:white;">${window.Lang.use("otherPhotos")}</h2>
       <row>
         ${window.pageData.otherRows}
       </row>

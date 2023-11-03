@@ -31,14 +31,14 @@ export async function before(){
           <img src="assets/doctors/${doctor["file"]}" class="w-100">
           <h3>${doctor["fullname"]}</h3>
           <row class="flex-x-between">
-            <x-modal trigger="click" type="text" value="Ma'lumot">
+            <x-modal trigger="click" type="text" value="${window.Lang.use("info")}">
               <h3 class="m-2">${doctor["fullname"]}</h3>
               <p class="p-2">${doctor["info"]}</p>
             </x-modal>
-            <x-modal trigger="click" type="text" value="Sertifikatlar">
+            <x-modal trigger="click" type="text" value="${window.Lang.use("certificates")}">
               ${window.pageData.certificateRows}
             </x-modal>
-            <x-modal trigger="click" type="text" value="Diplomlar">
+            <x-modal trigger="click" type="text" value="${window.Lang.use("diplomas")}">
               ${window.pageData.diplomaRows}
             </x-modal>
           </row>
@@ -55,7 +55,7 @@ export default function content(){
   return `
     <container class="doctors">
       <header>
-        <h1>Bizning mutaxassislarimiz</h1>
+        <h1>${window.Lang.use("ourDoctors")}</h1>
       </header>
       <row class="p-5 gap-2">
         ${window.pageData.doctorRows}

@@ -28,22 +28,22 @@ export default function content(){
   return `
     <container class="gallery">
       <row>
-        <button><a href="#operations">Operatsiyalar</a></button>
-        <button><a href="#advice">Vrachlar bilan suhbatlar</a></button>
-        <button><a href="#interview">Be'morlar vilan intervyu</a></button>
+        <button><a href="#operations">${window.Lang.use("operations")}</a></button>
+        <button><a href="#advice">${window.Lang.use("interviewDoc")}</a></button>
+        <button><a href="#interview">${window.Lang.use("interviewClient")}</a></button>
       </row>
 
-      <h2  id="operations" class="surface-2D w-100 text-center bg-info" style="color:white;">Operatsiya jarayonlari</h2>
+      <h2  id="operations" class="surface-2D w-100 text-center bg-info" style="color:white;">${window.Lang.use("operations")}</h2>
       <row class="p-1 gap-1">
         ${window.pageData.operatsiyaRows}
       </row>
 
-      <h2  id="advice" class="surface-2D w-100 text-center bg-info" style="color:white;">Vrachlar bilan suhbatlar</h2>
+      <h2  id="advice" class="surface-2D w-100 text-center bg-info" style="color:white;">${window.Lang.use("interviewDoc")}</h2>
       <row class="p-1 gap-1">
         ${window.pageData.shifokorRows}
       </row>
 
-      <h2  id="interview" class="surface-2D w-100 text-center bg-info" style="color:white;">Bemorlar bilan intervyu</h2>
+      <h2  id="interview" class="surface-2D w-100 text-center bg-info" style="color:white;">${window.Lang.use("interviewClient")}</h2>
       <row class="p-1 gap-1">
         ${window.pageData.intervyuRows}
       </row>

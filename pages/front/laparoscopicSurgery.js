@@ -1,15 +1,12 @@
 export default function content(){
   return `
     <container class="laproskopic">
-      <h1 class="p-5">
-        Zamonaviy laparoskopik operatsiyalar
-      </h1>
+      <h1 class="p-5">${window.Lang.use("modernLaproscopy")}</h1>
       <column class="w-70">
         <img src="images/b_main.jpg" class="w-100 anim">
         <column class="p-5 anim">
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, velit.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto facere voluptate dicta est doloribus nesciunt, assumenda dolores esse, dolor illum iste cupiditate, ad excepturi. Exercitationem voluptatum perspiciatis animi omnis pariatur.</p>
-          <row class="flex-x-between flex-y-center">
+          <p>${window.Lang.use("laparoscopic_info")}</p>
+          <row class="flex-x-between flex-y-center mt-3">
             <button><h2><a href="#contact" style="color: white;">Aloqa</a></h2></button>
             <h2>+998 90 123-45-67</h2>
           </row>
@@ -19,22 +16,22 @@ export default function content(){
       <row class="w-70 gap-2 mt-5">
         <column class="flex-center p-5 surface-clean anim anim_rotate">
           <img src="images/flash.png" class="w-20">
-          <h3>Tezkor</h3>
+          <h3>${window.Lang.use("fast")}</h3>
         </column>
 
         <column class="flex-center p-5 surface-clean anim anim_rotate">
           <img src="images/security.png" class="w-20">
-          <h3>Ishonchli</h3>
+          <h3>${window.Lang.use("reliable")}</h3>
         </column>
 
         <column class="flex-center p-5 surface-clean anim anim_rotate">
           <img src="images/clock.png" class="w-20">
-          <h3>Samarali</h3>
+          <h3>${window.Lang.use("efficient")}</h3>
         </column>
 
         <column class="flex-center p-5 surface-clean anim anim_rotate">
           <img src="images/trust.png" class="w-20">
-          <h3>Kafolatlangan</h3>
+          <h3>${window.Lang.use("guaranteed")}</h3>
         </column>
       </row>
       
@@ -53,16 +50,13 @@ export default function content(){
       <row class="surface-clean p-2 w-70 contact" id="contact">
         <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d5991.974372102905!2d69.21694!3d41.330892!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDHCsDE5JzUxLjIiTiA2OcKwMTMnMDEuMCJF!5e0!3m2!1sen!2s!4v1697022796395!5m2!1sen!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <column class="p-2 text-left w-30">
-          <h4 class="info">Manzil</h4>
-          <p>
-            Ўзбекистон, Тошкент <br>
-            Нурафшон кўчаси, Уй № 7А
-          </p>
-          <h4 class="info">Telefon raqam</h4>
+          <h4 class="info">${window.Lang.use("address")}</h4>
+          <p>${window.Lang.use("addInfo")}</p>
+          <h4 class="info">${window.Lang.use("phoneNum")}</h4>
           <p>
             +998 90 123-45-67
           </p>
-          <h4 class="info" style="padding-bottom: 5%;">Ijtimoiy tarmoqlar</h4>
+          <h4 class="info" style="padding-bottom: 5%;">${window.Lang.use("socialMedia")}</h4>
           <column class="gap-1">
             <row class="gap-1 flex-center">
               <a href="#" class="bg-5 p-2 d-flex flex-center anim anim_rotate">
@@ -84,23 +78,23 @@ export default function content(){
         </column>
       </row>
 
-      <form action="/" for="sendComment" class="w-70 surface-clean p-5 mt-5 mb-5 anim">
+      <form action="/" for="sendComment" id="contact" class="w-70 surface-clean p-5 mt-5 mb-5 anim">
         <row class="gap-1">
           <label>
-            <p for="fullName">Ismingizni kiriting</p>
+            <p for="fullName">${window.Lang.use("enterName")}</p>
             <input type="text" name="fullName"  />
           </label>
           <label>
-            <p for="phoneNumber">Telefon raqamingizni kiriting</p>
+            <p for="phoneNumber">${window.Lang.use("enterPhone")}</p>
             <input type="tel" name="phoneNumber"  />
           </label>
         </row>
         <labe>
-          <p for="comment">Komentariya qoldiring</p>
+          <p for="comment">${window.Lang.use("leaveComment")}</p>
           <textarea name="comment"></textarea>
         </labe>
         <label>
-          <input type="submit" name="send" value="Jo'natish" />
+          <input type="submit" name="send" value="${window.Lang.use("send")}" />
           <p for="sendComment"></p>
         </label>
       </form>
