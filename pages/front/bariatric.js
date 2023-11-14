@@ -59,18 +59,18 @@ export default function content(){
           <h4 class="info" style="padding-bottom: 5%;">${window.Lang.use("socialMedia")}</h4>
           <column class="gap-1">
             <row class="gap-1 flex-center">
-              <a href="#" class="bg-5 p-2 d-flex flex-center anim anim_rotate">
+              <a href="#" class="bg-5 p-2 d-flex flex-center anim anim_rotate link">
                 <img src="images/telegram.png" class="w-50">
               </a>
-              <a href="#" class="bg-5 p-2 d-flex flex-center anim anim_rotate">
+              <a href="#" class="bg-5 p-2 d-flex flex-center anim anim_rotate link">
                 <img src="images/instagram.png" class="w-50">
               </a>
             </row>
             <row class="gap-1 flex-center">
-              <a href="#" class="bg-5 p-2 d-flex flex-center anim anim_rotate">
+              <a href="#" class="bg-5 p-2 d-flex flex-center anim anim_rotate link">
                 <img src="images/facebook.png" class="w-50">
               </a>
-              <a href="#" class="bg-5 p-2 d-flex flex-center anim anim_rotate">
+              <a href="#" class="bg-5 p-2 d-flex flex-center anim anim_rotate link">
                 <img src="images/youtube.png" class="w-50">
               </a>
             </row>

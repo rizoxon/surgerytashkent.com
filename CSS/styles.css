@@ -335,7 +335,19 @@ container.laproskopic{
   }
 }
 
-
+container.admin{
+  & > row{
+    & > a {
+      font-size: 2rem;
+    }
+  }
+}
+a.link{
+  border-radius: 5px;
+  &:hover{
+    background-color: #2491eb
+  }
+}
 
 
 

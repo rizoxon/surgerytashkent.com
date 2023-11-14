@@ -2,18 +2,14 @@ import os
 import datetime
 
 from main import app, request, render_template
-from python.modules.pageGuard import pageGuard
-from python.modules.Globals import Globals
+from python.modules.Page import Page
 from python.modules.MySQL import MySQL
-from python.modules.response import response
 from python.modules.FileSystem import FileSystem
 
-@app.route("/photos", methods=["GET", "POST"])
-# @pageGuard("labeledPhoto")
-def Photos():
-    if request.method == "GET": pass
+@Page.build()
+def Photos(request):
 
-    elif request.method == "POST":
+    if request.method == "POST":
         ############################## JSON
         if request.content_type == "application/json":
             

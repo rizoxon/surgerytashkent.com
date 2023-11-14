@@ -31,7 +31,32 @@
   "pages": {
     "home": {
       "enabled": true,
+      "methods": ["GET", "POST"],
       "endpoints": ["/", "/home"]
+    },
+    "comments": {
+      "enabled": true,
+      "endpoints": ["/comments"]
+    },
+    "doctorsControl": {
+      "enabled": true,
+      "endpoints": ["/doctorsControl"]
+    },
+    "certificates": {
+      "enabled": true,
+      "endpoints": ["/certificates"]
+    },
+    "diplomas": {
+      "enabled": true,
+      "endpoints": ["/diplomas"]
+    },
+    "photosControl": {
+      "enabled": true,
+      "endpoints": ["/photosControl"]
+    },
+    "videosControl": {
+      "enabled": true,
+      "endpoints": ["/videosControl"]
     },
     "bariatric": {
       "enabled": true,
@@ -56,11 +81,13 @@
 
     "logIn": {
       "enabled": true,
+      "methods": ["GET", "POST"],
       "authenticity_statuses": ["unauthenticated"],
       "endpoints": ["/logIn"]
     },
     "admin": {
       "enabled": true,
+      "methods": ["GET", "POST"],
       "authenticity_statuses": ["authorized"],
       "endpoints": ["/admin"]
     },
@@ -79,7 +106,18 @@
       {"page":"doctors", "icon":"doctors"},
       {"page":"videos", "icon":"gallery"},
       {"page":"photos", "icon":"results"},
-      {"page":"admin", "icon": "admin"},
+      {
+        "page":"admin",
+        "icon": "admin",
+        "subMenu": [
+          {"page":"comments"},
+          {"page":"doctorsControl"},
+          {"page":"certificates"},
+          {"page":"diplomas"},
+          {"page":"photosControl"},
+          {"page":"videosControl"}
+        ]
+      },
       {"page":"logOut", "icon": "logOut"}
     ]
   }

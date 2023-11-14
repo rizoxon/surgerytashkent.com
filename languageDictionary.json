@@ -128,7 +128,7 @@
         "en": "Doctors"
     },
     "doctor_1": {
-        "uz": "Odilho'jaev Asqar Anvarovich",
+        "uz": "Adilho'jaev Asqar Anvarovich",
         "ru": "Адилходжаев Аскар Анварович",
         "en": "Adilkhodzhaev Askar Anvarovich"
     },
@@ -331,5 +331,21 @@
         "uz": "Yangi rasmlar",
         "ru": "Новые фото",
         "en": "New photos"
+    },
+    "doctorsControl": {
+        "uz": "Shifokorlar",
+        "ru": "Врачи",
+        "en": "Doctors"
+    },
+    "photosControl": {
+        "uz": "Rasmlar",
+        "ru": "Фото",
+        "en": "Photos"
+    },
+    "videosControl": {
+        "uz": "Videolar",
+        "ru": "Видео",
+        "en": "Videos"
     }
+
 }

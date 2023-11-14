@@ -260,7 +260,7 @@ export default function content(){
             </div>
             <input class="gumb" type="button" value="${window.Lang.use("calc")}" id="button" style="margin-top: 0.5em">
             <p style="margin-top: 1em;font-size: 1.2em;">
-              <strong>${window.Lang.use("height")}:</strong>
+              <strong>${window.Lang.use("yourBmi")}:</strong>
               <span id="yourbmi" style="font-size: 1.2em;margin-left: 8px;"></span>
             </p>
             <p></p>
@@ -346,18 +346,18 @@ export default function content(){
             <h4 class="info" style="padding-bottom: 5%;">${window.Lang.use("socialMedia")}</h4>
             <column class="gap-1">
               <row class="gap-1 flex-center">
-                <a href="#" class="bg-5 p-2 d-flex flex-center anim">
+                <a href="#" class="bg-5 p-2 d-flex flex-center anim link">
                   <img src="images/telegram.png" class="w-50">
                 </a>
-                <a href="#" class="bg-5 p-2 d-flex flex-center anim">
+                <a href="#" class="bg-5 p-2 d-flex flex-center anim link">
                   <img src="images/instagram.png" class="w-50">
                 </a>
               </row>
               <row class="gap-1 flex-center">
-                <a href="#" class="bg-5 p-2 d-flex flex-center anim">
+                <a href="#" class="bg-5 p-2 d-flex flex-center anim link">
                   <img src="images/facebook.png" class="w-50">
                 </a>
-                <a href="#" class="bg-5 p-2 d-flex flex-center anim">
+                <a href="#" class="bg-5 p-2 d-flex flex-center anim link">
                   <img src="images/youtube.png" class="w-50">
                 </a>
               </row>

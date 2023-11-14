@@ -1,16 +1,11 @@
-from main import app, request, render_template
-from python.modules.pageGuard import pageGuard
-from python.modules.Globals import Globals
+from python.modules.Page import Page
 from python.modules.MySQL import MySQL
 from python.modules.response import response
 
-@app.route("/", methods=["GET", "POST"])
-@app.route("/home", methods=["GET", "POST"])
-@pageGuard("home")
-def home():
-    if request.method == "GET": return render_template("index.html", **globals())
+@Page.build()
+def home(request):
 
-    elif request.method == "POST":
+    if request.method == "POST":
         ############################## FORM
         if "multipart/form-data" in request.content_type.split(';'):
             if request.form["for"] == "sendComment":

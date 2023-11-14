@@ -1,19 +1,16 @@
 import os
 import datetime
 
-from main import app, request, render_template
-from python.modules.pageGuard import pageGuard
+from python.modules.Page import Page
 from python.modules.Globals import Globals
 from python.modules.MySQL import MySQL
 from python.modules.response import response
 from python.modules.FileSystem import FileSystem
 
-@app.route("/admin", methods=["GET", "POST"])
-@pageGuard("admin")
-def admin():
-    if request.method == "GET": return render_template("index.html", **globals())
+@Page.build()
+def admin(request):
 
-    elif request.method == "POST":
+    if request.method == "POST":
         ############################## FORM
         if "multipart/form-data" in request.content_type.split(';'):
 
