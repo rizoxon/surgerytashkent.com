@@ -4,10 +4,11 @@ import datetime
 from main import app, request, render_template
 from python.modules.Page import Page
 from python.modules.MySQL import MySQL
+from python.modules.response import response
 from python.modules.FileSystem import FileSystem
 
 @Page.build()
-def Photos(request):
+def photos(request):
 
     if request.method == "POST":
         ############################## JSON

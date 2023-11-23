@@ -138,16 +138,16 @@ container.gallery iframe{
 container.bariatric, container.laproskopic{
   & > row:nth-child(3){
     & > column:nth-child(1){
-      background-color: rgba(255, 205, 75, 0.5);
-      border: 2px solid #FFCD4B;
-    }
-    & > column:nth-child(2){
-      background-color: rgba(121, 172, 120, 0.5);
-      border: 2px solid #79AC78;
-    }
-    & > column:nth-child(3){
       background-color: rgba(255, 105, 105, 0.5);
       border: 2px solid #FF6969;
+    }
+    & > column:nth-child(2){
+      background-color: rgba(255, 105, 105, 0.5);
+      border: 2px solid #FF6969;
+    }
+    & > column:nth-child(3){
+      background-color: rgba(92, 210, 230, 0.5);
+      border: 2px solid #5CD2E6;
     }
     & > column:nth-child(4){
       background-color: rgba(92, 210, 230, 0.5);
@@ -271,21 +271,34 @@ container.laproskopic{
   modal > main{
     min-width: 90dvw;
   }
-}
+  .main-row {
+    & > :nth-child(1){ order: 3; display: none;}
+    & > :nth-child(2){ order: 1;}
+    & > :nth-child(3){ order: 2; width: 100%;}
+    & > :nth-child(4){ order: 4; display: none;}
+  }
 
-@media screen and (min-width: 1140px){
-  container.home {
-    & > column:nth-child(1){
-      & > row:nth-child(1){
-        & > column{
-          position: absolute;
-          top: 60px;
-          right: 1rem;
+  .header-row-main{
+    grid-template-columns: 50% 40% 10% !important;
+    & > :nth-child(1) {
+      order: 2;
+      padding-top: 5px;
+      
+      display: flex;
+      flex-direction: row;
+
+      & > a {
+        width: 30%;
+        & > img{
+          width: 100%;
         }
       }
     }
+    & > :nth-child(2){ order: 1;}
+    & > :nth-child(3){ order: 3;}
   }
 }
+
 
 /* ////////////////////////////////////////////// SCROLL ANIMATIONS */
 .anim {
@@ -349,10 +362,25 @@ a.link{
   }
 }
 
-
-
-
-
+.x-sm{
+  font-size: 0.8em;
+  background: #2491eb;
+  width: 100%;
+  color: white;
+  text-align: center;
+  margin-top: 5px;
+  font-weight: bold;
+}
+.doctor-card {
+  background-color: var(--color-main-tint-2);
+}
+.main-video {
+  width: 25dvw;
+  height: 30dvh;
+}
+.text-row {
+  margin: 4%;
+}
 
 
 
@@ -479,5 +507,46 @@ Media querie for iPhone 5
 
   h1 {
     font-size: 1.5em;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .panel {
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .panel {
+      width: 70dvw;
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
+
+
+.header-row-main{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  & > :nth-child(1) {
+    padding-top: 5px;
+    width: 40%;
+
+    & > a > img {
+      width: 50%;
+      filter: drop-shadow(0 0 1px black);
+    }
+  }
+  & > * {
+    text-align: center;
+    margin-top: -5px;
+    justify-content: center;
+  }
+
+  & > :nth-child(3){
+    text-align: right;
   }
 }

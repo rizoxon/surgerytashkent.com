@@ -63,9 +63,14 @@
         "en": "Bariatric surgery, also known as weight loss surgery, is <b>a surgical procedure aimed at helping individuals with obesity achieve substantial weight loss.</b> It involves making changes to your digestive system to limit the amount of food you can eat and absorb, leading to significant and sustained weight reduction. <br><br> There are different types of bariatric surgery, each with its own set of benefits and risks. The most common procedures include: <br><br> <b>Gastric Bypass Surgery:</b> This surgery involves creating a smaller stomach pouch and rerouting the small intestine, resulting in both reduced food intake and limited calorie absorption. <br><br><b>Gastric Sleeve Surgery:</b> This surgery involves removing a large portion of the stomach, leaving behind a sleeve-shaped pouch. It restricts the amount of food you can consume and makes you feel full sooner. <br><br><b>Gastric Band Surgery:</b> In this procedure, an adjustable band is placed around the upper part of the stomach, creating a smaller pouch. This restricts the amount of food you can eat and gives a feeling of fullness. <br><br><b>Biliopancreatic Diversion with Duodenal Switch:</b> This surgery involves removing a portion of the stomach and rerouting the small intestine. It decreases the amount of nutrients and calories absorbed by your body."
     },
     "xek": {
-        "uz": "XEK",
-        "ru": "XEK",
-        "en": "Cholecystectomy"
+        "uz": "Xirurgik ankologiya",
+        "ru": "Хирургическая онкология",
+        "en": "Surgical oncology"
+    },
+    "gallstone": {
+        "uz": "O't tosh kasalligi",
+        "ru": "желчнокаменная болезнь",
+        "en": "gallstone disease"
     },
     "xek_info": {
         "uz": "Xoletsistektomiya (XEK) — oʻt pufagini olib tashlash operatsiyasi. <br><br> Ushbu operatsiya narkoz ostida oʻtkaziladi. Laparoskopik xoletsistektomiya qorin devorining kesmalari orqali amalga oshiriladi. Eng koʻp qoʻllaniladigan jarrohlik texnikasi toʻrtta kesmaning bajarilishini oʻz ichiga oladi va ulardan ikkitasi 5 millimetr uzunlikda, qolgan ikkitasi 10 millimetrga teng. Qorin boʻshligʻiga jarrohlik asboblari, shuningdek, laparoskop - monitorda ichki organlarning uch oʻlchovli tasvirini koʻrsatadigan maxsus qurilma kiritiladi. ",
@@ -73,9 +78,9 @@
         "en": "Cholecystectomy is an operation to remove the gallbladder.<br><br>This operation is performed under anesthesia. Laparoscopic cholecystectomy is performed through incisions in the abdominal wall. The most commonly used surgical technique involves making four incisions, two of which are 5 millimeters long and the other two are 10 millimeters long. Surgical instruments, as well as a laparoscope - a special device that shows a three-dimensional image of the internal organs on a monitor, are inserted into the abdominal cavity."
     },
     "churra": {
-        "uz": "Churra",
-        "ru": "Грыжа",
-        "en": "Hernia"
+        "uz": "Qorin churralari",
+        "ru": "Брюшные грыжи",
+        "en": "Abdominal hernias"
     },
     "churra_info": {
         "uz": "Churra ichki organ yoki to'qima atrofdagi mushak yoki biriktiruvchi to'qimalarning zaif joyidan o'tib ketganda paydo bo'ladi. Odatda bu bo'rtma yoki protrusion sifatida namoyon bo'ladi va zararlangan odamlarda noqulaylik yoki og'riq keltirishi mumkin. Churralar tananing turli qismlarida, jumladan, qorin bo'shlig'ida, sonda, sonda va hatto diafragmada rivojlanishi mumkin.<br><br>Har xil turdagi churralar mavjud, lekin eng ko'p uchraydiganlari inguinal churralar, hiatal churralar va kindik churralarini o'z ichiga oladi. Inguinal churralar jag' sohasida, hiatal churrada oshqozon diafragma orqali itarish, kindik churrasi esa qorin bo'shlig'i yaqinida paydo bo'ladi.<br><br>Churralar turli sabablarga ko'ra bo'lishi mumkin, jumladan, qorin devoridagi tug'ma zaifliklar, og'ir yuklarni ko'tarish natijasida mushaklarning kuchlanishi, doimiy yo'tal, semirib ketish, homiladorlik yoki oldingi jarrohlik kesmalar. Semptomlar ko'zga ko'rinadigan bo'rtiqdan noqulaylik yoki og'riqgacha, ayniqsa jismoniy faoliyat yoki zo'riqish paytida bo'lishi mumkin.<br><br>Churralarni davolash odatda zaiflashgan mushak yoki to'qimalarni tiklash uchun jarrohlik amaliyotini o'z ichiga oladi. Ba'zi hollarda churralar zudlik bilan jarrohlik aralashuvni talab qilmasligi mumkin, ammo vaziyatning og'irligi va mumkin bo'lgan asoratlarini baholash uchun sog'liqni saqlash mutaxassisi bilan maslahatlashish juda muhimdir.<br><br>Agar sizda churra borligidan shubhalansangiz yoki churra tashxisi qo'yilgan bo'lsa, ushbu holatni samarali boshqarish uchun sizga tegishli davolash usullari va turmush tarzini o'zgartirish orqali yordam beradigan tibbiy yordam ko'rsatuvchi provayderingizning tavsiyalariga amal qilishingiz kerak.",

@@ -72,6 +72,7 @@
     },
     "photos": {
       "enabled": true,
+      "methods": ["GET", "POST"],
       "endpoints": ["/photos"]
     },
     "doctors": {

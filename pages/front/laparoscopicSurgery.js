@@ -47,8 +47,8 @@ export default function content(){
         <img src="images/bariatrik1.jpg" class="w-30 surface-clean p-1 anim">
       </row>
 
-      <row class="surface-clean p-2 w-70 contact" id="contact">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d5991.974372102905!2d69.21694!3d41.330892!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDHCsDE5JzUxLjIiTiA2OcKwMTMnMDEuMCJF!5e0!3m2!1sen!2s!4v1697022796395!5m2!1sen!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <row class="surface-clean p-2 w-70 contact">
+        <iframe class="anim" src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d5991.974372102905!2d69.21694!3d41.330892!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDHCsDE5JzUxLjIiTiA2OcKwMTMnMDEuMCJF!5e0!3m2!1sen!2s!4v1697022796395!5m2!1sen!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <column class="p-2 text-left w-30">
           <h4 class="info">${window.Lang.use("address")}</h4>
           <p>${window.Lang.use("addInfo")}</p>
@@ -59,18 +59,18 @@ export default function content(){
           <h4 class="info" style="padding-bottom: 5%;">${window.Lang.use("socialMedia")}</h4>
           <column class="gap-1">
             <row class="gap-1 flex-center">
-              <a href="#" class="bg-5 p-2 d-flex flex-center anim anim_rotate link">
+              <a href="https://t.me/Bariatriya" class="bg-5 p-2 d-flex flex-center anim link">
                 <img src="images/telegram.png" class="w-50">
               </a>
-              <a href="#" class="bg-5 p-2 d-flex flex-center anim anim_rotate link">
+              <a href="https://instagram.com/surgery.tashkent?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr" class="bg-5 p-2 d-flex flex-center anim link">
                 <img src="images/instagram.png" class="w-50">
               </a>
             </row>
             <row class="gap-1 flex-center">
-              <a href="#" class="bg-5 p-2 d-flex flex-center anim anim_rotate link">
+              <a href="https://www.facebook.com/profile.php?id=100089813675353&mibextid=2JQ9oc" class="bg-5 p-2 d-flex flex-center anim link">
                 <img src="images/facebook.png" class="w-50">
               </a>
-              <a href="#" class="bg-5 p-2 d-flex flex-center anim anim_rotate link">
+              <a href="https://youtube.com/@surgerytashkent?si=WBAqG4vhX_7aspCN" class="bg-5 p-2 d-flex flex-center anim link">
                 <img src="images/youtube.png" class="w-50">
               </a>
             </row>

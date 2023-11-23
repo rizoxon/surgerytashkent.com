@@ -3,45 +3,61 @@ export default function content(){
   return `
     <container class="home">
       <column class="flex-center">
-        <row class="gap-1 p-5">
-          <img src="images/logo.gif" class="w-60" style="align-self: center;" />
-          <column class="gap-1 w-20">
-            <a href="/bariatric" class="surface-clean p-5 w-100 anim">
-              <column>
-                <image src="images/fattothin.png" class="w-20">
-                <h4>${window.Lang.use("bariatric")}</h4>
-              </column>
-            </a>
-            <a href="/laparoscopicSurgery" class="surface-clean p-5 w-100 anim">
-              <column>
-                <image src="images/surgery.png" class="w-20">
-                <h4>${window.Lang.use("laparoscopicSurgery")}</h4>
-              </column>
-            </a>
+
+        <row class="flex-x-between flex-y-center p-2 main-row">
+          <column class="gap-1 anim w-15 doctor-card p-1">
+            <img src="images/main_doctor_2.jpg" class="w-100">
+            <h5 class="text-center"><a href="#">${window.Lang.use("doctor_1")}</a></h5>
+          </column>
+
+          <img src="images/logo.gif" class="w-40" style="align-self: center;" />
+
+          <iframe class="main-video" frameborder="0" type="text/html" src="https://www.dailymotion.com/embed/video/x8pvv9b" allowfullscreen title="Dailymotion Video Player" > </iframe>
+
+          <column class="gap-1 anim w-15 doctor-card p-1">
+            <img src="images/main_doctor_1.jpg" class="w-100">
+            <h5 class="text-center"><a href="#">${window.Lang.use("doctor_2")}</a></h5>
           </column>
         </row>
 
-        <row class="gap-2 p-5">
-          <column class="surface-clean flex-x-between p-2 pb-0 anim">
-            <img src="images/bariatric.png" class="w-20 mb-5">
-            <row class="flex-x-between">
-              <x-modal trigger="click" type="text" value="${window.Lang.use("more")}" button class="mb-2">
-                <row class="p-2 gap-1 box-modal">
-                  <img src="images/bar3.jpg" class="w-30">
-                  <img src="images/bar1.jpg" class="w-30">
-                  <img src="images/bar5.jpg" class="w-30">
-                </row>
-                <column class="gap-1 p-2">
-                  <h3>${window.Lang.use("info")}</h3>
-                  <p>
-                    ${window.Lang.use("bariatric_info")}
-                  </p>
-                </column>
-              </x-modal>
-              <h3 class="w-100 text-center">${window.Lang.use("bariatric")}</h3>
-            </row>
-          </column>
+        <row class="gap-1 p-2 w-60 text-center m-5 text-row flex-center">
+          <h2>Eng sifatli va zamonaviy operatsiyalar, boriatriya va laparoskopiya yo'malishilarida yetakchi bo'lgan jarrohlar.</h2>
+        </row>
 
+        <row class="gap-1 p-2 w-100 page-boxes">
+          <a href="/bariatric" class="surface-clean p-5 w-100 anim">
+            <column>
+              <image src="images/fattothin.png" class="w-20">
+              <h4>${window.Lang.use("bariatric")}</h4>
+            </column>
+          </a>
+          <a href="/laparoscopicSurgery" class="surface-clean p-5 w-100 anim">
+            <column>
+              <image src="images/surgery.png" class="w-20">
+              <h4>${window.Lang.use("laparoscopicSurgery")}</h4>
+            </column>
+          </a>
+          <a href="/doctors" class="surface-clean p-5 w-100 anim">
+            <column>
+              <image src="images/doctor.png" class="w-20">
+              <h4>${window.Lang.use("doctors")}</h4>
+            </column>
+          </a>
+          <a href="/videos" class="surface-clean p-5 w-100 anim">
+            <column>
+              <image src="images/video-marketing.png" class="w-20">
+              <h4>${window.Lang.use("videos")}</h4>
+            </column>
+          </a>
+          <a href="/photos" class="surface-clean p-5 w-100 anim">
+            <column>
+              <image src="images/picture.png" class="w-20">
+              <h4>${window.Lang.use("photos")}</h4>
+            </column>
+          </a>
+        </row>
+
+        <!-- <row class="gap-1 p-2 w-90">
           <column class="surface-clean flex-x-between p-2 pb-0 anim">
             <img src="images/xek.png" class="w-20 mb-5">
             <row class="flex-x-between">
@@ -58,12 +74,12 @@ export default function content(){
                   </p>
                 </column>
               </x-modal>
-              <h3>${window.Lang.use("xek")}</h3>
+              <h3>${window.Lang.use("gallstone")}</h3>
             </row>
           </column>
 
           <column class="surface-clean flex-x-between p-2 pb-0 anim">
-            <img src="images/back.png" class="w-20 mb-5">
+            <img src="images/stomach.png" class="w-20 mb-5">
             <row class="flex-x-between">
               <x-modal trigger="click" type="text" value="${window.Lang.use("more")}" button class="mb-2">
                 <row class="p-2 gap-1 box-modal">
@@ -83,7 +99,7 @@ export default function content(){
           </column>
 
           <column class="surface-clean flex-x-between p-2 pb-0 anim">
-            <img src="images/intestine.png" class="w-20 mb-5">
+            <img src="images/oncology.png" class="w-20 mb-5">
             <row class="flex-x-between">
               <x-modal trigger="click" type="text" value="Batafsil" button class="mb-2">
                 <row class="p-2 gap-1 box-modal">
@@ -93,15 +109,13 @@ export default function content(){
                 </row>
                 <column class="gap-1 p-2">
                   <h3>Ma'lumot</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod distinctio eum suscipit non repellat illo cumque! Molestias praesentium quasi aliquam autem, quia voluptatem odio, eveniet, perspiciatis doloremque tenetur doloribus nostrum.
-                  </p>
+                  <p>${window.Lang.use("xek_info")}</p>
                 </column>
               </x-modal>
-              <h3>Operatsiya nomi</h3>
+              <h3>${window.Lang.use("xek")}</h3>
             </row>
           </column>
-        </row>
+        </row> -->
       </column>
 
       <column class="w-100 gap-3" style="padding-top: 0;">
@@ -239,36 +253,26 @@ export default function content(){
 
       <column class="w-100">
         <h2 class="surface-2D w-100 text-center bg-info" style="color:white;">${window.Lang.use("bariatric")}</h2>
-        <form name="bmiForm">
-          <div class="bmi-calculator">
-            <h1 style="margin-bottom: 1em;">${window.Lang.use("checkBmi")}</h1>
-            <div class="bmi-calculator-weight">
-              <input class="weight-slider range" name="realweight" id="myWeight" type="range" min="25" max="180" value="60" />
-              <p style="margin-top: 1.8em;">
-                ${window.Lang.use("weight")}: 
-                <input class="number" name="Teža" id="inputWeight" type="number" value="60" min="25" max="180" oninput="showValWeight(this.value)"/>
-                <span id="weight"></span> kg
-              </p>
-            </div>
-            <div class="bmi-calculator-height">
-              <input class="height-slider range" name="realheight" id="myHeight" type="range" min="100" max="220" value="160">
-              <p style="margin-top: 1.8em;">
-                ${window.Lang.use("height")}:
-                <input class="number" name="Višina" id="inputHeight" type="number" value="160" min="100" max="220" oninput="showValHeight(this.value)"/>
-                <span id="height"></span> cm
-              </p>
-            </div>
-            <input class="gumb" type="button" value="${window.Lang.use("calc")}" id="button" style="margin-top: 0.5em">
-            <p style="margin-top: 1em;font-size: 1.2em;">
-              <strong>${window.Lang.use("yourBmi")}:</strong>
-              <span id="yourbmi" style="font-size: 1.2em;margin-left: 8px;"></span>
-            </p>
-            <p></p>
-            <p>
-              <span id="evaluationMessage"></span>
-            </p>
-          </div>
-        </form>
+        <row class="panel m-5 flex-x-between">
+          <column class="gap-1">
+            <h2 class="text-center">Check your BMI</h2>
+            
+            <p id="introText" class="text-center">Enter your weight and height below to check your BMI results</p>
+            
+            <form>
+                <div id="weightInput">
+                  <p>Put your weight in here (KG)</p>
+                    <input id="weight" type="number" pattern="[0-9]*" name="a" />
+                </div>
+                <div id="heightInput">
+                  <p>And your height in here (CM)</p>
+                  <input id="height" type="number" pattern="[0-9]*" name="b"/> 
+                </div>
+                <button type="button" class="btn" id="bmiBtn" >Calculate BMI</button>
+            </form>
+          </column>
+          <div id="results" class="text-center">Your BMI results will appear here</div>
+        </row>
 
         <row class="p-2 gap-1 box-modal">
           <img src="images/bar3.jpg" class="w-30 anim">
@@ -346,18 +350,18 @@ export default function content(){
             <h4 class="info" style="padding-bottom: 5%;">${window.Lang.use("socialMedia")}</h4>
             <column class="gap-1">
               <row class="gap-1 flex-center">
-                <a href="#" class="bg-5 p-2 d-flex flex-center anim link">
+                <a href="https://t.me/Bariatriya" class="bg-5 p-2 d-flex flex-center anim link">
                   <img src="images/telegram.png" class="w-50">
                 </a>
-                <a href="#" class="bg-5 p-2 d-flex flex-center anim link">
+                <a href="https://instagram.com/surgery.tashkent?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr" class="bg-5 p-2 d-flex flex-center anim link">
                   <img src="images/instagram.png" class="w-50">
                 </a>
               </row>
               <row class="gap-1 flex-center">
-                <a href="#" class="bg-5 p-2 d-flex flex-center anim link">
+                <a href="https://www.facebook.com/profile.php?id=100089813675353&mibextid=2JQ9oc" class="bg-5 p-2 d-flex flex-center anim link">
                   <img src="images/facebook.png" class="w-50">
                 </a>
-                <a href="#" class="bg-5 p-2 d-flex flex-center anim link">
+                <a href="https://youtube.com/@surgerytashkent?si=WBAqG4vhX_7aspCN" class="bg-5 p-2 d-flex flex-center anim link">
                   <img src="images/youtube.png" class="w-50">
                 </a>
               </row>
@@ -441,25 +445,41 @@ export function after(){
     heightOutput.value = e.srcElement.value;
   }
   // Calculate BMI
-  function calculateBmi() {
-    var weight = document.bmiForm.realweight.value;
-    var height = (document.bmiForm.realheight.value)/100;
-    var realbmi = (weight)/Math.pow(height, 2);
-    var realbmiOutput = document.getElementById("yourbmi");
-    var messageOutput = document.getElementById("evaluationMessage");
-    var roundedBmi = realbmi.toFixed(1);
-    messageOutput.innerHTML = ""; // Clear message before calculating new BMI
-    realbmiOutput.innerHTML = " " + roundedBmi; // Print BMI
-    // Appropriate message for your BMI rating
-    if (roundedBmi < 30) {
-      messageOutput.innerHTML = window.Lang.use("lessBmi");
-    } else {
-      messageOutput.innerHTML = window.Lang.use("moreBmi");
+  function calculate() {
+    weight = document.getElementById("weight").value;
+    height = document.getElementById("height").value;
+    error = "Please enter some values";
+    height /= 100;
+    height *= height;
+    bmi = weight/height;
+    bmi = bmi.toFixed(1);
+
+    if (bmi <= 18.4) {
+      measure = "Your BMI is " + bmi + " which means " + "you are Underweight" + "<img src='images/skinny.png' class='w-30'>";
+    } else if (bmi >= 18.5 && bmi <= 24.9) {
+      measure = "Your BMI is " + bmi + " which means " + "You are Normal" + "<img src='images/normal.png' class='w-30'>";
+    } else if (bmi >= 25 && bmi <= 29.9) {
+      measure = "Your BMI is " + bmi + " which means " + "You are Overweight" + "<img src='images/overweight.png' class='w-30'>";
+    } else if (bmi >= 30) {
+      measure = "Your BMI is " + bmi + " which means " + "You are Obese" + "<img src='images/obese.png' class='w-30'>";
+    }
+    
+
+    if (weight === 0 ) {
+      document.getElementById("results").innerHTML = error;
+    } else if (height === 0){
+      document.getElementById("results").innerHTML = error;
+    }
+    else {
+
+      document.getElementById("results").innerHTML = measure;
+    }
+    if (weight < 0) {
+      document.getElementById("results").innerHTML = "Negative Values not Allowed";
     }
   }
-
-  document.querySelector("#button").addEventListener('click', e => {
+  document.getElementById('bmiBtn').addEventListener('click', e => {
     e.preventDefault()
-    calculateBmi();
+    calculate()
   })
 }
