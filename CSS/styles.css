@@ -550,3 +550,10 @@ Media querie for iPhone 5
     text-align: right;
   }
 }
+
+button{
+  background-color: #2491eb;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+}

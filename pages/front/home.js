@@ -268,7 +268,7 @@ export default function content(){
                   <p>And your height in here (CM)</p>
                   <input id="height" type="number" pattern="[0-9]*" name="b"/> 
                 </div>
-                <button type="button" class="btn" id="bmiBtn" >Calculate BMI</button>
+                <button type="button" class="btn" id="bmiBtn" style="background-color: #2491eb;" >Calculate BMI</button>
             </form>
           </column>
           <div id="results" class="text-center">Your BMI results will appear here</div>
