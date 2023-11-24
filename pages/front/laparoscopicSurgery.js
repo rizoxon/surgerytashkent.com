@@ -8,43 +8,58 @@ export default function content(){
           <p>${window.Lang.use("laparoscopic_info")}</p>
           <row class="flex-x-between flex-y-center mt-3">
             <button><h2><a href="#contact" style="color: white;">Aloqa</a></h2></button>
-            <h2>+998 90 123-45-67</h2>
+            <h2>+998 97 466-77-55</h2>
           </row>
         </column>
       </column>
 
       <row class="w-70 gap-2 mt-5">
         <column class="flex-center p-5 surface-clean anim anim_rotate">
-          <img src="images/flash.png" class="w-20">
-          <h3>${window.Lang.use("fast")}</h3>
+          <img src="images/instagram.png" class="w-20">
+          <h3>Instagram</h3>
         </column>
 
         <column class="flex-center p-5 surface-clean anim anim_rotate">
-          <img src="images/security.png" class="w-20">
-          <h3>${window.Lang.use("reliable")}</h3>
+          <img src="images/youtube.png" class="w-20">
+          <h3>Tou Tube</h3>
         </column>
 
         <column class="flex-center p-5 surface-clean anim anim_rotate">
-          <img src="images/clock.png" class="w-20">
-          <h3>${window.Lang.use("efficient")}</h3>
+          <img src="images/telegram.png" class="w-20">
+          <h3>Telegram</h3>
         </column>
 
         <column class="flex-center p-5 surface-clean anim anim_rotate">
-          <img src="images/trust.png" class="w-20">
-          <h3>${window.Lang.use("guaranteed")}</h3>
+          <img src="images/facebook.png" class="w-20">
+          <h3>Facebook</h3>
         </column>
       </row>
+
+      <h2 class="surface-2D w-100 text-center bg-info mt-3 mb-3" style="color:white;">${window.Lang.use("churra")}</h2>
       
-      <row class="gap-1 w-80 p-5">
-        <img src="images/general_surgery.jpg" class="w-30 surface-clean p-1 anim">
-        <img src="images/laproskopiya3.jpg" class="w-30 surface-clean p-1 anim">
-        <img src="images/bariatrik1.jpg" class="w-30 surface-clean p-1 anim">
+      <row class="p-2 gap-1 box-modal">
+        <img src="images/churra_1.jpg" class="w-60 anim">
+        <img src="images/churra_2.jpg" class="w-30 anim">
+        <img src="images/churra_3.jpg" class="w-30 anim">
+      </row>
+      <row class="p-2 gap-1 box-modal">
+        <img src="images/churra_4.jpg" class="w-30 anim">
+        <img src="images/churra_5.jpg" class="w-30 anim">
+        <img src="images/churra_6.jpg" class="w-30 anim">
       </row>
 
-      <row class="gap-1 w-80 p-5">
-        <img src="images/general_surgery.jpg" class="w-30 surface-clean p-1 anim">
-        <img src="images/laproskopiya3.jpg" class="w-30 surface-clean p-1 anim">
-        <img src="images/bariatrik1.jpg" class="w-30 surface-clean p-1 anim">
+      <h2 class="surface-2D w-100 text-center bg-info mt-3 mb-3" style="color:white;">${window.Lang.use("gallstone")}</h2>
+
+      <row class="p-2 gap-1 box-modal">
+        <img src="images/gallstone_1.jpg" class="w-30 anim">
+        <img src="images/gallstone_2.jpg" class="w-30 anim">
+        <img src="images/gallstone_3.jpg" class="w-30 anim">
+      </row>
+      <row class="p-2 gap-1 box-modal">
+        <img src="images/gallstone_4.jpg" class="w-30 anim">
+        <img src="images/gallstone_5.jpg" class="w-30 anim">
+        <img src="images/gallstone_6.jpg" class="w-30 anim">
+        <img src="images/gallstone_7.jpg" class="w-30 anim">
       </row>
 
       <row class="surface-clean p-2 w-70 contact">

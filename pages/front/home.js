@@ -7,7 +7,7 @@ export default function content(){
         <row class="flex-x-between flex-y-center p-2 main-row">
           <column class="gap-1 anim w-15 doctor-card p-1">
             <img src="images/main_doctor_2.jpg" class="w-100">
-            <h5 class="text-center"><a href="#">${window.Lang.use("doctor_1")}</a></h5>
+            <h5 class="text-center"><a href="#doctor_1">${window.Lang.use("doctor_1")}</a></h5>
           </column>
 
           <img src="images/logo.gif" class="w-40" style="align-self: center;" />
@@ -16,7 +16,7 @@ export default function content(){
 
           <column class="gap-1 anim w-15 doctor-card p-1">
             <img src="images/main_doctor_1.jpg" class="w-100">
-            <h5 class="text-center"><a href="#">${window.Lang.use("doctor_2")}</a></h5>
+            <h5 class="text-center"><a href="#doctor_2">${window.Lang.use("doctor_2")}</a></h5>
           </column>
         </row>
 
@@ -56,66 +56,6 @@ export default function content(){
             </column>
           </a>
         </row>
-
-        <!-- <row class="gap-1 p-2 w-90">
-          <column class="surface-clean flex-x-between p-2 pb-0 anim">
-            <img src="images/xek.png" class="w-20 mb-5">
-            <row class="flex-x-between">
-              <x-modal trigger="click" type="text" value="${window.Lang.use("more")}" button class="mb-2">
-                <row class="p-2 gap-1 box-modal">
-                  <img src="images/bar3.jpg" class="w-30">
-                  <img src="images/bar1.jpg" class="w-30">
-                  <img src="images/bar5.jpg" class="w-30">
-                </row>
-                <column class="gap-1 p-2">
-                  <h3>${window.Lang.use("info")}</h3>
-                  <p>
-                    ${window.Lang.use("xek_info")}
-                  </p>
-                </column>
-              </x-modal>
-              <h3>${window.Lang.use("gallstone")}</h3>
-            </row>
-          </column>
-
-          <column class="surface-clean flex-x-between p-2 pb-0 anim">
-            <img src="images/stomach.png" class="w-20 mb-5">
-            <row class="flex-x-between">
-              <x-modal trigger="click" type="text" value="${window.Lang.use("more")}" button class="mb-2">
-                <row class="p-2 gap-1 box-modal">
-                  <img src="images/bar3.jpg" class="w-30">
-                  <img src="images/bar1.jpg" class="w-30">
-                  <img src="images/bar5.jpg" class="w-30">
-                </row>
-                <column class="gap-1 p-2">
-                  <h3>${window.Lang.use("info")}</h3>
-                  <p>
-                    ${window.Lang.use("churra_info")}
-                  </p>
-                </column>
-              </x-modal>
-              <h3>${window.Lang.use("churra")}</h3>
-            </row>
-          </column>
-
-          <column class="surface-clean flex-x-between p-2 pb-0 anim">
-            <img src="images/oncology.png" class="w-20 mb-5">
-            <row class="flex-x-between">
-              <x-modal trigger="click" type="text" value="Batafsil" button class="mb-2">
-                <row class="p-2 gap-1 box-modal">
-                  <img src="images/bar3.jpg" class="w-30">
-                  <img src="images/bar1.jpg" class="w-30">
-                  <img src="images/bar5.jpg" class="w-30">
-                </row>
-                <column class="gap-1 p-2">
-                  <h3>Ma'lumot</h3>
-                  <p>${window.Lang.use("xek_info")}</p>
-                </column>
-              </x-modal>
-              <h3>${window.Lang.use("xek")}</h3>
-            </row>
-          </column>
-        </row> -->
       </column>
 
       <column class="w-100 gap-3" style="padding-top: 0;">
@@ -123,63 +63,41 @@ export default function content(){
 
         <row class="flex-x-between p-5 surface-clean  w-90 anim">
           <img src="images/bariatric_surgery_process.jpg" class="w-40 mr-5" />
-          <column class="flex-y-end flex-x-between">
+          <column class="flex-y-end gap-2">
             <h2>${window.Lang.use("laparoscopicSurgery")}</h2>
             <p class="mt-3 mb-3">
               ${window.Lang.use("laparoscopic_info")}
             </p>
-            <button><a href="/laparoscopicSurgery" style="color:white;">${window.Lang.use("more")}</a></button>
           </column>
         </row>
 
         <row class="flex-x-between p-5 surface-clean w-90 anim">
           <img src="images/general_surgery.jpg" class="w-40 mr-5" />
-          <column class="flex-y-end flex-x-between">
+          <column class="flex-y-end gap-2">
             <h2>${window.Lang.use("general_surgery")}</h2>
             <p class="mt-3 mb-3">
               ${window.Lang.use("general_surgery_info")}
             </p>
-            <x-modal trigger="click" type="text" value="${window.Lang.use("more")}" button class="mb-2">
-              <row class="p-2 gap-1 box-modal">
-                <img src="images/bar3.jpg" class="w-30">
-                <img src="images/bar1.jpg" class="w-30">
-                <img src="images/bar5.jpg" class="w-30">
-              </row>
-            </x-modal>
           </column>
         </row>
 
         <row class="flex-x-between p-5 surface-clean w-90 anim">
           <img src="images/oncology.jpg" class="w-40 mr-5" />
-          <column class="flex-y-end flex-x-between">
+          <column class="flex-y-end gap-2">
             <h2>${window.Lang.use("oncology")}</h2>
             <p class="mt-3 mb-3">
               ${window.Lang.use("oncology_info")}
             </p>
-            <x-modal trigger="click" type="text" value="${window.Lang.use("more")}" button class="mb-2">
-              <row class="p-2 gap-1 box-modal">
-                <img src="images/bar3.jpg" class="w-30">
-                <img src="images/bar1.jpg" class="w-30">
-                <img src="images/bar5.jpg" class="w-30">
-              </row>
-            </x-modal>
           </column>
         </row>
 
         <row class="flex-x-between p-5 surface-clean w-90 mb-5 anim">
           <img src="images/statsionar.jpg" class="w-40 mr-5" />
-          <column class="flex-y-end flex-x-between">
+          <column class="flex-y-end gap-2">
             <h2>${window.Lang.use("inpatient_treatment")}</h2>
             <p class="mt-3 mb-3">
               ${window.Lang.use("inpatient_treatment_info")}
             </p>
-            <x-modal trigger="click" type="text" value="${window.Lang.use("more")}" button class="mb-2">
-              <row class="p-2 gap-1 box-modal">
-                <img src="images/bar3.jpg" class="w-30">
-                <img src="images/bar1.jpg" class="w-30">
-                <img src="images/bar5.jpg" class="w-30">
-              </row>
-            </x-modal>
           </column>
         </row>
 
@@ -188,19 +106,43 @@ export default function content(){
       <column class="w-100 gap-2">
         <h2 class="surface-2D w-100 text-center bg-info" style="color:white;">${window.Lang.use("doctors")}</h2>
 
-        <row class="flex-x-between p-5 surface-2D w-90 anim">
+        <row class="flex-x-between p-5 surface-2D w-90 anim" id="doctor_1">
           <img src="images/main_doctor_2.jpg" class="w-20" />
           <column class="flex-y-start flex-x-between p-5">
             <h2>${window.Lang.use("doctor_1")}</h2>
             <p class="mt-3 mb-3">${window.Lang.use("doctor_1_info")}</p>
             <row class="flex-x-start gap-1">
-              <x-modal trigger="click" type="text" value="${window.Lang.use("certificates")}" button>
-                <img src="images/certificate.jpg" style="max-width: 80dvw; margin: 10px 0;">
-                <img src="images/certificate.jpg" style="max-width: 80dvw; margin: 10px 0;">
+              <x-modal trigger="click" type="text" value="${window.Lang.use("certificates")}" button id="certificates_1">
+                <img src="images/0001.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0002.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0003.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0004.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0005.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0006.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0007.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0008.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0009.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0010.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0011.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0012.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0013.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0014.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0015.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0016.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0017.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0018.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0019.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0020.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0021.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0022.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0023.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0024.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0025.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0026.jpg" style="max-width: 80dvw; margin: 10px 0;">
               </x-modal>
               <x-modal trigger="click" type="text" value="${window.Lang.use("diplomas")}" button>
-                <img src="images/certificate.jpg" style="max-width: 80dvw; margin: 10px 0;">
-                <img src="images/certificate.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/diploma_d2_1.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/diploma_d2_2.jpg" style="max-width: 80dvw; margin: 10px 0;">
               </x-modal>
               <x-modal trigger="click" type="text" value="${window.Lang.use("info")}" button>
                 <h3 class="m-2">${window.Lang.use("doctor_1")}</h3>
@@ -210,19 +152,43 @@ export default function content(){
           </column>
         </row>
 
-        <row class="flex-x-between p-5 surface-2D w-90 anim">
+        <row class="flex-x-between p-5 surface-2D w-90 anim" id="doctor_2">
           <img src="images/main_doctor_1.jpg" class="w-20" />
           <column class="flex-y-start flex-x-between p-5">
             <h2>${window.Lang.use("doctor_2")}</h2>
             <p class="mt-3 mb-3">${window.Lang.use("doctor_2_info")}</p>
             <row class="flex-x-start gap-1">
               <x-modal trigger="click" type="text" value="${window.Lang.use("certificates")}" button>
-                <img src="images/certificate.jpg" style="max-width: 80dvw; margin: 10px 0;">
-                <img src="images/certificate.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0001.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0002.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0003.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0004.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0005.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0006.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0007.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0008.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0009.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0010.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0011.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0012.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0013.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0014.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0015.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0016.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0017.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0018.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0019.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0020.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0021.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0022.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0023.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0024.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0025.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0026.jpg" style="max-width: 80dvw; margin: 10px 0;">
               </x-modal>
               <x-modal trigger="click" type="text" value="${window.Lang.use("diplomas")}" button>
-                <img src="images/certificate.jpg" style="max-width: 80dvw; margin: 10px 0;">
-                <img src="images/certificate.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/diploma_d2_1.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/diploma_d2_2.jpg" style="max-width: 80dvw; margin: 10px 0;">
               </x-modal>
               <x-modal trigger="click" type="text" value="${window.Lang.use("info")}" button>
                 <h3 class="m-2">${window.Lang.use("doctor_2")}</h3>
@@ -268,16 +234,21 @@ export default function content(){
                   <p>And your height in here (CM)</p>
                   <input id="height" type="number" pattern="[0-9]*" name="b"/> 
                 </div>
-                <button type="button" class="btn" id="bmiBtn" >Calculate BMI</button>
+                <button type="button" class="btn" id="bmiBtn" style="background-color: #2491eb;" >Calculate BMI</button>
             </form>
           </column>
           <div id="results" class="text-center">Your BMI results will appear here</div>
         </row>
 
+       <row class="p-2 gap-1 box-modal">
+          <img src="images/bariatric_img1.jpg" class="w-30 anim">
+          <img src="images/bariatric_img2.jpg" class="w-30 anim">
+          <img src="images/bariatric_img3.jpg" class="w-30 anim">
+        </row>
         <row class="p-2 gap-1 box-modal">
-          <img src="images/bar3.jpg" class="w-30 anim">
-          <img src="images/bar1.jpg" class="w-30 anim">
-          <img src="images/bar5.jpg" class="w-30 anim">
+          <img src="images/bariatric_img4.jpg" class="w-60 anim">
+          <img src="images/bariatric_img5.jpg" class="w-30 anim">
+          <img src="images/bariatric_img6.jpg" class="w-30 anim">
         </row>
         <column class="gap-1 p-2">
           <h3 class="w-90">${window.Lang.use("info")}</h3>
@@ -410,41 +381,8 @@ export function after(){
   const anim_elements = document.querySelectorAll('.anim');
   anim_elements.forEach((el) => observer.observe(el));
 
+  var weight, height, measure, bmi, error ;
 
-  var weightSlider = document.getElementById("myWeight");
-  var weightOutput = document.getElementById("inputWeight");
-  // Height variables
-  var heightSlider = document.getElementById("myHeight");
-  var heightOutput = document.getElementById("inputHeight");
-  // Display slider value
-  weightOutput.innerHTML = weightSlider.value;
-  heightOutput.innerHTML = heightSlider.value;
-  // Update sliders in real time while dragging it
-  weightSlider.oninput = function () {
-    weightOutput.innerHTML = this.value;
-  }
-  heightSlider.oninput = function () {
-    heightOutput.innerHTML = this.value;
-  }
-  // Change weight-slider value on weight-number input
-  function showValWeight(newVal) {
-    weightSlider.value=newVal;
-  };
-  // Change height-slider value on height-number input
-  function showValHeight(newVal) {
-    heightSlider.value=newVal;
-  };
-  // *** Change number input when dragging slider ***
-  // Add 2 eventListeners for weight and input sliders
-  weightSlider.addEventListener("input", updateValueWeight);
-  heightSlider.addEventListener("input", updateValueHeight);
-  function updateValueWeight(e) {
-    weightOutput.value = e.srcElement.value;
-  }
-  function updateValueHeight(e) {
-    heightOutput.value = e.srcElement.value;
-  }
-  // Calculate BMI
   function calculate() {
     weight = document.getElementById("weight").value;
     height = document.getElementById("height").value;
