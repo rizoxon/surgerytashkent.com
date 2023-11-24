@@ -59,16 +59,15 @@ export default function content(){
         <div id="results" class="text-center">Your BMI results will appear here</div>
       </row>
       
-      <row class="gap-1 w-80 p-5">
-        <img src="images/general_surgery.jpg" class="w-30 surface-clean p-1 anim">
-        <img src="images/laproskopiya3.jpg" class="w-30 surface-clean p-1 anim">
-        <img src="images/bariatrik1.jpg" class="w-30 surface-clean p-1 anim">
+      <row class="p-2 gap-1 box-modal">
+        <img src="images/bariatric_img1.jpg" class="w-30 anim">
+        <img src="images/bariatric_img2.jpg" class="w-30 anim">
+        <img src="images/bariatric_img3.jpg" class="w-30 anim">
       </row>
-
-      <row class="gap-1 w-80 p-5">
-        <img src="images/bar1.jpg" class="w-30 surface-clean p-1 anim">
-        <img src="images/bar2.jpg" class="w-30 surface-clean p-1 anim">
-        <img src="images/bar3.jpg" class="w-30 surface-clean p-1 anim">
+      <row class="p-2 gap-1 box-modal">
+        <img src="images/bariatric_img4.jpg" class="w-60 anim">
+        <img src="images/bariatric_img5.jpg" class="w-30 anim">
+        <img src="images/bariatric_img6.jpg" class="w-30 anim">
       </row>
 
       <row class="surface-clean p-2 w-70 contact">
@@ -118,7 +117,7 @@ export default function content(){
           <textarea name="comment"></textarea>
         </labe>
         <label>
-          <input type="submit" name="send" value="${window.Lang.use("send")}" />
+          <input type="submit" name="send" class="btn" value="${window.Lang.use("send")}" />
           <p for="sendComment"></p>
         </label>
       </form>
