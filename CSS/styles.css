@@ -558,7 +558,7 @@ Media querie for iPhone 5
   }
 }
 
-button, .btn{
+button, .btn,  input[type=submit]{
   background-color: #2491eb;
   padding: 5px 10px;
   border: none;
