@@ -252,8 +252,6 @@ export default function content(){
           <p class="w-90">${window.Lang.use("laparoscopic_info")}</p>
         </column>
 
-        <h2 class="surface-2D w-100 text-center bg-info mt-3 mb-3" style="color:white;">${window.Lang.use("results")}</h2>
-
         <h2 class="surface-2D w-100 text-center bg-info mt-3 mb-3" style="color:white;">${window.Lang.use("contact")}</h2>
         <row class="surface-clean p-2 w-70 contact">
           <iframe class="anim" src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d5991.974372102905!2d69.21694!3d41.330892!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDHCsDE5JzUxLjIiTiA2OcKwMTMnMDEuMCJF!5e0!3m2!1sen!2s!4v1697022796395!5m2!1sen!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
