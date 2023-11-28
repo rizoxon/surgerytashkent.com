@@ -75,7 +75,7 @@ export default function content(){
           <p>${window.Lang.use("addInfo")}</p>
           <h4 class="info">${window.Lang.use("phoneNum")}</h4>
           <p>
-            +998 90 123-45-67
+            +998 97 466-77-55
           </p>
           <h4 class="info" style="padding-bottom: 5%;">${window.Lang.use("socialMedia")}</h4>
           <column class="gap-1">
@@ -176,13 +176,45 @@ export function after(){
     bmi = bmi.toFixed(1);
 
     if (bmi <= 18.4) {
-      measure = "<row>" + window.Lang.use("lessBmi") + "<img src='images/skinny.png' class='w-20'> </row>";
+      measure = `
+        <column>
+            <p>${window.Lang.use("yourBmi")}: <h1 style="color: #2491eb; text-align: center;">${bmi}</h1></p>
+            <column>
+              <p>${window.Lang.use("lessBmi")}</p>
+              <img src='images/skinny.png'>
+            </column>
+        </column>
+      `;
     } else if (bmi >= 18.5 && bmi <= 24.9) {
-      measure = "<row>" + window.Lang.use("lessBmi") + "<img src='images/normal.png' class='w-20'> </row>";
+      measure = `
+        <column>
+            <p>${window.Lang.use("yourBmi")}: <h1 style="color: #009e3d; text-align: center;">${bmi}</h1></p>
+            <column>
+              <p>${window.Lang.use("lessBmi")}</p>
+              <img src='images/normal.png'>
+            </column>
+        </column>
+      `;
     } else if (bmi >= 25 && bmi <= 29.9) {
-      measure = "<row>" + window.Lang.use("moreBmi") + "<img src='images/overweight.png' class='w-20'> </row>";
+      measure = `
+        <column>
+            <p>${window.Lang.use("yourBmi")}: <h1 style="color: #ff1b00; text-align: center;">${bmi}</h1></p>
+            <column>
+              <p>${window.Lang.use("moreBmi")}</p>
+              <img src='images/overweight.png'>
+            </column>
+        </column>
+      `;
     } else if (bmi >= 30) {
-      measure = "<row>" + window.Lang.use("moreBmi") + "<img src='images/obese.png' class='w-20'> </row>";
+      measure = `
+        <column>
+            <p>${window.Lang.use("yourBmi")}: <h1 style="color: #ff1b00; text-align: center;">${bmi}</h1></p>
+            <column>
+              <p>${window.Lang.use("moreBmi")}</p>
+              <img src='images/obese.png'>
+            </column>
+        </column>
+      `;
     }
     
 

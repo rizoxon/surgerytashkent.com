@@ -196,7 +196,7 @@ export default function content(){
             <h1>Sabodarmon</h1>                                                             
             <p class="p-5">${window.Lang.use("clinicInfo")}</p>
             <row class="gap-2 flex-center">
-              <p class="text-size-2">+998 (90) 123-45-67 </p>
+              <p class="text-size-2">+998 97 466-77-55</p>
               <button><a href="http://sabadarmon.uz/">${window.Lang.use("more")}</a></button>
             </row>
           </column>
@@ -260,7 +260,7 @@ export default function content(){
             <p>${window.Lang.use("addInfo")}</p>
             <h4 class="info">${window.Lang.use("phoneNum")}</h4>
             <p>
-              +998 90 123-45-67
+              +998 97 466-77-55
             </p>
             <h4 class="info" style="padding-bottom: 5%;">${window.Lang.use("socialMedia")}</h4>
             <column class="gap-1">
