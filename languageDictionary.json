@@ -1,36 +1,36 @@
 {   
     "home": {
-        "uz": "Asosiy sahifa",
+        "uz": "Aсосий саҳифа",
         "ru": "Главная страница",
         "en": "Main page"
     },
     "videos": {
-        "uz": "Vidiolar",
+        "uz": "Видеолар",
         "ru": "Видео",
         "en": "Videos"
     },
     "photos": {
-        "uz": "Rasmlar",
+        "uz": "Расмлар",
         "ru": "Фото",
         "en": "Photos"
     },
     "admin": {
-        "uz": "Admin",
+        "uz": "Aдмин",
         "ru": "Админ",
         "en": "Admin"
     },
     "comments": {
-        "uz": "Kommentariyalar",
+        "uz": "Комментариялар",
         "ru": "Комментарии",
         "en": "Comments"
     },
     "certificates": {
-        "uz": "Sertifikatlar",
+        "uz": "Сертификатлар",
         "ru": "Сертификаты",
         "en": "Certificates"
     },
     "diplomas": {
-        "uz": "Diplomlar",
+        "uz": "Дипломлар",
         "ru": "Дипломы",
         "en": "Diplomas"
     },
@@ -38,319 +38,298 @@
         "uz": "Surgery Tashkent"
     },
     "bariatric": {
-        "uz": "Bariatriya",
+        "uz": "Бариатрия",
         "ru": "Бариатрия",
         "en": "Bariatric"
     },
     "laparoscopicSurgery": {
-        "uz": "Laparoskopik hirurgiya",
+        "uz": "Лапароскопик ҳирургия",
         "ru": "Лапароскопическая хирургия",
         "en": "Laparoscopic surgery"
     },
     "more": {
-        "uz": "Batafsil",
+        "uz": "Батафсил",
         "ru": "более",
         "en": "More"
     },
     "info": {
-        "uz": "Ma'lumot",
+        "uz": "Маълумот",
         "ru": "Информация",
         "en": "Information"
     },
     "bariatric_info": {
-        "uz": "<b>Bariatrik jarrohlik </b>, shuningdek, vazn yo'qotish jarrohligi sifatida ham tanilgan, bu <b>semizlik bilan og'rigan odamlarga sezilarli darajada vazn yo'qotishga yordam berishga qaratilgan jarrohlik amaliyotidir.</b> Bu ovqat hazm qilish tizimiga o'zgartirish kiritishni o'z ichiga oladi, bu siz iste'mol qilishingiz va qabul qilishingiz mumkin bo'lgan oziq-ovqat miqdorini cheklaydi, bu esa sezilarli va barqaror vazn yo'qotishiga olib keladi. <br><br> Bariatrik jarrohlikning har xil turlari mavjud, ularning har biri o'ziga xos foyda va xavflarga ega. Eng keng tarqalgan protseduralar quyidagilarni o'z ichiga oladi: <br><br><b>Oshqozonni aylanib o'tish jarrohligi:</b> Bu operatsiya kichikroq oshqozon sumkasini yaratish va ingichka ichakning yo'nalishini o'zgartirishni o'z ichiga oladi, buning natijasida oziq-ovqat iste'moli kamayadi va kaloriyalarning so'rilishi cheklanadi.<br><br> <b>Oshqozon yengini jarrohligi:</b> Ushbu operatsiya oshqozonning katta qismini olib tashlashni o'z ichiga oladi va orqasida yeng shaklidagi sumka qoldiradi. Bu siz iste'mol qilishingiz mumkin bo'lgan oziq-ovqat miqdorini cheklaydi va sizni tezroq to'yingan his qiladi. <br><br><b>Oshqozon bandi jarrohligi:</b> Ushbu protsedurada oshqozonning yuqori qismiga sozlanishi tasma qo'yilib, kichikroq sumka hosil bo'ladi. Bu eyishingiz mumkin bo'lgan oziq-ovqat miqdorini cheklaydi va to'liqlik hissi beradi. <br><br><b>O'n ikki barmoqli ichakni almashtirish bilan biliopankreatik diversiya:</b> Bu operatsiya oshqozonning bir qismini olib tashlash va ingichka ichakni qayta yo'naltirishni o'z ichiga oladi. Bu tanangiz tomonidan so'rilgan ozuqa moddalari va kaloriya miqdorini kamaytiradi.",
+        "uz": "<b>Бариатрик жарроҳлик </b>, шунингдек, вазн йўқотиш жарроҳлиги сифатида ҳам танилган, бу <b>семизлик билан оғриган одамларга сезиларли даражада вазн йўқотишга ёрдам беришга қаратилган жарроҳлик амалиётидир.</b> Бу овқат ҳазм қилиш тизимига ўзгартириш киритишни ўз ичига олади, бу сиз истеъмол қилишингиз ва қабул қилишингиз мумкин бўлган озиқ-овқат миқдорини чеклайди, бу эса сезиларли ва барқарор вазн йўқотишига олиб келади. <br><br> Бариатрик жарроҳликнинг ҳар хил турлари мавжуд, уларнинг ҳар бири ўзига хос фойда ва хавфларга эга. Энг кенг тарқалган процедуралар қуйидагиларни ўз ичига олади: <br><br><b>Ошқозонни айланиб ўтиш жарроҳлиги:</b> Бу операция кичикроқ ошқозон сумкасини яратиш ва ингичка ичакнинг йўналишини ўзгартиришни ўз ичига олади, бунинг натижасида озиқ-овқат истеъмоли камаяди ва калорияларнинг сўрилиши чекланади.<br><br> <b>Ошқозон енгини жарроҳлиги:</b> Ушбу операция ошқозоннинг катта қисмини олиб ташлашни ўз ичига олади ва орқасида енг шаклидаги сумка қолдиради. Бу сиз истеъмол қилишингиз мумкин бўлган озиқ-овқат миқдорини чеклайди ва сизни тезроқ тўйинган ҳис қилади. <br><br><b>Ошқозон банди жарроҳлиги:</b> Ушбу процедурада ошқозоннинг юқори қисмига созланиши тасма қўйилиб, кичикроқ сумка ҳосил бўлади. Бу эйишингиз мумкин бўлган озиқ-овқат миқдорини чеклайди ва тўлиқлик ҳисси беради. <br><br><b>Ўн икки бармоқли ичакни алмаштириш билан билиопанкреатик диверсия:</b> Бу операция ошқозоннинг бир қисмини олиб ташлаш ва ингичка ичакни қайта йўналтиришни ўз ичига олади. Бу танангиз томонидан сўрилган озуқа моддалари ва калория миқдорини камайтиради.",
         "ru": "Бариатрическая хирургия, также известная как операция по снижению веса, представляет собой хирургическую процедуру, направленную на то, чтобы помочь людям с ожирением добиться существенной потери веса. Он включает в себя внесение изменений в пищеварительную систему, чтобы ограничить количество пищи, которую вы можете съесть и усвоить, что приведет к значительному и устойчивому снижению веса.<br><br>Существуют различные типы бариатрической хирургии, каждый из которых имеет свой набор преимуществ и рисков. К наиболее распространенным процедурам относятся:<br><br>Шунтирование желудка. Эта операция включает в себя создание меньшего размера желудка и изменение маршрута тонкой кишки, что приводит как к снижению потребления пищи, так и к ограничению усвоения калорий.<br><br>Рукавная хирургия желудка. Эта операция включает в себя удаление большой части желудка, оставляя после себя мешок в форме рукава. Это ограничивает количество еды, которую вы можете потреблять, и заставляет вас быстрее чувствовать сытость.<br><br>Бандажная хирургия желудка: во время этой процедуры регулируемый бандаж накладывается вокруг верхней части желудка, образуя мешочек меньшего размера. Это ограничивает количество пищи, которую вы можете съесть, и дает ощущение сытости.<br><br>Билиопанкреатическая диверсия с переключением двенадцатиперстной кишки. Эта операция включает удаление части желудка и изменение маршрута тонкой кишки. Это уменьшает количество питательных веществ и калорий, усваиваемых вашим организмом.",
         "en": "Bariatric surgery, also known as weight loss surgery, is <b>a surgical procedure aimed at helping individuals with obesity achieve substantial weight loss.</b> It involves making changes to your digestive system to limit the amount of food you can eat and absorb, leading to significant and sustained weight reduction. <br><br> There are different types of bariatric surgery, each with its own set of benefits and risks. The most common procedures include: <br><br> <b>Gastric Bypass Surgery:</b> This surgery involves creating a smaller stomach pouch and rerouting the small intestine, resulting in both reduced food intake and limited calorie absorption. <br><br><b>Gastric Sleeve Surgery:</b> This surgery involves removing a large portion of the stomach, leaving behind a sleeve-shaped pouch. It restricts the amount of food you can consume and makes you feel full sooner. <br><br><b>Gastric Band Surgery:</b> In this procedure, an adjustable band is placed around the upper part of the stomach, creating a smaller pouch. This restricts the amount of food you can eat and gives a feeling of fullness. <br><br><b>Biliopancreatic Diversion with Duodenal Switch:</b> This surgery involves removing a portion of the stomach and rerouting the small intestine. It decreases the amount of nutrients and calories absorbed by your body."
     },
     "xek": {
-        "uz": "Xirurgik ankologiya",
+        "uz": "Хирургик анкология",
         "ru": "Хирургическая онкология",
         "en": "Surgical oncology"
     },
     "gallstone": {
-        "uz": "O't tosh kasalligi",
+        "uz": "Ўт тош касаллиги",
         "ru": "желчнокаменная болезнь",
         "en": "gallstone disease"
     },
     "xek_info": {
-        "uz": "Xoletsistektomiya (XEK) — oʻt pufagini olib tashlash operatsiyasi. <br><br> Ushbu operatsiya narkoz ostida oʻtkaziladi. Laparoskopik xoletsistektomiya qorin devorining kesmalari orqali amalga oshiriladi. Eng koʻp qoʻllaniladigan jarrohlik texnikasi toʻrtta kesmaning bajarilishini oʻz ichiga oladi va ulardan ikkitasi 5 millimetr uzunlikda, qolgan ikkitasi 10 millimetrga teng. Qorin boʻshligʻiga jarrohlik asboblari, shuningdek, laparoskop - monitorda ichki organlarning uch oʻlchovli tasvirini koʻrsatadigan maxsus qurilma kiritiladi. ",
+        "uz": "Холецистэктомия (ХEК) — ўт пуфагини олиб ташлаш операцияси. <br><br> Ушбу операция наркоз остида ўтказилади. Лапароскопик холецистэктомия қорин деворининг кесмалари орқали амалга оширилади. Энг кўп қўлланиладиган жарроҳлик техникаси тўртта кесманинг бажарилишини ўз ичига олади ва улардан иккитаси 5 миллиметр узунликда, қолган иккитаси 10 миллиметрга тенг. Қорин бўшлиғига жарроҳлик асбоблари, шунингдек, лапароскоп - мониторда ички органларнинг уч ўлчовли тасвирини кўрсатадиган махсус қурилма киритилади.",
         "ru": "Холецистэктомия (XEK) – операция по удалению желчного пузыря.<br><br>Эта операция проводится под наркозом. Лапароскопическая холецистэктомия проводится через разрезы брюшной стенки. Наиболее часто используемый хирургический метод предполагает выполнение четырех разрезов, два из которых длиной 5 миллиметров, а два других — 10 миллиметров. В брюшную полость вводятся хирургические инструменты, а также лапароскоп – специальный прибор, демонстрирующий на мониторе трехмерное изображение внутренних органов.",
         "en": "Cholecystectomy is an operation to remove the gallbladder.<br><br>This operation is performed under anesthesia. Laparoscopic cholecystectomy is performed through incisions in the abdominal wall. The most commonly used surgical technique involves making four incisions, two of which are 5 millimeters long and the other two are 10 millimeters long. Surgical instruments, as well as a laparoscope - a special device that shows a three-dimensional image of the internal organs on a monitor, are inserted into the abdominal cavity."
     },
     "churra": {
-        "uz": "Qorin churralari",
+        "uz": "Қорин чурралари",
         "ru": "Брюшные грыжи",
         "en": "Abdominal hernias"
     },
     "churra_info": {
-        "uz": "Churra ichki organ yoki to'qima atrofdagi mushak yoki biriktiruvchi to'qimalarning zaif joyidan o'tib ketganda paydo bo'ladi. Odatda bu bo'rtma yoki protrusion sifatida namoyon bo'ladi va zararlangan odamlarda noqulaylik yoki og'riq keltirishi mumkin. Churralar tananing turli qismlarida, jumladan, qorin bo'shlig'ida, sonda, sonda va hatto diafragmada rivojlanishi mumkin.<br><br>Har xil turdagi churralar mavjud, lekin eng ko'p uchraydiganlari inguinal churralar, hiatal churralar va kindik churralarini o'z ichiga oladi. Inguinal churralar jag' sohasida, hiatal churrada oshqozon diafragma orqali itarish, kindik churrasi esa qorin bo'shlig'i yaqinida paydo bo'ladi.<br><br>Churralar turli sabablarga ko'ra bo'lishi mumkin, jumladan, qorin devoridagi tug'ma zaifliklar, og'ir yuklarni ko'tarish natijasida mushaklarning kuchlanishi, doimiy yo'tal, semirib ketish, homiladorlik yoki oldingi jarrohlik kesmalar. Semptomlar ko'zga ko'rinadigan bo'rtiqdan noqulaylik yoki og'riqgacha, ayniqsa jismoniy faoliyat yoki zo'riqish paytida bo'lishi mumkin.<br><br>Churralarni davolash odatda zaiflashgan mushak yoki to'qimalarni tiklash uchun jarrohlik amaliyotini o'z ichiga oladi. Ba'zi hollarda churralar zudlik bilan jarrohlik aralashuvni talab qilmasligi mumkin, ammo vaziyatning og'irligi va mumkin bo'lgan asoratlarini baholash uchun sog'liqni saqlash mutaxassisi bilan maslahatlashish juda muhimdir.<br><br>Agar sizda churra borligidan shubhalansangiz yoki churra tashxisi qo'yilgan bo'lsa, ushbu holatni samarali boshqarish uchun sizga tegishli davolash usullari va turmush tarzini o'zgartirish orqali yordam beradigan tibbiy yordam ko'rsatuvchi provayderingizning tavsiyalariga amal qilishingiz kerak.",
+        "uz": "Чурра ички орган ёки тўқима атрофдаги мушак ёки бириктирувчи тўқималарнинг заиф жойидан ўтиб кетганда пайдо бўлади. Одатда бу бўртма ёки протрусион сифатида намоён бўлади ва зарарланган одамларда ноқулайлик ёки оғриқ келтириши мумкин. Чурралар тананинг турли қисмларида, жумладан, қорин бўшлиғида, сонда, сонда ва ҳатто диафрагмада ривожланиши мумкин.<br><br>Ҳар хил турдаги чурралар мавжуд, лекин энг кўп учрайдиганлари ингуинал чурралар, ҳиатал чурралар ва киндик чурраларини ўз ичига олади. Ингуинал чурралар жағ соҳасида, ҳиатал чуррада ошқозон диафрагма орқали итариш, киндик чурраси эса қорин бўшлиғи яқинида пайдо бўлади.<br><br>Чурралар турли сабабларга кўра бўлиши мумкин, жумладан, қорин деворидаги туғма заифликлар, оғир юкларни кўтариш натижасида мушакларнинг кучланиши, доимий йўтал, семириб кетиш, ҳомиладорлик ёки олдинги жарроҳлик кесмалар. Семптомлар кўзга кўринадиган бўртиқдан ноқулайлик ёки оғриқгача, айниқса жисмоний фаолият ёки зўриқиш пайтида бўлиши мумкин.<br><br>Чурраларни даволаш одатда заифлашган мушак ёки тўқималарни тиклаш учун жарроҳлик амалиётини ўз ичига олади. Баъзи ҳолларда чурралар зудлик билан жарроҳлик аралашувни талаб қилмаслиги мумкин, аммо вазиятнинг оғирлиги ва мумкин бўлган асоратларини баҳолаш учун соғлиқни сақлаш мутахассиси билан маслаҳатлашиш жуда муҳимдир.<br><br>Агар сизда чурра борлигидан шубҳалансангиз ёки чурра ташхиси қўйилган бўлса, ушбу ҳолатни самарали бошқариш учун сизга тегишли даволаш усуллари ва турмуш тарзини ўзгартириш орқали ёрдам берадиган тиббий ёрдам кўрсатувчи провайдерингизнинг тавсияларига амал қилишингиз керак.",
         "ru": "Грыжа возникает, когда внутренний орган или ткань проталкивается через слабое место в окружающей мышце или соединительной ткани. Обычно это проявляется в виде выпуклости или выступа и может вызывать дискомфорт или боль у пострадавших людей. Грыжи могут развиваться в различных частях тела, включая живот, пах, бедро и даже диафрагму.<br><br>Существуют различные типы грыж, но наиболее распространенными являются паховые грыжи, грыжи пищеводного отверстия диафрагмы и пупочные грыжи. Паховые грыжи возникают в паховой области, хиатальные грыжи затрагивают желудок, проталкивающий диафрагму, а пупочные грыжи возникают возле пупка.<br><br>Грыжи могут иметь самые разные причины, включая врожденные слабости брюшной стенки, мышечное напряжение от поднятия тяжестей, постоянный кашель, ожирение, беременность или предыдущие хирургические разрезы. Симптомы могут варьироваться от видимой выпуклости до дискомфорта или боли, особенно при физической активности или напряжении.<br><br>Лечение грыж обычно включает хирургическое вмешательство по восстановлению ослабленных мышц или тканей. В некоторых случаях грыжи могут не требовать немедленного хирургического вмешательства, но крайне важно проконсультироваться с врачом, чтобы оценить тяжесть и потенциальные осложнения состояния.<br><br>Если вы подозреваете, что у вас грыжа или вам поставили диагноз, очень важно следовать советам вашего лечащего врача, который поможет вам выбрать соответствующие варианты лечения и изменить образ жизни для эффективного управления этим заболеванием.",
         "en": "A hernia occurs when an internal organ or tissue pushes through a weak spot in the surrounding muscle or connective tissue. It usually manifests as a bulge or protrusion and can cause discomfort or pain in affected individuals. Hernias can develop in various parts of the body, including the abdomen, groin, thigh, or even the diaphragm.<br><br>There are different types of hernias, but the most common ones include inguinal hernias, hiatal hernias, and umbilical hernias. Inguinal hernias occur in the groin area, hiatal hernias involve the stomach pushing through the diaphragm, and umbilical hernias occur near the belly button.<br><br>Hernias can have a variety of causes, including congenital weaknesses in the abdominal wall, muscle strain from heavy lifting, persistent coughing, obesity, pregnancy, or previous surgical incisions. Symptoms may range from a visible bulge to discomfort or pain, especially when engaging in physical activity or straining.<br><br>Treatment for hernias usually involves surgery to repair the weakened muscle or tissue. In some cases, hernias may not require immediate surgical intervention, but it's crucial to consult with a healthcare professional to evaluate the severity and potential complications of the condition.<br><br>If you suspect you have a hernia or have been diagnosed with one, it is essential to follow the advice of your healthcare provider, who will guide you through the appropriate treatment options and lifestyle modifications to manage the condition effectively."
     },
     "fields": {
-        "uz": "Sohalar",
+        "uz": "Соҳалар",
         "ru": "Сферы",
         "en": "Fields"
     },
     "laparoscopic_info": {
-        "uz": "Laparoskopik jarrohlik qorin bo'shlig'i va tos a'zolarida qo'llaniladigan minimal invaziv jarrohlik usulidir. U tanangizni oxirigacha ochmasdan ko'rish uchun laparoskop yordamida - oxirida kamerasi bo'lgan ingichka teleskopik tayoqchadan foydalanadi. Ochiq qorin bo'shlig'i jarrohligi uchun zarur bo'lgan 6-12 dyuymli kesish o'rniga, laparoskopik jarrohlik yarim dyuym yoki undan kam bo'lgan ikki-to'rtta kichik kesmani ishlatadi. Biri kamera uchun, boshqalari jarrohlik asboblari uchun. Minimal invaziv jarrohlik ushbu kichik kesmalarga ishora qilib, 'kalit teshigi jarrohligi' deb ham nomlanishi mumkin.",
+        "uz": "Лапароскопик жарроҳлик қорин бўшлиғи ва тос аъзоларида қўлланиладиган минимал инвазив жарроҳлик усулидир. У танангизни охиригача очмасдан кўриш учун лапароскоп ёрдамида - охирида камераси бўлган ингичка телескопик таёқчадан фойдаланади. Очиқ қорин бўшлиғи жарроҳлиги учун зарур бўлган 6-12 дюймли кесиш ўрнига, лапароскопик жарроҳлик ярим дюйм ёки ундан кам бўлган икки-тўртта кичик кесмани ишлатади. Бири камера учун, бошқалари жарроҳлик асбоблари учун. Минимал инвазив жарроҳлик ушбу кичик кесмаларга ишора қилиб, 'калит тешиги жарроҳлиги' деб ҳам номланиши мумкин.",
         "ru": "Лапароскопическая хирургия – это минимально инвазивный хирургический метод, используемый в области живота и таза. Он использует лапароскоп — тонкий телескопический стержень с камерой на конце — чтобы заглянуть внутрь вашего тела, не открывая его полностью. Вместо разреза длиной от 6 до 12 дюймов, необходимого для открытой операции на брюшной полости, в лапароскопической хирургии используются два-четыре небольших разреза размером полдюйма или меньше. Один предназначен для камеры, а остальные — для хирургических инструментов. Минимально инвазивную хирургию можно также назвать «хирургией замочной скважины», имея в виду небольшие разрезы.",
         "en": "Laparoscopic surgery is a minimally invasive surgical technique used in the abdominal and pelvic areas. It uses the aid of a laparoscope — a thin, telescopic rod with a camera at the end — to see inside your body without opening it all the way up. Instead of the 6- to 12-inch cut necessary for open abdominal surgery, laparoscopic surgery uses two to four small incisions of half an inch or less. One is for the camera, and the others are for the surgical instruments. Minimally invasive surgery may also be called 'keyhole surgery,' referring to these small incisions."
     },
     "general_surgery": {
-        "uz": "Umumiy xirurgik operatsiyalar",
+        "uz": "Умумий хирургик операциялар",
         "ru": "Общая хирургия",
         "en": "General surgery"
     },
     "general_surgery_info": {
-        "uz": "'Umumiy xirurgiya' - bu barcha jarrohlik mutaxassisliklari uchun umumiy bo'lgan anatomiya, fiziologiya, metabolizm, immunologiya, ovqatlanish, patologiya, yaralarni davolash, shok va reanimatsiya, intensiv terapiya va neoplaziyani o'z ichiga olgan markaziy bilimlarga ega bo'lgan jarrohlik fanidir.",
+        "uz": "'Умумий хирургия' - бу барча жарроҳлик мутахассисликлари учун умумий бўлган анатомия, физиология, метаболизм, иммунология, овқатланиш, патология, яраларни даволаш, шок ва реанимация, интенсив терапия ва неоплазияни ўз ичига олган марказий билимларга эга бўлган жарроҳлик фанидир.",
         "ru": "«Общая хирургия» - это хирургическая дисциплина, центральное ядро знаний которой охватывает анатомию, физиологию, обмен веществ, иммунологию, питание, патологию, заживление ран, шок и реанимацию, интенсивную терапию и неоплазию, которые являются общими для всех хирургических специальностей.",
         "en": "'General Surgery' is a discipline of surgery having a central core of knowledge embracing anatomy, physiology, metabolism, immunology, nutrition, pathology, wound healing, shock and resuscitation, intensive care, and neoplasia, which are common to all surgical specialties."
     },
     "oncology": {
-        "uz": "Onkologiya",
+        "uz": "Онкология",
         "ru": "Oнкология",
         "en": "Oncology"
     },
     "oncology_info": {
-        "uz": "Jarrohlik onkologiyasi - bu saraton o'smalarini jarrohlik yo'li bilan davolashga qaratilgan tibbiyot fanidir. Saratonni davolash usullariga kimyoterapiya, radiatsiya terapiyasi, jarrohlik, gormon terapiyasi, suyak iligi transplantatsiyasi, immunoterapiya, maqsadli dori terapiyasi va boshqalar kiradi.",
+        "uz": "Жарроҳлик онкологияси - бу саратон ўсмаларини жарроҳлик йўли билан даволашга қаратилган тиббиёт фанидир. Саратонни даволаш усулларига кимётерапия, радиация терапияси, жарроҳлик, гормон терапияси, суяк илиги трансплантацияси, иммунотерапия, мақсадли дори терапияси ва бошқалар киради.",
         "ru": "Хирургическая онкология – это медицинская дисциплина, занимающаяся лечением раковых опухолей хирургическим путем. Методы лечения рака включают химиотерапию, лучевую терапию, хирургию, гормональную терапию, трансплантацию костного мозга, иммунотерапию, таргетную медикаментозную терапию и многое другое.",
         "en": "Surgical Oncology is a discipline of medicine committed to treating cancer tumours through the means of surgery. Cancer treatment methods include chemotherapy, radiation therapy, surgery, hormone therapy, bone marrow transplant, immunotherapy, targeted drug therapy and more."
     },
     "inpatient_treatment": {
-        "uz": "Statsionar davolanish",
+        "uz": "Стационар даволаниш",
         "ru": "Стационарное лечение",
         "en": "Inpatient treatment"
     },
     "inpatient_treatment_info": {
-        "uz": "Biz statsionar davolash xizmatlarini taklif etamiz. Bizning ustuvor vazifamiz bemorlarimizga biz bilan bo'lishlari davomida har tomonlama yordam ko'rsatish va qo'llab-quvvatlashdir. Statsionar davolanish, shuningdek, kasalxonaga yotqizish sifatida ham tanilgan, intensiv davolanish va monitoringni talab qiladigan shaxslarga kechayu kunduz tibbiy yordam va nazoratni taklif qiluvchi ixtisoslashgan sog'liqni saqlash xizmati.",
+        "uz": "Биз стационар даволаш хизматларини таклиф этамиз. Бизнинг устувор вазифамиз беморларимизга биз билан бўлишлари давомида ҳар томонлама ёрдам кўрсатиш ва қўллаб-қувватлашдир. Стационар даволаниш, шунингдек, касалхонага ётқизиш сифатида ҳам танилган, интенсив даволаниш ва мониторингни талаб қиладиган шахсларга кечаю кундуз тиббий ёрдам ва назоратни таклиф қилувчи ихтисослашган соғлиқни сақлаш хизмати.",
         "ru": "Мы предлагаем исключительные услуги стационарного лечения. Нашим приоритетом является обеспечение всестороннего ухода и поддержки наших пациентов во время их пребывания у нас. Стационарное лечение, также известное как госпитализация, представляет собой специализированную медицинскую услугу, которая предлагает круглосуточную медицинскую помощь и наблюдение за лицами, нуждающимися в интенсивном лечении и наблюдении.",
         "en": "We offer exceptional inpatient treatment services. Our priority is to provide comprehensive care and support for our patients during their stay with us. Inpatient treatment, also known as hospitalization, is a specialized healthcare service that offers round-the-clock medical care and supervision for individuals requiring intensive treatment and monitoring."
     },
     "doctors": {
-        "uz": "Shifokorlar",
+        "uz": "Шифокорлар",
         "ru": "Врачи",
         "en": "Doctors"
     },
     "doctor_1": {
-        "uz": "Adilho'jaev Asqar Anvarovich",
+        "uz": "Адилҳўжаев Асқар Анварович",
         "ru": "Адилходжаев Аскар Анварович",
         "en": "Adilkhodzhaev Askar Anvarovich"
     },
     "doctor_1_info": {
-        "uz": "Adilxo'jaev A. Shoshilinch jarrohlik, videolaparoskopiya, pankreatikobiliar jarrohlik va onkologiya masalalariga bag'ishlangan 150 dan ortiq nashrlarning muallifi va hammuallifi. 10 ta oʻquv qoʻllanma, tavsiyalar, 3 ta monografiya, shuningdek, 3 ta ixtiroga patent muallifi.",
+        "uz": "Адилхўжаев А. Шошилинч жарроҳлик, видеолапароскопия, панкреатикобилиар жарроҳлик ва онкология масалаларига бағишланган 150 дан ортиқ нашрларнинг муаллифи ва ҳаммуаллифи. 10 та ўқув қўлланма, тавсиялар, 3 та монография, шунингдек, 3 та ихтирога патент муаллифи.",
         "ru": "Адилходжаев А, является автором и соавтором более 150 публикаций посвященным вопросам ургентной хирургии, видеолапароскопии, панкреатобиларной хирургии и онкологии. Является автором 10 методических пособий, рекомендаций, 3 монографий, а также 3 патентов на изобретение. ",
         "en": "Adilkhodjaev A, is the author and co-author of more than 150 publications devoted to the issues of urgent surgery, video laparoscopy, pancreaticobiliary surgery and oncology. He is the author of 10 teaching aids, recommendations, 3 monographs, as well as 3 patents for inventions."
     },
     "doctor_1_fullinfo": {
-        "uz": "<b>Avtobiografik ma'lumotlar Adilxo'jaev Asqar Anvarovich</b></br> Adilxo'jaev Asqar Anvarovich, tibbiyot fanlari doktori, dotsent, oliy toifali jarroh. Adilxo‘jaev A, 2005-yilda Birinchi Toshkent Davlat tibbiyot institutini tamomlagan. 2005-2008 yillarda Toshkent tibbiyot akademiyasi “Xirurgiya” ixtisosligi bo‘yicha magistraturani tamomlagan. 2009-2010 yildan beri TMA xirurgiya kafedrasi aspiranti boʻlgan va 2010 yilda “Oshqozon osti bezi boshining mahalliy rivojlangan saratoni uchun endovaskulyar aralashuvlarni takomillashtirish” ixtisosligi boʻyicha tibbiyot fanlari nomzodi ilmiy darajasini olish uchun nomzodlik dissertatsiyasini himoya qilgan. Jarrohlik. 2010-2016 yillarda TMA fakultet va gospital xirurgiyasi kafedrasida assistent, so‘ngra dotsent lavozimlarida ishlagan. 2016-yilda “Xirurgiya” ixtisosligi bo‘yicha “Periampulyar o‘smalarda jarrohlik taktikasini takomillashtirish” mavzusida doktorlik dissertatsiyasini himoya qilgan va 2018-yilda oliy toifali dotsent ilmiy unvonini olgan. 2018 yildan hozirgacha Respublika ixtisoslashtirilgan onkologiya va radiologiya ilmiy-amaliy tibbiyot markazida ishlab kelmoqda. Adilxo'jaev A. Shoshilinch jarrohlik, videolaparoskopiya, pankreatikobiliar jarrohlik va onkologiya masalalariga bag'ishlangan 150 dan ortiq nashrlarning muallifi va hammuallifi. 10 ta oʻquv qoʻllanma, tavsiyalar, 3 ta monografiya, shuningdek, 3 ta ixtiroga patent muallifi. Kasbiy faoliyati davomida u bir necha marta tematik takomillashtirish, 2007 yilda onkologiya (Rossiya, Moskva), 2012 yilda endoskopik jarrohlik (Rossiya, Moskva), 2017 yilda ftiziatriya (Ispaniya, Barselona), 2018 yilda pankreatikobiliar va endoskopik jarrohlik bo'yicha mahorat darslarini yakunladi. (Koreya Respublikasi, Seul), semizlik jarrohligi 2018-2019 (Toshkent), metabolik jarrohlik 2021 (Gruziya, Tbilisi). 2017 yilda endoskopik jarrohlik, 2018 yilda ftiziojarrohlik, ToshUIV tomonidan chiqarilgan qorin onkoxirurgiyasi mutaxassisligi bor. Bariatrik jarrohlar xalqaro assotsiatsiyasi (IFSO), Oʻzbekiston bariatrik jarrohlari, Oʻzbekiston onkologlar assotsiatsiyasi aʼzosi, MDH mamlakatlari gepatologik jarrohlar uyushmasi aʼzosi. <br><br> Amalga oshirilgan jarrohlik aralashuvlar ro'yxati: <br><br> 16. Laparoskopik xoletsistektomiya (xolelitiyoz va o't pufagi poliplari);<br> 17. Laparoskopik exinokokkektomiya;<br> 18. Kindik, inguinal churralar, qorin oq chizig'i churralari va operatsiyadan keyingi churralar uchun laparoskopik hernioplastika;<br> 19. To'g'ri qorin bo'shlig'i mushaklarining diastazasini laparoskopik yo'q qilish;<br> 20. Laparoskopik adezioliz;<br> 21. Ginekologik kasalliklar uchun laparoskopik sistektomiya, adneksektomiya, burg'ulash, tubektomiya;<br> 22. Nissen, Topening laparoskopik fundoplikatsiyasi (hiatal churra);<br> 23. Laparoskopik adrenalektomiya (buyrak usti bezining shishi);<br> 24. Laparoskopik nefrektomiya (buyrak shishi);<br> 25. Jigarning laparoskopik rezektsiyasi (echinokokkoz, o'smalar, metastatik jigar kasalligi);<br> 26. Oshqozon osti bezining laparoskopik rezektsiyasi (oshqozon osti bezi shishi);<br> 27. Laparoskopik vertikal gastrektomiya (morbid semizlik);<br> 28. Laparoskopik gastrektomiya, gastrektomiya (oshqozon yarasi va oshqozon saratoni uchun);<br> 29. Shoshilinch sharoitlarda laparoskopik aralashuvlar: diagnostik laparoskopiya, o'tkir kalkulyoz xoletsistit uchun Lap-HEC, Laparoskopik appendektomiya, teshilgan yaralarni laparoskopik tikuv, qorin bo'shlig'ini laparoskopik sanitariya qilish.<br> 30. An'anaviy (ochiq) xoletsistektomiya;<br> 31. Mesh implantlari bilan/siz barcha turdagi churralar uchun an'anaviy operatsiyalar;<br> 32. An'anaviy echinokokkektomiya;<br> 33. Shoshilinch patologiyalarning barcha turlari: teshilgan yaralarni tikish, vagotomiya bilan piloroplastika, oshqozon, ichak rezeksiyasi, peritonit, strangulyatsiyalangan churralar, pankreatik nekrozlar.<br>",
+        "uz": "<b>Автобиографик маълумотлар Адилхўжаев Асқар Анварович</b></br> Адилхўжаев Асқар Анварович, тиббиёт фанлари доктори, доцент, олий тоифали жарроҳ. Адилхўжаев А, 2005-йилда Биринчи Тошкент Давлат тиббиёт институтини тамомлаган. 2005-2008 йилларда Тошкент тиббиёт академияси “Хирургия” ихтисослиги бўйича магистратурани тамомлаган. 2009-2010 йилдан бери ТМА хирургия кафедраси аспиранти бўлган ва 2010 йилда “Ошқозон ости бези бошининг маҳаллий ривожланган саратони учун эндоваскуляр аралашувларни такомиллаштириш” ихтисослиги бўйича тиббиёт фанлари номзоди илмий даражасини олиш учун номзодлик диссертациясини ҳимоя қилган. Жарроҳлик. 2010-2016 йилларда ТМА факультет ва госпитал хирургияси кафедрасида ассистент, сўнгра доцент лавозимларида ишлаган. 2016-йилда “Хирургия” ихтисослиги бўйича “Периампуляр ўсмаларда жарроҳлик тактикасини такомиллаштириш” мавзусида докторлик диссертациясини ҳимоя қилган ва 2018-йилда олий тоифали доцент илмий унвонини олган. 2018 йилдан ҳозиргача Республика ихтисослаштирилган онкология ва радиология илмий-амалий тиббиёт марказида ишлаб келмоқда. Адилхўжаев А. Шошилинч жарроҳлик, видеолапароскопия, панкреатикобилиар жарроҳлик ва онкология масалаларига бағишланган 150 дан ортиқ нашрларнинг муаллифи ва ҳаммуаллифи. 10 та ўқув қўлланма, тавсиялар, 3 та монография, шунингдек, 3 та ихтирога патент муаллифи. Касбий фаолияти давомида у бир неча марта тематик такомиллаштириш, 2007 йилда онкология (Россия, Москва), 2012 йилда эндоскопик жарроҳлик (Россия, Москва), 2017 йилда фтизиатрия (Испания, Барселона), 2018 йилда панкреатикобилиар ва эндоскопик жарроҳлик бўйича маҳорат дарсларини якунлади. (Корея Республикаси, Сеул), семизлик жарроҳлиги 2018-2019 (Тошкент), метаболик жарроҳлик 2021 (Грузия, Тбилиси). 2017 йилда эндоскопик жарроҳлик, 2018 йилда фтизиожарроҳлик, ТошУИВ томонидан чиқарилган қорин онкохирургияси мутахассислиги бор. Бариатрик жарроҳлар халқаро ассоциацияси (ИФСО), Ўзбекистон бариатрик жарроҳлари, Ўзбекистон онкологлар ассоциацияси аъзоси, МДҲ мамлакатлари гепатологик жарроҳлар уюшмаси аъзоси. <br><br> Амалга оширилган жарроҳлик аралашувлар рўйхати: <br><br> 16. Лапароскопик холецистэктомия (холелитиёз ва ўт пуфаги полиплари);<br> 17. Лапароскопик эхинококкектомия;<br> 18. Киндик, ингуинал чурралар, қорин оқ чизиғи чурралари ва операциядан кейинги чурралар учун лапароскопик ҳерниопластика;<br> 19. Тўғри қорин бўшлиғи мушакларининг диастазасини лапароскопик йўқ қилиш;<br> 20. Лапароскопик адезиолиз;<br> 21. Гинекологик касалликлар учун лапароскопик систектомия, аднексектомия, бурғулаш, тубектомия;<br> 22. Ниссен, Топенинг лапароскопик фундопликацияси (ҳиатал чурра);<br> 23. Лапароскопик адреналектомия (буйрак усти безининг шиши);<br> 24. Лапароскопик нефректомия (буйрак шиши);<br> 25. Жигарнинг лапароскопик резекцияси (эчинококкоз, ўсмалар, метастатик жигар касаллиги);<br> 26. Ошқозон ости безининг лапароскопик резекцияси (ошқозон ости бези шиши);<br> 27. Лапароскопик вертикал гастректомия (морбид семизлик);<br> 28. Лапароскопик гастректомия, гастректомия (ошқозон яраси ва ошқозон саратони учун);<br> 29. Шошилинч шароитларда лапароскопик аралашувлар: диагностик лапароскопия, ўткир калькулёз холецистит учун Лап-ҲEC, Лапароскопик аппендектомия, тешилган яраларни лапароскопик тикув, қорин бўшлиғини лапароскопик санитария қилиш.<br> 30. Анъанавий (очиқ) холецистэктомия;<br> 31. Меш имплантлари билан/сиз барча турдаги чурралар учун анъанавий операциялар;<br> 32. Анъанавий эчинококкектомия;<br> 33. Шошилинч патологияларнинг барча турлари: тешилган яраларни тикиш, ваготомия билан пилоропластика, ошқозон, ичак резекцияси, перитонит, странгуляцияланган чурралар, панкреатик некрозлар.<br>",
         "ru": "<b>Автобиографические данные Адилходжаева Аскара Анваровича</b><br> Адилходжаев Аскар Анварович, доктор медицинских наук, доцент, врач-хирург высшей категории. Адилходжаев А, в 2005 году окончил Первый Ташкентский Государственный медицинский институт. С 2005 по 2008 годы проходил магистратуру по специальности «Хирургия» Ташкентской медицинской академии. С2009-2010 гг. являлся аспирантом кафедры хирургии ТМА, а в 2010 году защитил диссертацию на соискание ученой степени кандидата медицинских наук на тему: «Совершенствование эндоваскулярных вмешательств при местнораспространенном раке головки поджелудочной железы» по специальности «Хирургия».<br> С 2010 по 2016 годы работал ассистентом, затем доцентом кафедры факультетской и госпитальной хирургии ТМА. <br> В 2016 году защитил докторскую диссертационную работу на тему: «Совершенствование хирургической тактики при периампулярных опухолях» по специальности «Хирургия», а в 2018 году получил ученое звание доцента и врача высшей категории.<br> C 2018 года и по настоящее время работает в Республиканском специализированном научно-практическом медицинском центре онкологии и радиологии. <br> Адилходжаев А, является автором и соавтором более 150 публикаций посвященным вопросам ургентной хирургии, видеолапароскопии, панкреатобиларной хирургии и онкологии. Является автором 10 методических пособий, рекомендаций, 3 монографий, а также 3 патентов на изобретение. <br> За время своей профессиональной деятельности неоднократно проходил тематические усовершенствования, мастер-классыпо онкологии в 2007 г (Россия, Москва), Эндоскопической хирургии в 2012 г (Россия, Москва), Фтизиатрия в 2017 г (Испания, Барселона), Панкреатобилиарная и эндоскопическая хирургия в 2018 г (Республика Корея, Сеул), хирургия ожирения 2018-2019 гг (Ташкент), метаболическая хирургия 2021 г. (Грузия, Тбилиси). <br> Имеет специализацию по эндоскопической хирургии 2017 г, Фтизиохирургия 2018 г, абдоминальная онкохирургия, выданные ТашУИВ. Является членом бариатрических хирургов международной ассоциации (IFSO), бариатрических хирургов Узбекистана, членом ассоциации онкологов Узбекистана, член ассоциации хирургов-гепатологов стран СНГ. <br> <br><br> Перечень выполняемых оперативных вмешательств:<br><br> 16. Лапароскопическаяхолецистэктомия (желчнокаменная болезнь и полипы желчного пузыря);<br> 17. Лапароскопическаяэхинококкэктомия;<br> 18. Лапароскопическая герниопластики при пупочной, паховых грыжах, грыжах белой линии живота и послеоперационных грыжах;<br> 19. Лапароскопическая ликвидация диастаза прямых мышц живота;<br> 20. Лапароскопический адгезиолизис;<br> 21. Лапароскопическиекистэктомия, аднексэктомия, дриллинг, тубэктомия при гинекологических заболеваниях;<br> 22. ЛапароскопическаяфундопликацияНиссену, Тоупе (грыжи пищеводного отверстия диафрагмы);<br> 23. Лапароскопическаяадреналэктомия (опухоли надпочечников);<br> 24. Лапароскопическаянефрэктомия(опухоли почки);<br> 25. Лапароскопическая резекция печени (эхинококкоз, опухоли, метастатическое поражение печени);<br> 26. Лапароскопическая резекция поджелудочной железы (опухоли поджелудочной железы);<br> 27. Лапароскопическиевертикальная резекция желудка (морбидное ожирение);<br> 28. Лапароскопическая резекция желудка, гастрэктомия (при язвенной болезни и раке желудка);<br> 29. Лапароскопические вмешательсва при ургентных состояниях: диагностическая лапароскопия, Лап-ХЭК при остром калькулезном холецистите, Лапароскопическаяаппендэктомия, Лапароскопическоеушивание перфоративных язв, лапароскопические санация брюшной полости.<br> 30. Традиционная (открытая) холецистэктомия;<br> 31. Традиционные операции при всех видах грыж с/без сетчатых имплантов;<br> 32. Традиционная эхинококкэктомия;<br> 33. Все виды ургентных патологий: ушиваниеперфоративных язв, пилоропластики с ваготомией, резекция желудка, кишечника, перитониты, ущемленные грыжи, панкреонекрозы.<br>",
         "en": "<b>Autobiographical data Adilkhodzhaev Askar Anvarovich</b> <br><br> Adilkhodjaev Askar Anvarovich, Doctor of Medical Sciences, Associate Professor, surgeon of the highest category. Adilkhodjaev A, graduated from the First Tashkent State Medical Institute in 2005. From 2005 to 2008 he completed a master’s degree in the specialty “Surgery” at the Tashkent Medical Academy. Since 2009-2010 was a postgraduate student at the Department of Surgery of the TMA, and in 2010 defended his dissertation for the degree of Candidate of Medical Sciences on the topic: “Improving endovascular interventions for locally advanced cancer of the head of the pancreas” in the specialty “Surgery”. From 2010 to 2016 he worked as an assistant, then an associate professor at the Department of Faculty and Hospital Surgery of the TMA. In 2016, he defended his doctoral dissertation on the topic: “Improving surgical tactics for periampullary tumors” in the specialty “Surgery,” and in 2018 he received the academic title of associate professor and doctor of the highest category. From 2018 to the present, she has been working at the Republican Specialized Scientific and Practical Medical Center for Oncology and Radiology. Adilkhodjaev A, is the author and co-author of more than 150 publications devoted to the issues of urgent surgery, video laparoscopy, pancreaticobiliary surgery and oncology. He is the author of 10 teaching aids, recommendations, 3 monographs, as well as 3 patents for inventions. During his professional career, he has repeatedly completed thematic improvements, master classes on oncology in 2007 (Russia, Moscow), Endoscopic surgery in 2012 (Russia, Moscow), Phthisiology in 2017 (Spain, Barcelona), Pancreaticobiliary and endoscopic surgery in 2018 g (Republic of Korea, Seoul), obesity surgery 2018-2019 (Tashkent), metabolic surgery 2021 (Georgia, Tbilisi). Has a specialization in endoscopic surgery in 2017, phthisiosurgery in 2018, abdominal oncosurgery, issued by TashUIV. He is a member of the International Association of Bariatric Surgeons (IFSO), bariatric surgeons of Uzbekistan, a member of the Association of Oncologists of Uzbekistan, a member of the Association of Hepatological Surgeons of the CIS countries. <br><br> List of surgical interventions performed: <br><br> 16. Laparoscopic cholecystectomy (cholelithiasis and gallbladder polyps);<br> 17. Laparoscopic echinococcectomy;<br> 18. Laparoscopic hernioplasty for umbilical, inguinal hernias, hernias of the white line of the abdomen and postoperative hernias;<br> 19. Laparoscopic elimination of diastasis of the rectus abdominis muscles;<br> 20. Laparoscopic adhesiolysis;<br> 21. Laparoscopic cystectomy, adnexectomy, drilling, tubectomy for gynecological diseases;<br> 22. Laparoscopic fundoplication of Nissen, Tope (hiatal hernia);<br> 23. Laparoscopic adrenalectomy (adrenal tumors);<br> 24. Laparoscopic nephrectomy (kidney tumors);<br> 25. Laparoscopic liver resection (echinococcosis, tumors, metastatic liver disease);<br> 26. Laparoscopic resection of the pancreas (pancreatic tumor);<br> 27. Laparoscopic vertical gastrectomy (morbid obesity);<br> 28. Laparoscopic gastrectomy, gastrectomy (for peptic ulcers and stomach cancer);<br> 29. Laparoscopic interventions in urgent conditions: diagnostic laparoscopy, Lap-HEC for acute calculous cholecystitis, Laparoscopic appendectomy, Laparoscopic suturing of perforated ulcers, laparoscopic sanitation of the abdominal cavity.<br> 30. Traditional (open) cholecystectomy;<br> 31. Traditional operations for all types of hernias with/without mesh implants;<br> 32. Traditional echinococcectomy;<br> 33. All types of urgent pathologies: suturing of perforated ulcers, pyloroplasty with vagotomy, resection of the stomach, intestines, peritonitis, strangulated hernias, pancreatic necrosis."
     },
     "doctor_2": {
-        "uz": "Xusnuddinov Nizomuddin Zuxruddinovich",
+        "uz": "Хуснуддинов Низомуддин Зухруддинович",
         "ru": "Хуснуддинов Низомуддин Зухруддиннович",
         "en": "Khusnuddinov Nizomuddin Zukhruddinovich"
     },
     "doctor_2_info": {
-        "uz": "Xusnuddinov Nizomuddin Zuxruddinovich, RSPMTS OiR tayanch doktoranti, 3-toifali jarroh. <br> Xusnuddinov N, 2017-yilda Toshkent tibbiyot akademiyasini tamomlagan.<br> 2017-2020 yillarda Toshkent tibbiyot akademiyasining “Xirurgiya” ixtisosligi bo‘yicha magistratura bosqichini tamomlagan.<br> 2021 yildan hozirgacha Respublika ixtisoslashtirilgan onkologiya va radiologiya ilmiy-amaliy tibbiyot markazi aspiranti lavozimida ishlab kelmoqda.<br> Xusnuddinov N, shoshilinch jarrohlik, videolaparoskopiya, pankreatikobiliar jarrohlik va onkologiya masalalariga bag'ishlangan 10 dan ortiq nashrlarning muallifi va hammuallifidir.",
+        "uz": "Хуснуддинов Низомуддин Зухруддинович, РСПМТС ОиР таянч докторанти, 3-тоифали жарроҳ. <br> Хуснуддинов Н, 2017-йилда Тошкент тиббиёт академиясини тамомлаган.<br> 2017-2020 йилларда Тошкент тиббиёт академиясининг “Хирургия” ихтисослиги бўйича магистратура босқичини тамомлаган.<br> 2021 йилдан ҳозиргача Республика ихтисослаштирилган онкология ва радиология илмий-амалий тиббиёт маркази аспиранти лавозимида ишлаб келмоқда.<br> Хуснуддинов Н, шошилинч жарроҳлик, видеолапароскопия, панкреатикобилиар жарроҳлик ва онкология масалаларига бағишланган 10 дан ортиқ нашрларнинг муаллифи ва ҳаммуаллифидир.",
         "ru": "Хуснуддинов Низомуддин Зухруддинович, базовый докторант РСПМЦ ОиР, врач-хирург 3 категории.<br> Хуснуддинов Н, в 2017 году окончил Ташкентская Медицинская Академия.<br> С 2017 по 2020 годы проходил магистратуру по специальности «Хирургия» Ташкентской медицинской академии.<br> C 2021 года и по настоящее время работает аспирантом в Республиканском специализированном научно-практическом медицинском центре онкологии и радиологии. <br> Хуснуддинов Н, является автором и соавтором более 10 публикаций посвященным вопросам ургентной хирургии, видеолапароскопии, панкреатобиларной хирургии и онкологии.<br>",
         "en": "Khusnuddinov Nizomuddin Zukhruddinovich, basic doctoral student at the RSPMTS OiR, surgeon of the 3rd category. <br> Khusnuddinov N, graduated from the Tashkent Medical Academy in 2017.<br> From 2017 to 2020, he completed a master’s degree in the specialty “Surgery” at the Tashkent Medical Academy. <br> From 2021 to the present, she has been working as a graduate student at the Republican Specialized Scientific and Practical Medical Center for Oncology and Radiology.<br> Khusnuddinov N, is the author and co-author of more than 10 publications devoted to the issues of urgent surgery, video laparoscopy, pancreaticobiliary surgery and oncology."
     },
     "doctor_2_fullinfo": {
-        "uz": " Xusnuddinov Nizomuddin Zuxruddinovich, RSPMTS OiR tayanch doktoranti, 3-toifali jarroh. <br> Xusnuddinov N, 2017-yilda Toshkent tibbiyot akademiyasini tamomlagan.<br> 2017-2020-yillarda Toshkent tibbiyot akademiyasining “Xirurgiya” ixtisosligi bo‘yicha magistratura bosqichini tamomlagan.<br> 2021-yildan hozirgacha u. Respublika ixtisoslashtirilgan onkologiya va radiologiya ilmiy-amaliy tibbiyot markazi aspiranti lavozimida ishlab kelmoqda.<br> Xusnuddinov N. Shoshilinch jarrohlik, videolaparoskopiya, video laparoskopiya masalalariga bagʻishlangan 10 dan ortiq nashrlar muallifi va hammuallifi. Pankreatikobiliar jarrohlik va onkologiya.<br> Kasbiy faoliyati davomida u bir necha bor tematik takomillashtirish, 2017 yilda onkologiya va jarrohlik bo'yicha mahorat darslarini (Toshent, O'zbekiston), 2018 yilda endoskopik jarrohlik (Toshent, O'zbekiston), 2018-2019 yillarda semizlik jarrohligi bo'yicha yakunlagan. Toshkent), metabolik jarrohlik 2021 (Gruziya, Tbilisi).<br> 2021 yilda TMA tomonidan chiqarilgan endoskopik jarrohlik ixtisosligiga ega.<br> Oʻzbekiston bariatrik jarrohlari xalqaro assotsiatsiyasi (IFSO) aʼzosi.< br> <br><br> O'tkazilgan jarrohlik aralashuvlar ro'yxati:<br> 1. Laparoskopik xoletsistektomiya (xolelitiyoz va o't pufagi poliplari);<br> 2. Laparoskopik echinokokkektomiya;<br> 3. Kindik, inguinal gernioplastika. qorin oq chizig'i va operatsiyadan keyingi churralar;<br> 4. Qorin bo'shlig'i mushaklarining diastazasini laparoskopik yo'l bilan yo'q qilish;<br> 5. Laparoskopik adezioliz;<br> 6. Nissen, Tope laparoskopik fundoplikatsiyasi (hiatal churra); <br> 7. Laparoskopik adrenalektomiya (buyrak usti o'smalari);<br> 8. Laparoskopik nefrektomiya (buyrak o'smalari);<br> 9. Jigarning laparoskopik rezeksiyasi (exinokokkoz, o'smalar, jigar metastatik kasalliklari);<br> 10. Laparoskopik vertika (morbid semizlik);<br> 11. Laparoskopik gastrektomiya, gastrektomiya (oshqozon yarasi va oshqozon saratoni uchun);<br> 12. Shoshilinch sharoitlarda laparoskopik aralashuvlar: diagnostik laparoskopiya, o'tkir xoletsistit, apparendoskopiya uchun Lap-HEC, laparoskopiya. teshilgan yaralar, qorin bo'shlig'ining laparoskopik sanitariyasi.<br> 13. An'anaviy (ochiq) xoletsistektomiya;<br> 14. Barcha turdagi churralar uchun to'rli implantlarsiz va an'anaviy operatsiyalar;<br> 15. An'anaviy exinokokkektomiya;<br>",
+        "uz": "Хуснуддинов Низомуддин Зухруддинович, РСПМТС ОиР таянч докторанти, 3-тоифали жарроҳ. <br> Хуснуддинов Н, 2017-йилда Тошкент тиббиёт академиясини тамомлаган.<br> 2017-2020-йилларда Тошкент тиббиёт академиясининг “Хирургия” ихтисослиги бўйича магистратура босқичини тамомлаган.<br> 2021-йилдан ҳозиргача у. Республика ихтисослаштирилган онкология ва радиология илмий-амалий тиббиёт маркази аспиранти лавозимида ишлаб келмоқда.<br> Хуснуддинов Н. Шошилинч жарроҳлик, видеолапароскопия, видео лапароскопия масалаларига бағишланган 10 дан ортиқ нашрлар муаллифи ва ҳаммуаллифи. Панкреатикобилиар жарроҳлик ва онкология.<br> Касбий фаолияти давомида у бир неча бор тематик такомиллаштириш, 2017 йилда онкология ва жарроҳлик бўйича маҳорат дарсларини (Тошент, Ўзбекистон), 2018 йилда эндоскопик жарроҳлик (Тошент, Ўзбекистон), 2018-2019 йилларда семизлик жарроҳлиги бўйича якунлаган. Тошкент), метаболик жарроҳлик 2021 (Грузия, Тбилиси).<br> 2021 йилда ТМА томонидан чиқарилган эндоскопик жарроҳлик ихтисослигига эга.<br> Ўзбекистон бариатрик жарроҳлари халқаро ассоциацияси (ИФСО) аъзоси.< br> <br><br> Ўтказилган жарроҳлик аралашувлар рўйхати:<br> 1. Лапароскопик холецистэктомия (холелитиёз ва ўт пуфаги полиплари);<br> 2. Лапароскопик эчинококкектомия;<br> 3. Киндик, ингуинал герниопластика. қорин оқ чизиғи ва операциядан кейинги чурралар;<br> 4. Қорин бўшлиғи мушакларининг диастазасини лапароскопик йўл билан йўқ қилиш;<br> 5. Лапароскопик адезиолиз;<br> 6. Ниссен, Топе лапароскопик фундопликацияси (ҳиатал чурра); <br> 7. Лапароскопик адреналектомия (буйрак усти ўсмалари);<br> 8. Лапароскопик нефректомия (буйрак ўсмалари);<br> 9. Жигарнинг лапароскопик резекцияси (эхинококкоз, ўсмалар, жигар метастатик касалликлари);<br> 10. Лапароскопик вертика (морбид семизлик);<br> 11. Лапароскопик гастректомия, гастректомия (ошқозон яраси ва ошқозон саратони учун);<br> 12. Шошилинч шароитларда лапароскопик аралашувлар: диагностик лапароскопия, ўткир холецистит, аппарендоскопия учун Лап-ҲEC, лапароскопия. тешилган яралар, қорин бўшлиғининг лапароскопик санитарияси.<br> 13. Анъанавий (очиқ) холецистэктомия;<br> 14. Барча турдаги чурралар учун тўрли имплантларсиз ва анъанавий операциялар;<br> 15. Анъанавий эхинококкектомия;<br>",
         "ru": "Хуснуддинов Низомуддин Зухруддинович, основной докторант РСПМЦ ОиР, хирург 3-й категории. <br>Хуснуддинов Н., окончил Ташкентскую Медицинскую Академию в 2017 году.<br> С 2017 по 2020 год окончил магистратуру по специальности «Хирургия» в Ташкентской Медицинской Академии.<br> С 2021 года по настоящее время - работает аспирантом Республиканского специализированного научно-практического медицинского центра онкологии и радиологии.<br> Хуснуддинов Н., автор и соавтор более 10 публикаций, посвященных вопросам неотложной хирургии, видеолапароскопии, панкреатобилиарная хирургия и онкология.<br> За свою профессиональную карьеру неоднократно проходил тематические усовершенствования, мастер-классы по онкологии и хирургии 2017 г. (Ташент, Узбекистан), Эндоскопической хирургии 2018 г. (Ташент, Узбекистан), хирургии ожирения 2018-2019 г. ( Ташкент), метаболическая хирургия 2021 (Грузия, Тбилиси).<br> Имеет специализацию по эндоскопической хирургии 2021 года, выданную ТМА.<br> Член Международной ассоциации бариатрических хирургов (IFSO), бариатрических хирургов Узбекистана.< br> <br><br> Перечень выполненных оперативных вмешательств:<br> 1. Лапароскопическая холецистэктомия (желчнокаменная болезнь и полипы желчного пузыря);<br> 2. Лапароскопическая эхинококкэктомия;<br> 3. Лапароскопическая герниопластика при пупочных, паховых грыжах, грыжах белой линии живота и послеоперационных грыж;<br> 4. Лапароскопическое устранение диастаза прямых мышц живота;<br> 5. Лапароскопический адгезиолизис;<br> 6. Лапароскопическая фундопликация по Ниссену, Топе (гиатальная грыжа); <br> 7. Лапароскопическая адреналэктомия (опухоли надпочечников);<br> 8. Лапароскопическая нефрэктомия (опухоли почек);<br> 9. Лапароскопическая резекция печени (эхинококкоз, опухоли, метастатическое заболевание печени);<br> 10. Лапароскопическая вертикальная гастрэктомия (морбидное ожирение);<br> 11. Лапароскопическая гастрэктомия, гастрэктомия (при язвенной болезни и раке желудка);<br> 12. Лапароскопические вмешательства при неотложных состояниях: диагностическая лапароскопия, Lap-HEC при остром калькулезном холецистите, Лапароскопическая аппендэктомия, Лапароскопическое наложение швов перфоративных язв, лапароскопическая санация брюшной полости.<br> 13. Традиционная (открытая) холецистэктомия;<br> 14. Традиционные операции при всех видах грыж с сетчатыми имплантатами и без них;<br> 15. Традиционная эхинококкэктомия;<br>",
         "en": "Khusnuddinov Nizomuddin Zukhruddinovich, basic doctoral student at the RSPMTS OiR, surgeon of the 3rd category. <br> Khusnuddinov N, graduated from the Tashkent Medical Academy in 2017.<br> From 2017 to 2020, he completed a master’s degree in the specialty “Surgery” at the Tashkent Medical Academy.<br> From 2021 to the present, she has been working as a graduate student at the Republican Specialized Scientific and Practical Medical Center for Oncology and Radiology.<br> Khusnuddinov N, is the author and co-author of more than 10 publications devoted to the issues of urgent surgery, video laparoscopy, pancreaticobiliary surgery and oncology.<br> During his professional career, he has repeatedly completed thematic improvements, master classes in oncology and surgery in 2017 (Tashent, Uzbekistan), Endoscopic surgery in 2018 (Tashent, Uzbekistan), obesity surgery 2018-2019 (Tashkent), metabolic surgery 2021 (Georgia, Tbilisi).<br> Has a specialization in endoscopic surgery 2021 issued by TMA.<br> He is a member of the International Association of Bariatric Surgeons (IFSO), bariatric surgeons of Uzbekistan.<br> <br><br> List of surgical interventions performed:<br> 1. Laparoscopic cholecystectomy (cholelithiasis and gallbladder polyps);<br> 2. Laparoscopic echinococcectomy;<br> 3. Laparoscopic hernioplasty for umbilical, inguinal hernias, hernias of the white line of the abdomen and postoperative hernias;<br> 4. Laparoscopic elimination of diastasis of the rectus abdominis muscles;<br> 5. Laparoscopic adhesiolysis;<br> 6. Laparoscopic fundoplication of Nissen, Tope (hiatal hernia);<br> 7. Laparoscopic adrenalectomy (adrenal tumors);<br> 8. Laparoscopic nephrectomy (kidney tumors);<br> 9. Laparoscopic liver resection (echinococcosis, tumors, metastatic liver disease);<br> 10. Laparoscopic vertical gastrectomy (morbid obesity);<br> 11. Laparoscopic gastrectomy, gastrectomy (for peptic ulcers and stomach cancer);<br> 12. Laparoscopic interventions for urgent conditions: diagnostic laparoscopy, Lap-HEC for acute calculous cholecystitis, Laparoscopic appendectomy, Laparoscopic suturing of perforated ulcers, laparoscopic sanitation of the abdominal cavity.<br> 13. Traditional (open) cholecystectomy;<br> 14. Traditional operations for all types of hernias with/without mesh implants;<br> 15. Traditional echinococcectomy;<br>"
     },
     "allDoctors": {
-        "uz": "Barcha shifokorlar",
+        "uz": "Барча шифокорлар",
         "ru": "Все врачи",
         "en": "All doctors"
     },
     "clinic": {
-        "uz": "Klinika",
+        "uz": "Клиника",
         "ru": "Клиника",
         "en": "Clinic"
     },
     "clinicInfo": {
-        "uz": " -konsultativ poliklinika <br> -kunduzgi shifoxona <br> -kardiologiya bo'limi <br> -terapiya bo'limi <br> -nevrologiya bo'limi <br> -gepatologiya bo'limi <br> -jarroxlik amaliyotini bajarish bo'limi <br> -laborotor tekshiruvlar( qon va siydik taxlili, gormonal tekshiruvlar, bioximik kon taxlili , koagulogramma, gepatit B,S va xokazo) <br> -instrumental tekshiruvlar (EKG, EXOKG, EEG, EXOEG, UZI, kolposkopiya) <br> - EFGDS <br> - ozonoterapiya <br> -kompleks davolar mavjud <br>",
+        "uz": " -консультатив поликлиника <br> -кундузги шифохона <br> -кардиология бўлими <br> -терапия бўлими <br> -неврология бўлими <br> -гепатология бўлими <br> -жаррохлик амалиётини бажариш бўлими <br> -лаборотор текширувлар( қон ва сийдик тахлили, гормонал текширувлар, биохимик кон тахлили , коагулограмма, гепатит Б,С ва хоказо) <br> -инструментал текширувлар (ЭКГ, ЭХОКГ, ЭEГ, ЭХОEГ, УЗИ, колпоскопия) <br> - ЭФГДС <br> - озонотерапия <br> -комплекс даволар мавжуд <br>",
         "ru": "-консультативная поликлиника <br> - дневной стационар <br> - Отделение кардиологии - терапевтическое отделение <br> - отделение неврологии -гепатологическое отделение <br> -Кафедра хирургической практики -лабораторные исследования (анализ крови и мочи, гормональные тесты, биохимический минный анализ, коагулограмма, гепатиты В, С и т.д.) <br> -инструментальные исследования (ЭКГ, ЭКГ, ЭЭГ, ЭКГОЭГ, УЗИ, кольпоскопия) <br> - ЭФГДС <br> - озонотерапия -возможны комплексные процедуры",
         "en": "-consultative polyclinic <br> - day hospital <br> - Department of Cardiology - therapy department <br> - department of neurology -hepatology department <br> -Department of surgical practice -laboratory tests (blood and urine analysis, hormonal tests, biochemical mine analysis, coagulogram, hepatitis B, C, etc.) <br> -instrumental examinations (ECG, EXOCG, EEG, EXOEG, ultrasound, colposcopy) <br> - EFGDS <br> - ozone therapy -complex treatments are available"
     },
     "checkBmi": {
-        "uz": "Tana massasi indeksini (BMI) tekshiring",
+        "uz": "Тана массаси индексини (БМИ) текширинг",
         "ru": "Проверьте свой индекс массы тела (ИМТ)",
         "en": "Check your body weight index (BMI)"
     },
     "weight": {
-        "uz": "Vazn",
+        "uz": "Вазн",
         "ru": "Вес",
         "en": "Weight"
     },
     "height": {
-        "uz": "Bo'y",
+        "uz": "Бўй",
         "ru": "Высота",
         "en": "Height"
     },
     "yourBmi": {
-        "uz": "Sizning Tana Vazn Indeksingiz",
+        "uz": "Сизнинг Тана Вазн Индексингиз",
         "ru": "Ваш индекс массы тела",
         "en": "Your Body Mass Index"
     },
     "lessBmi": {
-        "uz": "18,5 dan 25 gacha bo'lgan Tana vazn indeksi normal va sog'lom hisoblanadi, undon ozi yengil vazn, ortig'i esa ortiqcha vazn hisoblanadi",
+        "uz": "18,5 дан 25 гача бўлган Тана вазн индекси нормал ва соғлом ҳисобланади, ундон ози енгил вазн, ортиғи эса ортиқча вазн ҳисобланади",
         "ru": "ИМТ от 18,5 до 25 считается нормальным и здоровым, с недостаточным и избыточным весом.",
         "en": "A BMI between 18.5 and 25 is considered normal and healthy, underweight and overweight"
     },
     "moreBmi": {
-        "uz": "Tana vazn indeksi 25 dan yuqori bo'lgan odamlarda semizlik bo'lishi mumkin, bu sog'likka zarar etkazishi mumkin bo'lgan kasallik yoki ortiqcha yog' to'planishi sifatida aniqlanadi.",
+        "uz": "Тана вазн индекси 25 дан юқори бўлган одамларда семизлик бўлиши мумкин, бу соғликка зарар этказиши мумкин бўлган касаллик ёки ортиқча ёғ тўпланиши сифатида аниқланади.",
         "ru": "Люди с индексом массы тела выше 25 могут страдать ожирением, которое определяется как заболевание или накопление избыточного жира, которое может нанести вред здоровью.",
         "en": "People with a body mass index above 25 may be obese, which is defined as a disease or excess fat accumulation that can harm health."
     },
     "calc": {
-        "uz": "Hisoblash",
+        "uz": "Ҳисоблаш",
         "ru": "Рассчитать",
         "en": "Calculate"
     },
     "results": {
-        "uz": "Natijalar",
+        "uz": "Натижалар",
         "ru": "Результаты",
         "en": "Results"
     },
     "before": {
-        "uz": "Avval",
+        "uz": "Аввал",
         "ru": "До",
         "en": "Before"
     },
     "after": {
-        "uz": "Keyin",
+        "uz": "Кейин",
         "ru": "После",
         "en": "After"
     },
     "contact": {
-        "uz": "Aloqa",
+        "uz": "Алоқа",
         "ru": "Контакт",
         "en": "Contact"
     },
     "address": {
-        "uz": "Manzil",
+        "uz": "Манзил",
         "ru": "Адрес",
         "en": "Address"
     },
     "addInfo": {
-        "uz": "O'zbekiston, Toshkent <br> Nurafshon, 7A Uy",
+        "uz": "Ўзбекистон, Тошкент <br> Нурафшон, 7А Уй",
         "ru": "Узбекистан, Ташкент <br> Нурафшон, 7А дом",
         "en": "Uzbekistan, Tashkent <br> Nurafshon, 7A House"
     },
     "phoneNum": {
-        "uz": "Telefon raqam",
+        "uz": "Телефон рақам",
         "ru": "Номер телефона",
         "en": "Phone number"
     },
     "socialMedia": {
-        "uz": "Ijtimoiy tarmoqlar",
+        "uz": "Ижтимоий тармоқлар",
         "ru": "Социальные медиа",
         "en": "Social Media"
     },
     "enterName": {
-        "uz": "Ismingizni kiriting",
+        "uz": "Исмингизни киритинг",
         "ru": "Введите ваше имя",
         "en": "Enter your name"
     },
     "enterPhone": {
-        "uz": "Telefon raqamingizni kiriting",
+        "uz": "Телефон рақамингизни киритинг",
         "ru": "Введите свой номер телефона",
         "en": "Enter your phone number"
     },
     "leaveComment": {
-        "uz": "Komentariya qoldiring",
+        "uz": "Коментария қолдиринг",
         "ru": "Оставить комментарий",
         "en": "Leave a comment"
     },
     "send": {
-        "uz": "Jo'natish",
+        "uz": "Жўнатиш",
         "ru": "Отправлять",
         "en": "Send"
     },
     "qualityService": {
-        "uz": "Eng sifatli bariatrik operatsiyalar",
+        "uz": "Энг сифатли бариатрик операциялар",
         "ru": "Бариатрические операции высочайшего качества",
         "en": "Bariatric surgeries of the highest quality"
     },
     "bariatricPage": {
-        "uz": "<b>Bariatrik jarrohlik </b>, shuningdek, vazn yo'qotish jarrohligi sifatida ham tanilgan, bu <b>semizlik bilan og'rigan odamlarga sezilarli darajada vazn yo'qotishga yordam berishga qaratilgan jarrohlik amaliyotidir.</b> Bu ovqat hazm qilish tizimiga o'zgartirish kiritishni o'z ichiga oladi, bu siz iste'mol qilishingiz va qabul qilishingiz mumkin bo'lgan oziq-ovqat miqdorini cheklaydi, bu esa sezilarli va barqaror vazn yo'qotishiga olib keladi.",
+        "uz": "<b>Бариатрик жарроҳлик </b>, шунингдек, вазн йўқотиш жарроҳлиги сифатида ҳам танилган, бу <b>семизлик билан оғриган одамларга сезиларли даражада вазн йўқотишга ёрдам беришга қаратилган жарроҳлик амалиётидир.</b> Бу овқат ҳазм қилиш тизимига ўзгартириш киритишни ўз ичига олади, бу сиз истеъмол қилишингиз ва қабул қилишингиз мумкин бўлган озиқ-овқат миқдорини чеклайди, бу эса сезиларли ва барқарор вазн йўқотишига олиб келади.",
         "ru": "<b>Бариатрическая хирургия </b>, также известная как операция по снижению веса, представляет собой хирургическую процедуру, направленную на <b>помощь людям, страдающим ожирением, сбросить значительное количество веса.</b> Это пищеварительная операция, включающая в себя изменения в метаболизме, которые ограничивает количество пищи, которую вы можете съесть и принять, что приводит к значительной и устойчивой потере веса.",
         "en": "<b>Bariatric surgery </b>, also known as weight loss surgery, is a surgical procedure aimed at <b>helping obese people lose significant amounts of weight.</b> It is a digestive involves making changes to your metabolism that limits the amount of food you can eat and take in, leading to significant and sustainable weight loss."
     },
-    "fast": {
-        "uz": "Tezkor",
-        "ru": "Быстрый",
-        "en": "Fast"
-    },
-    "reliable": {
-        "uz": "Ishonchli",
-        "ru": "Надежный",
-        "en": "Reliable"
-    },
-    "efficient": {
-        "uz": "Samarali",
-        "ru": "Эффективный",
-        "en": "Efficient"
-    },
-    "guaranteed": {
-        "uz": "Kafolatlangan",
-        "ru": "Гарантировано",
-        "en": "Guaranteed"
-    },
     "modernLaproscopy": {
-        "uz": "Zamonaviy laparoskopik operatsiyalar",
+        "uz": "Замонавий лапароскопик операциялар",
         "ru": "Современные лапароскопические операции",
         "en": "Modern laparoscopic operations"
     },
     "ourDoctors": {
-        "uz": "Bizning mutaxassis shifokorlarimiz",
+        "uz": "Бизнинг мутахассис шифокорларимиз",
         "ru": "Наши врачи-специалисты",
         "en": "Our specialist doctors"
     },
     "operations": {
-        "uz": "Operatsiyalar",
+        "uz": "Операциялар",
         "ru": "Операции",
         "en": "Operations"
     },
     "interviewDoc": {
-        "uz": "Vrachlar bilan suhbat",
+        "uz": "Врачлар билан суҳбат",
         "ru": "Интервью с врачами",
         "en": "Interview with doctors"
     },
     "interviewClient": {
-        "uz": "Bemorlar bilan suhbat",
+        "uz": "Беморлар билан суҳбат",
         "ru": "Интервью с пациентами",
         "en": "Interview with patients"
     },
     "beforeAfter": {
-        "uz": "Avval va Keyingi rasmlar",
+        "uz": "Аввал ва Кейинги расмлар",
         "ru": "Фото до и после",
         "en": "Before and After photos"
     },
     "otherPhotos": {
-        "uz": "Yangi rasmlar",
+        "uz": "Янги расмлар",
         "ru": "Новые фото",
         "en": "New photos"
     },
     "doctorsControl": {
-        "uz": "Shifokorlar",
+        "uz": "Шифокорлар",
         "ru": "Врачи",
         "en": "Doctors"
     },
     "photosControl": {
-        "uz": "Rasmlar",
+        "uz": "Расмлар",
         "ru": "Фото",
         "en": "Photos"
     },
     "videosControl": {
-        "uz": "Videolar",
+        "uz": "Видеолар",
         "ru": "Видео",
         "en": "Videos"
     }
-
 }

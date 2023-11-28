@@ -40,23 +40,21 @@ export default function content(){
 
       <row class="panel m-5 flex-x-between">
         <column class="gap-1">
-          <h2 class="text-center">Check your BMI</h2>
-          
-          <p id="introText" class="text-center">Enter your weight and height below to check your BMI results</p>
+          <h2 class="text-center">${window.Lang.use("checkBmi")}</h2>
           
           <form>
               <div id="weightInput">
-                <p>Put your weight in here (KG)</p>
+                <p>${window.Lang.use("weight")} (KG)</p>
                   <input id="weight" type="number" pattern="[0-9]*" name="a" />
               </div>
               <div id="heightInput">
-                <p>And your height in here (CM)</p>
+                <p>${window.Lang.use("height")} (CM)</p>
                 <input id="height" type="number" pattern="[0-9]*" name="b"/> 
               </div>
-              <button type="button" class="btn" id="bmiBtn" style="background-color: #2491eb;" >Calculate BMI</button>
+              <button type="button" class="btn" id="bmiBtn" style="background-color: #2491eb;" >${window.Lang.use("calc")}</button>
           </form>
         </column>
-        <div id="results" class="text-center">Your BMI results will appear here</div>
+        <div id="results" class="text-center">${window.Lang.use("yourBmi")}</div>
       </row>
       
       <row class="p-2 gap-1 box-modal">
@@ -178,13 +176,13 @@ export function after(){
     bmi = bmi.toFixed(1);
 
     if (bmi <= 18.4) {
-      measure = "Your BMI is " + bmi + " which means " + "you are Underweight" + "<img src='images/skinny.png' class='w-30'>";
+      measure = "<row>" + window.Lang.use("lessBmi") + "<img src='images/skinny.png' class='w-20'> </row>";
     } else if (bmi >= 18.5 && bmi <= 24.9) {
-      measure = "Your BMI is " + bmi + " which means " + "You are Normal" + "<img src='images/normal.png' class='w-30'>";
+      measure = "<row>" + window.Lang.use("lessBmi") + "<img src='images/normal.png' class='w-20'> </row>";
     } else if (bmi >= 25 && bmi <= 29.9) {
-      measure = "Your BMI is " + bmi + " which means " + "You are Overweight" + "<img src='images/overweight.png' class='w-30'>";
+      measure = "<row>" + window.Lang.use("moreBmi") + "<img src='images/overweight.png' class='w-20'> </row>";
     } else if (bmi >= 30) {
-      measure = "Your BMI is " + bmi + " which means " + "You are Obese" + "<img src='images/obese.png' class='w-30'>";
+      measure = "<row>" + window.Lang.use("moreBmi") + "<img src='images/obese.png' class='w-20'> </row>";
     }
     
 
