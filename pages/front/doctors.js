@@ -27,7 +27,7 @@ export async function before(){
       }
 
       window.pageData.doctorRows += `
-        <column class="p-5 surface-clean gap-1 anim" style="max-width: 400px">
+        <column class="p-5 surface-clean gap-1 anim" style="max-width: 400px; margin: 20px;">
           <img src="assets/doctors/${doctor["file"]}" class="w-100">
           <h3>${doctor["fullname"]}</h3>
           <row class="flex-x-between">
@@ -57,7 +57,7 @@ export default function content(){
       <header>
         <h1>${window.Lang.use("ourDoctors")}</h1>
       </header>
-      <row class="p-5 gap-2">
+      <row class="p-5">
         ${window.pageData.doctorRows}
       </row>
     </container>
