@@ -69,7 +69,7 @@ export default function content(){
           <p>${window.Lang.use("addInfo")}</p>
           <h4 class="info">${window.Lang.use("phoneNum")}</h4>
           <p>
-            +998 90 123-45-67
+            +998 97 466-77-55
           </p>
           <h4 class="info" style="padding-bottom: 5%;">${window.Lang.use("socialMedia")}</h4>
           <column class="gap-1">
