@@ -21,7 +21,7 @@ export default function content(){
         </row>
 
         <row class="gap-1 p-2 w-60 text-center m-5 text-row flex-center">
-          <h2>Eng sifatli va zamonaviy operatsiyalar, boriatriya va laparoskopiya yo'malishilarida yetakchi bo'lgan jarrohlar.</h2>
+          <h2>${window.Lang.use("heroWord")}</h2>
         </row>
 
         <row class="gap-1 p-2 w-100 page-boxes">
