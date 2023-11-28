@@ -27,18 +27,18 @@ export async function before(){
       }
 
       window.pageData.doctorRows += `
-        <column class="p-5 surface-clean gap-1 anim">
+        <column class="p-5 surface-clean gap-1 anim" style="max-width: 400px">
           <img src="assets/doctors/${doctor["file"]}" class="w-100">
           <h3>${doctor["fullname"]}</h3>
           <row class="flex-x-between">
-            <x-modal trigger="click" type="text" value="${window.Lang.use("info")}">
+            <x-modal trigger="click" type="text" value="${window.Lang.use("info")}" style="font-size:1em">
               <h3 class="m-2">${doctor["fullname"]}</h3>
               <p class="p-2">${doctor["info"]}</p>
             </x-modal>
-            <x-modal trigger="click" type="text" value="${window.Lang.use("certificates")}">
+            <x-modal trigger="click" type="text" value="${window.Lang.use("certificates")}" style="font-size:1em">
               ${window.pageData.certificateRows}
             </x-modal>
-            <x-modal trigger="click" type="text" value="${window.Lang.use("diplomas")}">
+            <x-modal trigger="click" type="text" value="${window.Lang.use("diplomas")}" style="font-size:1em">
               ${window.pageData.diplomaRows}
             </x-modal>
           </row>
