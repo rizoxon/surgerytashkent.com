@@ -539,12 +539,18 @@ Media querie for iPhone 5
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   & > :nth-child(1) {
-    padding-top: 5px;
-    width: 40%;
-
-    & > a > img {
-      width: 50%;
-      filter: drop-shadow(0 0 1px black);
+    width: 30%;
+    gap: 3px;
+    
+    & > a {
+      transform: scale(0.8);
+      margin-top: -2px;
+      & > img{
+        background: #001B79;
+        width: 100%;
+        padding: 5px;
+        border-radius: 5px;
+      }
     }
   }
   & > * {
@@ -554,7 +560,11 @@ Media querie for iPhone 5
   }
 
   & > :nth-child(3){
+
     text-align: right;
+    font-size: 30px;
+    padding: 0;
+    margin-right: 20px;
   }
 }
 
