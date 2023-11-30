@@ -80,9 +80,11 @@ container.doctors {
     }
   }
 
-  & > row {
+  & > div {
     display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(150px, 1fr) );
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 20px;
+    padding: 20px;
     & > column{
       font-size: 0.7em;
       & > row{
@@ -111,8 +113,24 @@ container.results, container.gallery{
   }
   & > row:nth-child(3), row:nth-child(5), row:nth-child(7){
     display: grid;
-    grid-template-columns: repeat( auto-fill, minmax(200px, 450px) );
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     gap: 10px;
+
+    & > column{
+      max-height: 600px;
+      justify-content: space-between;
+      & > p{
+        height: 60px;
+        width: 100%;
+
+        padding: 10px;
+        display: grid;
+        place-content: center;
+      }
+      & > span{
+        height: 100%;
+      }
+    }
   }
   & > h2:not(:first-child) {
     margin-top: 2%;
@@ -246,7 +264,7 @@ container.laproskopic{
     & > header{
       height: 20vh;
     }
-    & > row {
+    & > div {
       padding: 10px;
       gap: 10px;
       & > column{
@@ -544,9 +562,9 @@ Media querie for iPhone 5
     
     & > a {
       transform: scale(0.8);
-      margin-top: -2px;
+      margin-top: -5px;
       & > img{
-        background: #001B79;
+        background: #0674ce;
         width: 100%;
         padding: 5px;
         border-radius: 5px;
@@ -573,4 +591,24 @@ button, .btn,  input[type=submit]{
   padding: 5px 10px;
   border: none;
   border-radius: 3px;
+}
+
+.img-cover{
+  width: 100%;
+  max-height: 600px;
+  overflow: hidden;
+
+  display: grid;
+  place-content: center;
+
+  & > img{
+    transition: .5s;
+    transform: scale(2);
+  }
+
+  &:hover{
+    & > img{
+      transform: scale(1);
+    }
+  }
 }

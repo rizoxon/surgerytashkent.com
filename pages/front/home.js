@@ -125,6 +125,16 @@ export default function content(){
                 <img src="images/d1_cer_010.jpg" style="max-width: 80dvw; margin: 10px 0;">
                 <img src="images/d1_cer_011.jpg" style="max-width: 80dvw; margin: 10px 0;">
                 <img src="images/d1_cer_012.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0001.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0002.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0004.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0008.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0011.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0013.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0016.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0017.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0018.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0025.jpg" style="max-width: 80dvw; margin: 10px 0;">
               </x-modal>
               <x-modal trigger="click" type="text" value="${window.Lang.use("diplomas")}" button>
                 <img src="images/d1_dip_001.jpg" style="max-width: 80dvw; margin: 10px 0;">
@@ -146,31 +156,21 @@ export default function content(){
             <p class="mt-3 mb-3">${window.Lang.use("doctor_2_info")}</p>
             <row class="flex-x-start gap-1">
               <x-modal trigger="click" type="text" value="${window.Lang.use("certificates")}" button>
-                <img src="images/0001.jpg" style="max-width: 80dvw; margin: 10px 0;">
-                <img src="images/0002.jpg" style="max-width: 80dvw; margin: 10px 0;">
                 <img src="images/0003.jpg" style="max-width: 80dvw; margin: 10px 0;">
-                <img src="images/0004.jpg" style="max-width: 80dvw; margin: 10px 0;">
                 <img src="images/0005.jpg" style="max-width: 80dvw; margin: 10px 0;">
                 <img src="images/0006.jpg" style="max-width: 80dvw; margin: 10px 0;">
                 <img src="images/0007.jpg" style="max-width: 80dvw; margin: 10px 0;">
-                <img src="images/0008.jpg" style="max-width: 80dvw; margin: 10px 0;">
                 <img src="images/0009.jpg" style="max-width: 80dvw; margin: 10px 0;">
                 <img src="images/0010.jpg" style="max-width: 80dvw; margin: 10px 0;">
-                <img src="images/0011.jpg" style="max-width: 80dvw; margin: 10px 0;">
                 <img src="images/0012.jpg" style="max-width: 80dvw; margin: 10px 0;">
-                <img src="images/0013.jpg" style="max-width: 80dvw; margin: 10px 0;">
                 <img src="images/0014.jpg" style="max-width: 80dvw; margin: 10px 0;">
                 <img src="images/0015.jpg" style="max-width: 80dvw; margin: 10px 0;">
-                <img src="images/0016.jpg" style="max-width: 80dvw; margin: 10px 0;">
-                <img src="images/0017.jpg" style="max-width: 80dvw; margin: 10px 0;">
-                <img src="images/0018.jpg" style="max-width: 80dvw; margin: 10px 0;">
                 <img src="images/0019.jpg" style="max-width: 80dvw; margin: 10px 0;">
                 <img src="images/0020.jpg" style="max-width: 80dvw; margin: 10px 0;">
                 <img src="images/0021.jpg" style="max-width: 80dvw; margin: 10px 0;">
                 <img src="images/0022.jpg" style="max-width: 80dvw; margin: 10px 0;">
                 <img src="images/0023.jpg" style="max-width: 80dvw; margin: 10px 0;">
                 <img src="images/0024.jpg" style="max-width: 80dvw; margin: 10px 0;">
-                <img src="images/0025.jpg" style="max-width: 80dvw; margin: 10px 0;">
                 <img src="images/0026.jpg" style="max-width: 80dvw; margin: 10px 0;">
               </x-modal>
               <x-modal trigger="click" type="text" value="${window.Lang.use("diplomas")}" button>

@@ -10,7 +10,9 @@ export async function before(){
       if (photo["type"] === "operatsiya") {
         window.pageData.operationRows += `
           <column class="p-1 surface-2D gap-1">
-            <img src="assets/photos/${photo["file"]}" class="w-100 anim">
+            <span class="img-cover">
+              <img src="assets/photos/${photo["file"]}" class="w-100 anim">
+            </span>
             <p>${photo["title"]}</p>
           </column>
         `;
