@@ -19,14 +19,18 @@ export async function before(){
       } else if (photo["type"] === "avval_keyin") {
         window.pageData.before_afterRows += `
           <column class="p-1 surface-2D gap-1">
-            <img src="assets/photos/${photo["file"]}" class="w-100 anim">
+            <span class="img-cover">
+              <img src="assets/photos/${photo["file"]}" class="w-100 anim">
+            </span>
             <p>${photo["title"]}</p>
           </column>
         `;
       } else if (photo["type"] === "boshqa") {
         window.pageData.otherRows += `
           <column class="p-1 surface-2D gap-1">
-            <img src="assets/photos/${photo["file"]}" class="w-100 anim">
+            <span class="img-cover">
+              <img src="assets/photos/${photo["file"]}" class="w-100 anim">
+            </span>
             <p>${photo["title"]}</p>
           </column>
         `;
