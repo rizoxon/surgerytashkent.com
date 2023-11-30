@@ -608,7 +608,7 @@ button, .btn,  input[type=submit]{
 
   &:hover{
     & > img{
-      transform: scale(1);
+      transform: scale(0.9);
     }
   }
 }
