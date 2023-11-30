@@ -27,8 +27,10 @@ export async function before(){
       }
 
       window.pageData.doctorRows += `
-        <column class="p-5 surface-clean gap-1 anim" style="max-width: 400px; margin: 20px;">
-          <img src="assets/doctors/${doctor["file"]}" class="w-100">
+        <column class="surface-clean gap-1 anim p-5">
+          <span class="img-cover">
+            <img src="assets/doctors/${doctor["file"]}" class="w-100">
+          </span>
           <h3>${doctor["fullname"]}</h3>
           <row class="flex-x-between">
             <x-modal trigger="click" type="text" value="${window.Lang.use("info")}" style="font-size:1em">
@@ -57,9 +59,9 @@ export default function content(){
       <header>
         <h1>${window.Lang.use("ourDoctors")}</h1>
       </header>
-      <row class="p-5">
+      <div>
         ${window.pageData.doctorRows}
-      </row>
+      </div>
     </container>
   `;
 }
