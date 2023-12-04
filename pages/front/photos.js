@@ -19,9 +19,7 @@ export async function before(){
       } else if (photo["type"] === "avval_keyin") {
         window.pageData.before_afterRows += `
           <column class="p-1 surface-2D gap-1">
-            <span class="img-cover">
-              <img src="assets/photos/${photo["file"]}" class="w-100 anim">
-            </span>
+            <img src="assets/photos/${photo["file"]}" class="w-100 anim">
             <p>${photo["title"]}</p>
           </column>
         `;
