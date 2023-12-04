@@ -603,12 +603,12 @@ button, .btn,  input[type=submit]{
 
   & > img{
     transition: .5s;
-    transform: scale(2);
+    transform: scale(1.5);
   }
 
   &:hover{
     & > img{
-      transform: scale(0.9);
+      transform: scale(1);
     }
   }
 }
