@@ -193,7 +193,7 @@ export default function content(){
         <row class="p-5 anim">
           <img src="/images/klinika.jpg" class="w-40" alt="Doctor">
           <column>
-            <h1>Sabodarmon</h1>                                                             
+            <h1>Sabadarmon</h1>                                                             
             <p class="p-5">${window.Lang.use("clinicInfo")}</p>
             <row class="gap-2 flex-center">
               <p class="text-size-2">+998 97 466-77-55</p>
