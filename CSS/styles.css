@@ -641,7 +641,6 @@ menu{
         -webkit-display: flex;
         flex-direction: column;
         -webkit-flex-direction: column;
-        height: auto;
       }
     }
   }
