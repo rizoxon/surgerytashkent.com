@@ -21,7 +21,7 @@ export async function before(){
       for(const diploma of window.pageData.resp.data)
         window.pageData.diplomaRows += `
           <tr>
-            <td><img src="assets/diplomas/${diploma["file"]}" style="width: 100px;"></td>
+            <td><img src="/assets/diplomas/${diploma["file"]}" style="width: 100px;"></td>
             <td>${diploma["name"]}</td>
             <td>
               <form action="/admin" for="deleteDiploma" class="w-100">

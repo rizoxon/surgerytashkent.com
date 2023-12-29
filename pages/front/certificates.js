@@ -20,7 +20,7 @@ export async function before(){
     for(const certificate of window.pageData.resp.data)
       window.pageData.certificateRows += `
         <tr>
-          <td><img src="assets/certificates/${certificate["file"]}" style="width: 100px;"></td>
+          <td><img src="/assets/certificates/${certificate["file"]}" style="width: 100px;"></td>
           <td>${certificate["name"]}</td>
           <td>
             <form action="/admin" for="deleteCertificate" class="w-100">
