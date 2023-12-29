@@ -10,7 +10,7 @@ export async function before(){
       window.pageData.doctorRows += `
         <tr>
           <td>${doctor["id"]}</td>
-          <td><img src="assets/doctors/${doctor["file"]}" style="width: 100px;"></td>
+          <td><img src="/assets/doctors/${doctor["file"]}" style="width: 100px;"></td>
           <td>${doctor["fullname"]}</td>
           <td>${doctor["info"]}</td>
           <td class="d-flex gap-0-5">

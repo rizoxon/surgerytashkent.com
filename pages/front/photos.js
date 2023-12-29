@@ -11,7 +11,7 @@ export async function before(){
         window.pageData.operationRows += `
           <column class="p-1 surface-2D gap-1">
             <span class="img-cover">
-              <img src="assets/photos/${photo["file"]}" class="w-100 anim">
+              <img src="/assets/photos/${photo["file"]}" class="w-100 anim">
             </span>
             <p>${photo["title"]}</p>
           </column>
@@ -19,7 +19,7 @@ export async function before(){
       } else if (photo["type"] === "avval_keyin") {
         window.pageData.before_afterRows += `
           <column class="p-1 surface-2D gap-1">
-            <img src="assets/photos/${photo["file"]}" class="w-100 anim">
+            <img src="/assets/photos/${photo["file"]}" class="w-100 anim">
             <p>${photo["title"]}</p>
           </column>
         `;
@@ -27,7 +27,7 @@ export async function before(){
         window.pageData.otherRows += `
           <column class="p-1 surface-2D gap-1">
             <span class="img-cover">
-              <img src="assets/photos/${photo["file"]}" class="w-100 anim">
+              <img src="/assets/photos/${photo["file"]}" class="w-100 anim">
             </span>
             <p>${photo["title"]}</p>
           </column>

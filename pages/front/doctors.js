@@ -16,20 +16,20 @@ export async function before(){
 
       for(const certificate of certificates.data){
         if (certificate["name"] == doctor["fullname"]) {   
-          window.pageData.certificateRows += `<img src="assets/certificates/${certificate["file"]}" style="max-width: 80dvw; margin: 10px 0;">`;
+          window.pageData.certificateRows += `<img src="/assets/certificates/${certificate["file"]}" style="max-width: 80dvw; margin: 10px 0;">`;
         }
       }
   
       for(const diploma of diplomas.data){
         if (diploma["name"] == doctor["fullname"]) {   
-          window.pageData.diplomaRows += `<img src="assets/diplomas/${diploma["file"]}" style="max-width: 80dvw; margin: 10px 0;">`;
+          window.pageData.diplomaRows += `<img src="/assets/diplomas/${diploma["file"]}" style="max-width: 80dvw; margin: 10px 0;">`;
         }
       }
 
       window.pageData.doctorRows += `
         <column class="surface-clean gap-1 anim p-5">
           <span class="img-cover">
-            <img src="assets/doctors/${doctor["file"]}" class="w-100">
+            <img src="/assets/doctors/${doctor["file"]}" class="w-100">
           </span>
           <h3>${doctor["fullname"]}</h3>
           <row class="flex-x-between">

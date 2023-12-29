@@ -10,7 +10,7 @@ export async function before(){
       for(const photo of window.pageData.resp.data)
         window.pageData.photoRows += `
           <tr>
-            <td><img src="assets/photos/${photo["file"]}" style="width: 100px;"></td>
+            <td><img src="/assets/photos/${photo["file"]}" style="width: 100px;"></td>
             <td>${photo["title"]}</td>
             <td>${photo["file"]}</td>
             <td>${photo["type"]}</td>
