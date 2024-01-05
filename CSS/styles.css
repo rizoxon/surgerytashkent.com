@@ -617,7 +617,7 @@ button, .btn,  input[type=submit]{
 
 
 /* IOS WEBKIT */
-& > menu {
+menu {
   background-color: hsla(var(--color-main-hue), 10%, 25%, 0.1);
   -webkit-backdrop-filter: blur(100px);
   backdrop-filter: blur(100px);
