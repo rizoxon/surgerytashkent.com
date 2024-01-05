@@ -617,40 +617,138 @@ button, .btn,  input[type=submit]{
 
 
 /* IOS WEBKIT */
-menu{
-  backdrop-filter: blur(100px);
+& > menu {
+  background-color: hsla(var(--color-main-hue), 10%, 25%, 0.1);
   -webkit-backdrop-filter: blur(100px);
+  backdrop-filter: blur(100px);
+  height: 100vh;
+  width: auto;
+  overflow-y: scroll;
+  display: grid;
+  grid-template-rows: auto 2fr auto;
+  justify-items: start;
+  gap: var(--gap);
+  position: fixed;
+  z-index: var(--z-menu);
+  top: 0;
+  left: 0;
+  -webkit-transform: translate(-100%, 0px);
+  transform: translate(-100%, 0px);
+  transition-duration: var(--transition-velocity);
+  transition-timing-function: ease;
+  transition-property: all;
 
-  &.show{
-    transform: translate(0px, 0px);
-    -webkit-transform: translate(0px, 0px);
+  &.show {
+      -webkit-transform: translate(0px, 0px);
+      transform: translate(0px, 0px);
   }
 
-  & > main{
+  & > header {
+      width: 100%;
+      padding: calc(var(--padding) * 2);
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
 
-    display: flex;
-    -webkit-display: flex;
-    flex-direction: column;
-    -webkit-flex-direction: column;
-    gap: calc(var(--gap) / 2);
-    -webkit-gap: calc(var(--gap) / 2);
-
-    & section{
-      &.container{
-        display: flex;
-        -webkit-display: flex;
-        flex-direction: column;
-        -webkit-flex-direction: column;
-        
-        @media only screen and (max-width: 600px){
-          max-height: 40px;
-        }
+      & > x-icon {
+          &[for=closeMenuInMobile] {
+              display: none;
+              @media only screen and (max-width: 600px) {
+                  display: block;
+              }
+          }
       }
-    }
   }
 
+  & > main {
+      width: 100%;
+      padding: calc(var(--padding) * 2);
+      display: flex;
+      flex-direction: column;
+      gap: calc(var(--gap) / 2);
 
-  @media only screen and (max-width: 600px){
-    width: 100vw;
+      & section {
+          &.container {
+              display: flex;
+              flex-direction: column;
+
+              & > section {
+                  &.parentMenu {
+                      display: flex;
+                      flex-direction: row;
+                      justify-content: space-between;
+                      border: 1px solid transparent;
+                      border-radius: var(--radius);
+                      padding: var(--padding) calc(var(--padding) * 2);
+                      transition: var(--transition-velocity) ease-in-out;
+                      transition-property: background-color, border;
+
+                      &:where([active], :hover) {
+                          background-color: hsla(var(--color-main-hue), 10%, 25%, 0.3);
+                      }
+
+                      &:where([active]) {
+                          border: 1px solid white;
+                      }
+
+                      & > a {
+                          width: 100%;
+                          display: flex;
+                          flex-direction: row;
+                          align-items: center;
+                          gap: var(--gap);
+                          color: white;
+                          font-size: 1rem;
+                      }
+
+                      & > x-icon {
+                          &[for=toggleSubMenu] {
+                              height: 30px;
+                              width: 30px;
+                              transition: var(--transition-velocity) ease-in-out transform;
+                              transform: rotate(90deg);
+
+                              &.open {
+                                  transform: rotate(0deg);
+                              }
+                          }
+                      }
+                  }
+
+                  &.subMenu {
+                      display: none;
+                      background-color: hsla(var(--color-main-hue), 10%, 25%, 0.2);
+                      margin-top: 5px;
+                      padding: calc(var(--padding) * 2);
+                      border-radius: var(--radius);
+
+                      &:empty {
+                          display: none;
+                      }
+
+                      &.show {
+                          display: block;
+                      }
+                  }
+
+                  /* If submenu is empty do not show arrow icon */
+                  &:has(+ .subMenu:empty) > x-icon[for=toggleSubMenu] {
+                      display: none;
+                  }
+              }
+          }
+      }
+  }
+
+  & > footer {}
+
+  @media only screen and (max-width: 600px) {
+      width: 100vw;
+
+      & > header {
+          & > x-icon[for=toggleAlwaysOpenMode] {
+              display: none;
+          }
+      }
   }
 }
