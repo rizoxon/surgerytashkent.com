@@ -1,27 +1,40 @@
 export async function before(){
-	window.pageData.operationRows = "";
-	window.pageData.before_afterRows = "";
-	window.pageData.otherRows = "";
+  const photos = await window.bridge("photos", {for:"getAllPhotos"});
+  
+  if("data" in photos){
+    window.pageData.operationRows = "";
+    window.pageData.before_afterRows = "";
+    window.pageData.otherRows = "";
 
-	for(let i = 0; i < 30; i++){
-		if (i <= 10) {
-			window.pageData.operationRows += `
-				<column class="p-1 surface-2D gap-1">
-					<span class="img-cover">
-						<img src="/images/${i}.jpg" class="w-100 anim">
-					</span>
-					<p>${window.Lang.use("operations")}</p>
-				</column>
-			`;
-		} else if (i > 10 && i <= 15) {
-			window.pageData.before_afterRows += `
-				<column class="p-1 surface-2D gap-1">
-					<img src="/images/${i}.jpg" class="w-100 anim">
-					<p>${window.Lang.use("before")} ${window.Lang.use("after")}</p>
-				</column>
-			`;
-		}
-	}
+    for(const photo of photos.data){
+      if (photo["type"] === "operatsiya") {
+        window.pageData.operationRows += `
+          <column class="p-1 surface-2D gap-1">
+            <span class="img-cover">
+              <img src="/assets/photos/${photo["file"]}" class="w-100 anim">
+            </span>
+            <p>${photo["title"]}</p>
+          </column>
+        `;
+      } else if (photo["type"] === "avval_keyin") {
+        window.pageData.before_afterRows += `
+          <column class="p-1 surface-2D gap-1">
+            <img src="/assets/photos/${photo["file"]}" class="w-100 anim">
+            <p>${photo["title"]}</p>
+          </column>
+        `;
+      } else if (photo["type"] === "boshqa") {
+        window.pageData.otherRows += `
+          <column class="p-1 surface-2D gap-1">
+            <span class="img-cover">
+              <img src="/assets/photos/${photo["file"]}" class="w-100 anim">
+            </span>
+            <p>${photo["title"]}</p>
+          </column>
+        `;
+      }
+    }
+  }
 }
 
 export default function content(){

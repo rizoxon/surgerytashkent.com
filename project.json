@@ -6,8 +6,8 @@
         "name": "muhammadrizo$surgerytashkent_db",
         "user": "muhammadrizo",
         "password": "surgerytashkent_pass",
-        "host": "muhammadrizo.mysql.pythonanywhere-services.com",
-        "port": "33060",
+        "host": "localhost",
+        "port": "5000",
         "charset": "utf8mb4",
         "collate": "utf8mb4_0900_ai_ci"
     }

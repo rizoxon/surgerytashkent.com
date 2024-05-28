@@ -1,82 +1,86 @@
-export async function before(){
-  const doctors = await window.bridge("photos", {for:"getAllDoctors"});
-  const certificates = await window.bridge("photos", {for:"getAllCertificates"});
-  const diplomas = await window.bridge("photos", {for:"getAllDiplomas"});
-  
-  window.pageData.doctorRows = "No data";
-  window.pageData.certificateRows = "No data";
-  window.pageData.diplomaRows = "No data";
-
-  if("data" in doctors){
-    window.pageData.doctorRows = "";
-    window.pageData.certificateRows = "";
-    window.pageData.diplomaRows = "";
-
-    for(const doctor of doctors.data){
-
-      for(const certificate of certificates.data){
-        if (certificate["name"] == doctor["fullname"]) {   
-          window.pageData.certificateRows += `<img src="/assets/certificates/${certificate["file"]}" style="max-width: 80dvw; margin: 10px 0;">`;
-        }
-      }
-  
-      for(const diploma of diplomas.data){
-        if (diploma["name"] == doctor["fullname"]) {   
-          window.pageData.diplomaRows += `<img src="/assets/diplomas/${diploma["file"]}" style="max-width: 80dvw; margin: 10px 0;">`;
-        }
-      }
-
-      window.pageData.doctorRows += `
-        <column class="surface-clean gap-1 anim p-5">
-          <span class="img-cover">
-            <img src="/assets/doctors/${doctor["file"]}" class="w-100">
-          </span>
-          <h3>${doctor["fullname"]}</h3>
-          <row class="flex-x-between">
-            <x-modal trigger="click" type="text" value="${window.Lang.use("info")}" style="font-size:1em">
-              <h3 class="m-2">${doctor["fullname"]}</h3>
-              <p class="p-2">${doctor["info"]}</p>
-            </x-modal>
-            <x-modal trigger="click" type="text" value="${window.Lang.use("certificates")}" style="font-size:1em">
-              ${window.pageData.certificateRows}
-            </x-modal>
-            <x-modal trigger="click" type="text" value="${window.Lang.use("diplomas")}" style="font-size:1em">
-              ${window.pageData.diplomaRows}
-            </x-modal>
-          </row>
-        </column>
-      `
-      window.pageData.certificateRows = ""
-      window.pageData.diplomaRows = ""
-      
-    }
-  }
-}
-
 export default function content(){
   return `
-    <container class="doctors">
-      <header>
-        <h1>${window.Lang.use("ourDoctors")}</h1>
-      </header>
-      <div>
-        ${window.pageData.doctorRows}
-      </div>
-    </container>
+      <column class="w-100 gap-2">
+        <h2 class="surface-2D w-100 text-center bg-info" style="color:white;">${window.Lang.use("doctors")}</h2>
+
+        <column class="flex-x-between p-5 surface-2D w-90 ">
+          <img src="images/main_doctor_2.jpg" class="w-100" style="object-fit: cover;" />
+          <column class="flex-y-start flex-x-between p-5">
+            <h2>${window.Lang.use("doctor_1")}</h2>
+            <p class="mt-3 mb-3">${window.Lang.use("doctor_1_info")}</p>
+            <row class="flex-x-start gap-1">
+              <x-modal trigger="click" type="text" value="${window.Lang.use("certificates")}" button id="certificates_1">
+                <img src="images/d1_cer_001.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/d1_cer_002.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/d1_cer_003.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/d1_cer_004.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/d1_cer_005.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/d1_cer_006.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/d1_cer_007.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/d1_cer_008.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/d1_cer_009.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/d1_cer_010.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/d1_cer_011.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/d1_cer_012.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0001.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0002.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0004.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0008.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0011.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0013.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0016.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0017.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0018.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0025.jpg" style="max-width: 80dvw; margin: 10px 0;">
+              </x-modal>
+              <x-modal trigger="click" type="text" value="${window.Lang.use("diplomas")}" button>
+                <img src="images/d1_dip_001.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/d1_dip_002.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/d1_dip_003.jpg" style="max-width: 80dvw; margin: 10px 0;">
+              </x-modal>
+              <x-modal trigger="click" type="text" value="${window.Lang.use("info")}" button>
+                <h3 class="m-2">${window.Lang.use("doctor_1")}</h3>
+                <p class="p-2">${window.Lang.use("doctor_1_fullinfo")}</p>
+              </x-modal>
+            </row>
+          </column>
+        </column>
+
+        <column class="flex-x-between p-5 surface-2D w-90 " id="doctor_2">
+          <img src="images/main_doctor_1.jpg" class="w-100" style="object-fit: cover;" />
+          <column class="flex-y-start flex-x-between p-5">
+            <h2>${window.Lang.use("doctor_2")}</h2>
+            <p class="mt-3 mb-3">${window.Lang.use("doctor_2_info")}</p>
+            <row class="flex-x-start gap-1">
+              <x-modal trigger="click" type="text" value="${window.Lang.use("certificates")}" button>
+                <img src="images/0003.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0005.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0006.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0007.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0009.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0010.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0012.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0014.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0015.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0019.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0020.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0021.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0022.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0023.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0024.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/0026.jpg" style="max-width: 80dvw; margin: 10px 0;">
+              </x-modal>
+              <x-modal trigger="click" type="text" value="${window.Lang.use("diplomas")}" button>
+                <img src="images/diploma_d2_1.jpg" style="max-width: 80dvw; margin: 10px 0;">
+                <img src="images/diploma_d2_2.jpg" style="max-width: 80dvw; margin: 10px 0;">
+              </x-modal>
+              <x-modal trigger="click" type="text" value="${window.Lang.use("info")}" button>
+                <h3 class="m-2">${window.Lang.use("doctor_2")}</h3>
+                <p class="p-2">${window.Lang.use("doctor_2_fullinfo")}</p>
+              </x-modal>
+            </row>
+          </column>
+        </column>
+      </column>
   `;
-}
-
-export function after(){
-  const observer = new IntersectionObserver((items) => {
-    items.forEach((item) => {
-      if (item.isIntersecting) {
-        item.target.classList.add('move')
-      } else {
-        item.target.classList.remove('move')
-      }
-    });
-  });
-
-  const anim_elements = document.querySelectorAll('.anim');
-  anim_elements.forEach((el) => observer.observe(el));
 }
