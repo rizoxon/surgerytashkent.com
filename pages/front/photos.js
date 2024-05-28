@@ -35,6 +35,9 @@ export async function before(){
       }
     }
   }
+  else{
+    window.pageData.operationRows = "Photos coming soon..."
+  }
 }
 
 export default function content(){
